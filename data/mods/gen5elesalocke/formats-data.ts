@@ -535,7 +535,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		doublesTier: "DUU",
 	},
 	magikarp: {
-		tier: "LC",
+		tier: "Available",
 	},
 	gyarados: {
 		tier: "Illegal",
