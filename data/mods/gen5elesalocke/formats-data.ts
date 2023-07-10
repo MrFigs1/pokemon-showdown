@@ -539,6 +539,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	},
 	gyarados: {
 		tier: "Illegal",
+		isNonstandard: "Unobtainable"
 	},
 	lapras: {
 		tier: "NU",
