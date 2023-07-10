@@ -2092,13 +2092,13 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "Illegal",
 	},
 	patrat: {
-		tier: "Legal",
+		tier: "(Legal)",
 	},
 	watchog: {
 		tier: "Legal",
 	},
 	lillipup: {
-		tier: "Legal",
+		tier: "(Legal)",
 	},
 	herdier: {
 		tier: "Legal",
@@ -2108,37 +2108,37 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "Illegal",
 	},
 	purrloin: {
-		tier: "Legal",
+		tier: "(Legal)",
 	},
 	liepard: {
 		tier: "Legal",
 	},
 	pansage: {
-		tier: "Legal",
+		tier: "(Legal)",
 	},
 	simisage: {
 		tier: "Legal",
 	},
 	pansear: {
-		tier: "Legal",
+		tier: "(Legal)",
 	},
 	simisear: {
 		tier: "Legal",
 	},
 	panpour: {
-		tier: "Legal",
+		tier: "(Legal)",
 	},
 	simipour: {
 		tier: "Legal",
 	},
 	munna: {
-		tier: "Legal",
+		tier: "(Legal)",
 	},
 	musharna: {
 		tier: "Legal",
 	},
 	pidove: {
-		tier: "Legal",
+		tier: "(Legal)",
 	},
 	tranquill: {
 		tier: "Legal",
@@ -2148,13 +2148,13 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "Illegal",
 	},
 	blitzle: {
-		tier: "Legal",
+		tier: "(Legal)",
 	},
 	zebstrika: {
 		tier: "Legal",
 	},
 	roggenrola: {
-		tier: "Legal",
+		tier: "(Legal)",
 	},
 	boldore: {
 		tier: "Legal",
@@ -2164,7 +2164,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "Illegal",
 	},
 	woobat: {
-		tier: "Legal",
+		tier: "(Legal)",
 	},
 	swoobat: {
 		tier: "Legal",
@@ -2180,7 +2180,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "Legal",
 	},
 	timburr: {
-		tier: "Legal",
+		tier: "(Legal)",
 	},
 	gurdurr: {
 		tier: "Legal",
@@ -2190,7 +2190,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "Illegal",
 	},
 	tympole: {
-		tier: "Legal",
+		tier: "(Legal)",
 	},
 	palpitoad: {
 		tier: "Legal",
@@ -2206,16 +2206,16 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "Legal",
 	},
 	sewaddle: {
-		tier: "Legal",
+		tier: "(Legal)",
 	},
 	swadloon: {
-		tier: "Legal",
+		tier: "(Legal)",
 	},
 	leavanny: {
 		tier: "Legal",
 	},
 	venipede: {
-		tier: "Legal",
+		tier: "(Legal)",
 	},
 	whirlipede: {
 		tier: "Legal",
@@ -2225,13 +2225,13 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "Illegal",
 	},
 	cottonee: {
-		tier: "Legal",
+		tier: "(Legal)",
 	},
 	whimsicott: {
 		tier: "Legal",
 	},
 	petilil: {
-		tier: "Legal",
+		tier: "(Legal)",
 	},
 	lilligant: {
 		tier: "Legal",
@@ -2243,7 +2243,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "Legal",
 	},
 	sandile: {
-		tier: "Legal",
+		tier: "(Legal)",
 	},
 	krokorok: {
 		tier: "Legal",
@@ -2263,7 +2263,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "Legal",
 	},
 	dwebble: {
-		tier: "Legal",
+		tier: "(Legal)",
 	},
 	crustle: {
 		tier: "Legal",
