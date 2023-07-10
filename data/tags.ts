@@ -197,9 +197,9 @@ export const Tags: {[id: string]: TagData} = {
 		speciesFilter: species => species.tier === 'AG',
 	},
 
-	legal: {
-		name: "Legal",
-		speciesFilter: species => species.tier === 'Legal',
+	good: {
+		name: "Good",
+		speciesFilter: species => species.tier === 'Good',
 	},
 
 	// Doubles tiers
