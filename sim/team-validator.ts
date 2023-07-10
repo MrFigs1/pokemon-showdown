@@ -1575,7 +1575,7 @@ export class TeamValidator {
 			if (banReason === '') return null;
 		}
 
-		if (item.isNonstandard && item.isNonstandard !== 'Unobtainable') {
+		if (item.isNonstandard && item.isNonstandard !== 'Unobtainable' && item.isNonstandard !== 'Nuzlocke') {
 			banReason = ruleTable.check('nonexistent', setHas);
 			if (banReason) {
 				if (['Past', 'Future'].includes(item.isNonstandard)) {
