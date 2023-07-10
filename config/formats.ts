@@ -405,7 +405,7 @@ export const Formats: FormatList = [
 
 	{
 		section: "S/V Singles",
-		column: 2
+		column: 1
 	},
 	{
 		name: "[Gen 9] Random Battle",
@@ -675,7 +675,7 @@ export const Formats: FormatList = [
 
 	{
 		section: "S/V Doubles",
-		column: 2
+		column: 1
 	},
 	{
 		name: "[Gen 9] Random Doubles Battle",
@@ -781,7 +781,7 @@ export const Formats: FormatList = [
 
 	{
 		section: "National Dex",
-		column: 2
+		column: 1
 	},
 	{
 		name: "[Gen 9] National Dex",
