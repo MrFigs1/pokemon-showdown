@@ -40,7 +40,30 @@ export const Formats: FormatList = [
 			}
 		},
 		onValidateTeam(team, format, teamHas) {
-			
+			// Make sure item counts are legal
+			let itemCounts: {[k: string]: number} = {
+				'Oran Berry': 6,
+				'Chesto Berry': 6,
+				'Cheri Berry': 6,
+				'Pecha Berry': 6,
+				'Yache Berry': 6,
+				'Rawst Berry': 6,
+				'Miracle Seed': 2,
+				'Charcoal': 1,
+				'Mystic Water': 1,
+				'Big Root': 1,
+				'Quick Claw': 1,
+				'Scope Lens': 1,
+				'Eviolite': 1,
+				'Black Glasses': 1,
+				'Soft Sand': 1,
+				'Hard Stone': 6
+			}
+			for (let item in itemCounts) {
+				if (teamHas['item:' + this.dex.toID(item)] > itemCounts[item]) {
+					return [`The maximum available amount of ${item} is ${itemCounts[item]}.`];
+				}
+			}
 		},
 		checkCanLearn(move, species, setSources, set) {
 			let sources: string[] = [];
