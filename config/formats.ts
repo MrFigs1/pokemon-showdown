@@ -39,6 +39,46 @@ export const Formats: FormatList = [
 				return [`${set.item} is not obtainable within the race limits.`]
 			}
 		},
+		onValidateTeam(team, format, teamHas) {
+			
+		},
+		checkCanLearn(move, species, setSources, set) {
+			let sources: string[] = [];
+
+			let learnset = this.dex.species.getLearnset(species.id);
+			if (learnset && learnset[move.id]) sources = sources.concat(learnset[move.id]);
+
+			let currentSpecies = this.dex.species.get(set.species);
+			while (currentSpecies.prevo !== '') {
+				currentSpecies = this.dex.species.get(currentSpecies.prevo);
+				learnset = this.dex.species.getLearnset(currentSpecies.id);
+				if (learnset && learnset[move.id]) sources = sources.concat(learnset[move.id])
+			}
+
+			if (sources.length === 0) return this.checkCanLearn(move, species, setSources, set);
+			
+			let level = -1;
+			let canLearn = false;
+			let onlyTM = true;
+			let TMwhitelist = [
+				'Dig', 'Rock Tomb', 'Torment', 'Rest', 'Attract', 'Thief', 'Echoed Voice', 'Retaliate', 'Flash', 'Volt Switch', 'Struggle Bug', 'Work Up', 'Grass Knot', 'Rock Smash',
+				'Cut', 'Strength'
+			]
+			for (let source of sources) {
+				if (parseInt(source.charAt(0)) != 5 || ['E', 'S', 'T'].includes(source.charAt(1))) continue;
+				canLearn = true;
+				if (source.charAt(1) != 'M') onlyTM = false;
+				if (source.charAt(1) == 'L') level = parseInt(source.substring(2));
+			}
+			if (!canLearn) return `: ${move.name} is not available within the nuzlocke rules.`;
+			if (
+				(onlyTM) || 
+				(sources.includes('5M') && level !== -1 && level > set.level)
+				) {
+				if (!TMwhitelist.includes(move.name)) return `: The ${move.name} TM/HM is not obtainable within the race limits.`;
+			}
+			return this.checkCanLearn(move, species, setSources, set);
+		},
 	},
 	{
 		name: "[Gen 3] WattsonLocke",
