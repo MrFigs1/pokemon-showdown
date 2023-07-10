@@ -1515,7 +1515,7 @@ export class TeamValidator {
 				return `${tierSpecies.name} is a placeholder for a Gigantamax sprite, not a real Pokémon. (This message is likely to be a validator bug.)`;
 			}
 			if (tierSpecies.isNonstandard === 'Nuzlocke') {
-				return `${tierSpecies.name} is not obtainable at the race limits.`;
+				return `${tierSpecies.name} is not obtainable within the race limits.`;
 			}
 			return `${tierSpecies.name} does not exist in this game.`;
 		}
@@ -1566,6 +1566,9 @@ export class TeamValidator {
 			if (banReason) {
 				if (item.isNonstandard === 'Unobtainable') {
 					return `${item.name} is not obtainable without hacking or glitches.`;
+				}
+				if (item.isNonstandard === 'Nuzlocke') {
+					return `${item.name} is not obtainable within the race limits.`;
 				}
 				return `${set.name}'s item ${item.name} is tagged ${item.isNonstandard}, which is ${banReason}.`;
 			}
