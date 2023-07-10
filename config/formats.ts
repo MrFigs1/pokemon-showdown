@@ -25,7 +25,7 @@ export const Formats: FormatList = [
 		name: "[Gen 5] ElesaLocke",
 		mod: "gen5",
 		searchShow: false,
-		ruleset: ['Standard', 'Deoxys Camouflage Clause', 'One Baton Pass Clause', 'Team Preview'],
+		ruleset: ['Standard', 'Deoxys Camouflage Clause', 'One Baton Pass Clause'],
 		banlist: []
 	},
 	{
