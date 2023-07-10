@@ -4,1136 +4,1512 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "Illegal",
 	},
 	ivysaur: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	venusaur: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	charmander: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	charmeleon: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	charizard: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	squirtle: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	wartortle: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	blastoise: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	caterpie: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	metapod: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	butterfree: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	weedle: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	kakuna: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	beedrill: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	pidgey: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	pidgeotto: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	pidgeot: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	rattata: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	raticate: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	spearow: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	fearow: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	ekans: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	arbok: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	pichu: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	pikachu: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	raichu: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	sandshrew: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	sandslash: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	nidoranf: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	nidorina: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	nidoqueen: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	nidoranm: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	nidorino: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	nidoking: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	cleffa: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	clefairy: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	clefable: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	vulpix: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	ninetales: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	igglybuff: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	jigglypuff: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	wigglytuff: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	zubat: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	golbat: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	crobat: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	oddish: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	gloom: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	vileplume: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	bellossom: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	paras: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	parasect: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	venonat: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	venomoth: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	diglett: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	dugtrio: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	meowth: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	persian: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	psyduck: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	golduck: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	mankey: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	primeape: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	growlithe: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	arcanine: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	poliwag: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	poliwhirl: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	poliwrath: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	politoed: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	abra: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	kadabra: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	alakazam: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	machop: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	machoke: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	machamp: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	bellsprout: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	weepinbell: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	victreebel: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	tentacool: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	tentacruel: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	geodude: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	graveler: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	golem: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	ponyta: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	rapidash: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	slowpoke: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	slowbro: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	slowking: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	magnemite: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	magneton: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	magnezone: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	farfetchd: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	doduo: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	dodrio: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	seel: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	dewgong: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	grimer: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	muk: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	shellder: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	cloyster: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	gastly: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	haunter: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	gengar: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	onix: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	steelix: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	drowzee: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	hypno: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	krabby: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	kingler: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	voltorb: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	electrode: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	exeggcute: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	exeggutor: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	cubone: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	marowak: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	tyrogue: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	hitmonlee: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	hitmonchan: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	hitmontop: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	lickitung: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	lickilicky: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	koffing: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	weezing: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	rhyhorn: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	rhydon: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	rhyperior: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	happiny: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	chansey: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	blissey: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	tangela: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	tangrowth: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	kangaskhan: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	horsea: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	seadra: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	kingdra: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	goldeen: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	seaking: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	staryu: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	starmie: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	mimejr: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	mrmime: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	scyther: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	scizor: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	smoochum: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	jynx: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	elekid: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	electabuzz: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	electivire: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	magby: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	magmar: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	magmortar: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	pinsir: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	tauros: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	magikarp: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	gyarados: {
 		tier: "Illegal",
 		isNonstandard: "Unobtainable"
 	},
 	lapras: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	ditto: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	eevee: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	vaporeon: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	jolteon: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	flareon: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	espeon: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	umbreon: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	leafeon: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	glaceon: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	porygon: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	porygon2: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	porygonz: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	omanyte: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	omastar: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	kabuto: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	kabutops: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	aerodactyl: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	munchlax: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	snorlax: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	articuno: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	zapdos: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	moltres: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	dratini: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	dragonair: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	dragonite: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	mewtwo: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	mew: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	chikorita: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	bayleef: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	meganium: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	cyndaquil: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	quilava: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	typhlosion: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	totodile: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	croconaw: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	feraligatr: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	sentret: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	furret: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	hoothoot: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	noctowl: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	ledyba: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	ledian: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	spinarak: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	ariados: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	chinchou: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	lanturn: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	togepi: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	togetic: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	togekiss: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	natu: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	xatu: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	mareep: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	flaaffy: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	ampharos: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	azurill: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	marill: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	azumarill: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	bonsly: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	sudowoodo: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	hoppip: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	skiploom: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	jumpluff: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	aipom: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	ambipom: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	sunkern: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	sunflora: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	yanma: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	yanmega: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	wooper: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	quagsire: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	murkrow: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	honchkrow: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	misdreavus: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	mismagius: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	unown: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	wynaut: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	wobbuffet: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	girafarig: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	pineco: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	forretress: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	dunsparce: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	gligar: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	gliscor: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	snubbull: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	granbull: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	qwilfish: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	shuckle: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	heracross: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	sneasel: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	weavile: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	teddiursa: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	ursaring: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	slugma: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	magcargo: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	swinub: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	piloswine: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	mamoswine: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	corsola: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	remoraid: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	octillery: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	delibird: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	mantyke: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	mantine: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	skarmory: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	houndour: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	houndoom: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	phanpy: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	donphan: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	stantler: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	smeargle: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	miltank: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	raikou: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	entei: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	suicune: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	larvitar: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	pupitar: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	tyranitar: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	lugia: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	hooh: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	celebi: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	treecko: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	grovyle: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	sceptile: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	torchic: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	combusken: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	blaziken: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	mudkip: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	marshtomp: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	swampert: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	poochyena: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	mightyena: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	zigzagoon: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	linoone: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	wurmple: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	silcoon: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	beautifly: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	cascoon: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	dustox: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	lotad: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	lombre: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	ludicolo: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	seedot: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	nuzleaf: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	shiftry: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	taillow: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	swellow: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	wingull: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	pelipper: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	ralts: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	kirlia: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	gardevoir: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	gallade: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	surskit: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	masquerain: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	shroomish: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	breloom: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	slakoth: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	vigoroth: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	slaking: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	nincada: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	ninjask: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	shedinja: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	whismur: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	loudred: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	exploud: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	makuhita: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	hariyama: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	nosepass: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	probopass: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	skitty: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	delcatty: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	sableye: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	mawile: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	aron: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	lairon: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	aggron: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	meditite: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	medicham: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	electrike: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	manectric: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	plusle: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	minun: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	volbeat: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	illumise: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	budew: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	roselia: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	roserade: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	gulpin: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	swalot: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	carvanha: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	sharpedo: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	wailmer: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	wailord: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	numel: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	camerupt: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	torkoal: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	spoink: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	grumpig: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	spinda: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	trapinch: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	vibrava: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	flygon: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	cacnea: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	cacturne: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	swablu: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	altaria: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	zangoose: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	seviper: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	lunatone: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	solrock: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	barboach: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	whiscash: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	corphish: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	crawdaunt: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	baltoy: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	claydol: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	lileep: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	cradily: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	anorith: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	armaldo: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	feebas: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	milotic: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	castform: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	castformsunny: {
 	},
@@ -1141,386 +1517,513 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	},
 	castformsnowy: {},
 	kecleon: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	shuppet: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	banette: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	duskull: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	dusclops: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	dusknoir: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	tropius: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	chingling: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	chimecho: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	absol: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	snorunt: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	glalie: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	froslass: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	spheal: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	sealeo: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	walrein: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	clamperl: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	huntail: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	gorebyss: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	relicanth: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	luvdisc: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	bagon: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	shelgon: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	salamence: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	beldum: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	metang: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	metagross: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	regirock: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	regice: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	registeel: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	latias: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	latios: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	kyogre: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	groudon: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	rayquaza: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	jirachi: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	deoxys: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	deoxysattack: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	deoxysdefense: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	deoxysspeed: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	turtwig: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	grotle: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	torterra: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	chimchar: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	monferno: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	infernape: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	piplup: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	prinplup: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	empoleon: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	starly: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	staravia: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	staraptor: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	bidoof: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	bibarel: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	kricketot: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	kricketune: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	shinx: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	luxio: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	luxray: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	cranidos: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	rampardos: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	shieldon: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	bastiodon: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	burmy: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	wormadam: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	wormadamsandy: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	wormadamtrash: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	mothim: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	combee: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	vespiquen: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	pachirisu: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	buizel: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	floatzel: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	cherubi: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	cherrim: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	cherrimsunshine: {},
 	shellos: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	gastrodon: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	drifloon: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	drifblim: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	buneary: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	lopunny: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	glameow: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	purugly: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	stunky: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	skuntank: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	bronzor: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	bronzong: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	chatot: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	spiritomb: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	gible: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	gabite: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	garchomp: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	riolu: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	lucario: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	hippopotas: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	hippowdon: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	skorupi: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	drapion: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	croagunk: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	toxicroak: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	carnivine: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	finneon: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	lumineon: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	snover: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	abomasnow: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	rotom: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	rotomheat: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	rotomwash: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	rotomfrost: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	rotomfan: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	rotommow: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	uxie: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	mesprit: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	azelf: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	dialga: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	palkia: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	heatran: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	regigigas: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	giratina: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	giratinaorigin: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	cresselia: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	phione: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	manaphy: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	darkrai: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	shaymin: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	shayminsky: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	arceus: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	arceusbug: {
 	},
@@ -1555,34 +2058,38 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	arceuswater: {
 	},
 	victini: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	snivy: {
-		tier: "Legal",
+		tier: "(Legal)",
 	},
 	servine: {
 		tier: "Legal",
 	},
 	serperior: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	tepig: {
-		tier: "Legal",
+		tier: "(Legal)",
 	},
 	pignite: {
 		tier: "Legal",
 	},
 	emboar: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	oshawott: {
-		tier: "Legal",
+		tier: "(Legal)",
 	},
 	dewott: {
 		tier: "Legal",
 	},
 	samurott: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	patrat: {
 		tier: "Legal",
@@ -1597,7 +2104,8 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "Legal",
 	},
 	stoutland: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	purrloin: {
 		tier: "Legal",
@@ -1636,7 +2144,8 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "Legal",
 	},
 	unfezant: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	blitzle: {
 		tier: "Legal",
@@ -1651,7 +2160,8 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "Legal",
 	},
 	gigalith: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	woobat: {
 		tier: "Legal",
@@ -1663,7 +2173,8 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "Legal",
 	},
 	excadrill: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	audino: {
 		tier: "Legal",
@@ -1675,7 +2186,8 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "Legal",
 	},
 	conkeldurr: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	tympole: {
 		tier: "Legal",
@@ -1684,7 +2196,8 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "Legal",
 	},
 	seismitoad: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	throh: {
 		tier: "Legal",
@@ -1708,7 +2221,8 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "Legal",
 	},
 	scolipede: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	cottonee: {
 		tier: "Legal",
@@ -1735,13 +2249,15 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "Legal",
 	},
 	krookodile: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	darumaka: {
 		tier: "Legal",
 	},
 	darmanitan: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	maractus: {
 		tier: "Legal",
@@ -1756,7 +2272,8 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "Legal",
 	},
 	scrafty: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	sigilyph: {
 		tier: "Legal",
@@ -1765,297 +2282,390 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "Legal",
 	},
 	cofagrigus: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	tirtouga: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	carracosta: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	archen: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	archeops: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	trubbish: {
 		tier: "Legal",
 	},
 	garbodor: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	zorua: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	zoroark: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	minccino: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	cinccino: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	gothita: {
 		tier: "Legal",
 	},
 	gothorita: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	gothitelle: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	solosis: {
 		tier: "Legal",
 	},
 	duosion: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	reuniclus: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	ducklett: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	swanna: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	vanillite: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	vanillish: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	vanilluxe: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	deerling: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	sawsbuck: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	emolga: {
 		tier: "Legal",
 	},
 	karrablast: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	escavalier: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	foongus: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	amoonguss: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	frillish: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	jellicent: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	alomomola: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	joltik: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	galvantula: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	ferroseed: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	ferrothorn: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	klink: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	klang: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	klinklang: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	tynamo: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	eelektrik: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	eelektross: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	elgyem: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	beheeyem: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	litwick: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	lampent: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	chandelure: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	axew: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	fraxure: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	haxorus: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	cubchoo: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	beartic: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	cryogonal: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	shelmet: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	accelgor: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	stunfisk: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	mienfoo: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	mienshao: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	druddigon: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	golett: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	golurk: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	pawniard: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	bisharp: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	bouffalant: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	rufflet: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	braviary: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	vullaby: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	mandibuzz: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	heatmor: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	durant: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	deino: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	zweilous: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	hydreigon: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	larvesta: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	volcarona: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	cobalion: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	terrakion: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	virizion: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	tornadus: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	tornadustherian: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	thundurus: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	thundurustherian: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	reshiram: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	zekrom: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	landorus: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	landorustherian: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	kyurem: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	kyuremblack: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	kyuremwhite: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	keldeo: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	keldeoresolute: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	meloetta: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	meloettapirouette: {
 	},
 	genesect: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	genesectburn: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	genesectchill: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	genesectdouse: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	genesectshock: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	pokestarsmeargle: {
 		isNonstandard: "Unobtainable",
