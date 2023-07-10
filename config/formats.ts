@@ -18,6 +18,300 @@ The column value will be ignored for repeat sections.
 */
 
 export const Formats: FormatList = [
+	{
+		section: "Custom"
+	},
+	{
+		name: "[Gen 3] WattsonLocke",
+
+		mod: "gen3",
+		searchShow: false,
+		ruleset: ['Standard', 'Deoxys Camouflage Clause', 'One Baton Pass Clause', 'Team Preview', 'Min Level = 1', 'Max Level = 25', 'EV Limits = HP 0-1 / Atk 0-1 / Def 0-1 / SpA 0-1 / SpD 0-1 / Spe 0-1'],
+		banlist: ['Dragon Rage'],
+		onValidateSet(set, format, setHas, teamHas) {
+			let whitelist = [
+				/*'Treecko', */'Grovyle', /*'Torchic', */'Combusken', /*'Mudkip', */'Marshtomp', /*'Poochyena', */'Mightyena', /*'Zigzagoon', */'Linoone', /*'Wurmple', 'Silcoon', */'Beautifly', /*'Cascoon', */'Dustox', /*'Lotad', */'Lombre', /*'Seedot', */'Nuzleaf', /*'Taillow', */'Swellow', /*'Wingull', */'Pelipper', /*'Ralts', */'Kirlia', /*'Shroomish', */'Breloom', /*'Slakoth', */'Vigoroth', /*'Abra', */'Kadabra', /*'Nincada', */'Ninjask', 'Shedinja', /*'Whismur', */'Loudred', /*'Makuhita', */'Hariyama', 'Goldeen', /*'Magikarp', */'Gyarados', /*'Marill', */'Azumarill', /*'Geodude', */'Graveler', 'Nosepass', 'Skitty', /*'Zubat', 'Golbat', */'Crobat', 'Tentacool', 'Sableye', 'Aron', 'Electrike', 'Plusle', 'Minun', 'Volbeat', 'Illumise', /*'Oddish', */'Gloom', 'Gulpin',
+			]
+			if (!whitelist.includes(set.species)) {
+				return [`${set.species} is not obtainable within the race limits.`]
+			}
+			whitelist = [
+				'Oran Berry', 'Pecha Berry', 'Cheri Berry', 'Leppa Berry', 'Aspear Berry', 'Chesto Berry', 'Rawst Berry', 'Persim Berry', 'Quick Claw', 'Miracle Seed', 'Pinap Berry', 'Silk Scarf', /*'Everstone', 'Exp. Share', */'Soft Sand', /*'Soothe Bell', */'Nanab Berry', 'White Herb', 'Wepear Berry', 'Black Glasses', 'Macho Brace'
+			]
+			if (set.item && !whitelist.includes(set.item)) {
+				return [`${set.item} is not obtainable within the race limits.`]
+			}
+		},
+		onValidateTeam(team, format, teamHas) {
+			// Check whether or not the player is allowed a second Game Corner TM
+			let code = 0;
+			for (let mon of team) {
+				code += mon.evs.hp;
+				code += mon.evs.atk;
+				code += mon.evs.def;
+				code += mon.evs.spa;
+				code += mon.evs.spd;
+				code += mon.evs.spe;
+			}
+			let cornerTMlimit = code === 7 ? 2 : 1;
+
+			// Make sure single use TMs are only learned once when not otherwise learned by levelup at a valid level
+			let pickupTMs = [
+				'Bulk Up',
+				'Bullet Seed',
+				'Shock Wave',
+				'Rock Tomb',
+				'Torment',
+				'Attract',
+				'Thief',
+				'Steel Wing'
+			];
+			for (let TM of pickupTMs) {
+				if (teamHas['move:' + this.dex.toID(TM)] > 1) {
+					let monsWithTheTM: PokemonSet[] = [];
+					for (let mon of team) {
+						if (mon.moves.includes(TM)) {
+							monsWithTheTM.push(mon);
+						}
+					}
+					let illegalMonsWithTheTM: PokemonSet[] = monsWithTheTM.slice();
+
+					for (let mon of monsWithTheTM) {
+						let sources: string[] = [];
+
+						let learnset = this.dex.species.getLearnset(this.dex.toID(mon.species));
+						if (learnset && learnset[this.dex.toID(TM)]) sources = sources.concat(learnset[this.dex.toID(TM)]);
+
+						let currentSpecies = this.dex.species.get(mon.species);
+						while (currentSpecies.prevo !== '') {
+							currentSpecies = this.dex.species.get(currentSpecies.prevo);
+							learnset = this.dex.species.getLearnset(currentSpecies.id);
+							if (learnset && learnset[this.dex.toID(TM)]) sources = sources.concat(learnset[this.dex.toID(TM)])
+						}
+
+						for (let source of sources) {
+							if (source.includes('3L') && mon.level > parseInt(source.substring(2))) {
+								illegalMonsWithTheTM.splice(illegalMonsWithTheTM.indexOf(mon), 1);
+								break;
+							}
+						}
+					}
+
+					if (illegalMonsWithTheTM.length > 0) {
+						return [`The TM ${TM} is only obtainable once.`];
+					}
+				}
+			}
+
+			// Make sure game corner TMs are only learned once when not otherwise learned by levelup at a valid level
+			let gameCornerTMs = [
+				'Ice Beam',
+				'Thunderbolt',
+				'Psychic',
+				'Double Team',
+				'Flamethrower'
+			];
+			let teamHasGameCornerTMs = 0;
+			for (let TM of gameCornerTMs) {
+				if (teamHas['move:' + this.dex.toID(TM)]) teamHasGameCornerTMs += teamHas['move:' + this.dex.toID(TM)];
+			}
+			if (teamHasGameCornerTMs > cornerTMlimit) {
+				let monsWithAGameCornerTM: PokemonSet[] = [];
+				for (let TM of gameCornerTMs) {
+					for (let mon of team) {
+						if (mon.moves.includes(TM) && !monsWithAGameCornerTM.includes(mon)) {
+							monsWithAGameCornerTM.push(mon);
+						}
+					}
+				}
+
+				if (monsWithAGameCornerTM.length === teamHasGameCornerTMs) {
+					let illegalMonsWithAGameCornerTM: PokemonSet[] = monsWithAGameCornerTM.slice();
+					for (let TM of gameCornerTMs) {
+						for (let mon of monsWithAGameCornerTM) {
+							if (!mon.moves.includes(TM)) continue;
+
+							let sources: string[] = [];
+	
+							let learnset = this.dex.species.getLearnset(this.dex.toID(mon.species));
+							if (learnset && learnset[this.dex.toID(TM)]) sources = sources.concat(learnset[this.dex.toID(TM)]);
+	
+							let currentSpecies = this.dex.species.get(mon.species);
+							while (currentSpecies.prevo !== '') {
+								currentSpecies = this.dex.species.get(currentSpecies.prevo);
+								learnset = this.dex.species.getLearnset(currentSpecies.id);
+								if (learnset && learnset[this.dex.toID(TM)]) sources = sources.concat(learnset[this.dex.toID(TM)])
+							}
+	
+							for (let source of sources) {
+								if (source.includes('3L') && mon.level > parseInt(source.substring(2))) {
+									illegalMonsWithAGameCornerTM.splice(illegalMonsWithAGameCornerTM.indexOf(mon), 1);
+									break;
+								}
+							}
+						}
+
+						if (illegalMonsWithAGameCornerTM.length > 1) {
+							return [`You are over your limit on Mauville Game Corner TM purchases.`];
+						}
+					}
+				} else {
+					//if (monsWithAGameCornerTM.length === 1) {
+					for (let mon of monsWithAGameCornerTM) {
+						//let mon = monsWithAGameCornerTM[0];
+						let legalMoves = 0;
+						for (let TM of gameCornerTMs) {
+							if (!mon.moves.includes(TM)) continue;
+
+							let sources: string[] = [];
+	
+							let learnset = this.dex.species.getLearnset(this.dex.toID(mon.species));
+							if (learnset && learnset[this.dex.toID(TM)]) sources = sources.concat(learnset[this.dex.toID(TM)]);
+	
+							let currentSpecies = this.dex.species.get(mon.species);
+							while (currentSpecies.prevo !== '') {
+								currentSpecies = this.dex.species.get(currentSpecies.prevo);
+								learnset = this.dex.species.getLearnset(currentSpecies.id);
+								if (learnset && learnset[this.dex.toID(TM)]) sources = sources.concat(learnset[this.dex.toID(TM)])
+							}
+	
+							for (let source of sources) {
+								if (source.includes('3L') && mon.level > parseInt(source.substring(2))) {
+									legalMoves += 1;
+									break;
+								}
+							}
+						}
+						if (legalMoves + cornerTMlimit < teamHasGameCornerTMs) {
+							return [`You are over your limit on Mauville Game Corner TM purchases.`];
+						}
+					}
+				}
+			}
+
+			// Make sure single use tutor moves are only learned once when not otherwise learned by levelup at a valid level
+			let singleTutors = [
+				'Fury Cutter',
+				'Rollout'
+			];
+			for (let move of singleTutors) {
+				if (teamHas['move:' + this.dex.toID(move)] > 1) {
+					let monsWithTheTM: PokemonSet[] = [];
+					for (let mon of team) {
+						if (mon.moves.includes(move)) {
+							monsWithTheTM.push(mon);
+						}
+					}
+					let illegalMonsWithTheTM: PokemonSet[] = monsWithTheTM.slice();
+
+					for (let mon of monsWithTheTM) {
+						let sources: string[] = [];
+
+						let learnset = this.dex.species.getLearnset(this.dex.toID(mon.species));
+						if (learnset && learnset[this.dex.toID(move)]) sources = sources.concat(learnset[this.dex.toID(move)]);
+
+						let currentSpecies = this.dex.species.get(mon.species);
+						while (currentSpecies.prevo !== '') {
+							currentSpecies = this.dex.species.get(currentSpecies.prevo);
+							learnset = this.dex.species.getLearnset(currentSpecies.id);
+							if (learnset && learnset[this.dex.toID(move)]) sources = sources.concat(learnset[this.dex.toID(move)]);
+						}
+
+						for (let source of sources) {
+							if (source.includes('3L') && mon.level > parseInt(source.substring(2))) {
+								illegalMonsWithTheTM.splice(illegalMonsWithTheTM.indexOf(mon), 1);
+								break;
+							}
+						}
+					}
+
+					if (illegalMonsWithTheTM.length > 0) {
+						return [`The ${move} Move Tutor is only available once.`];
+					}
+				}
+			}
+
+			// Make sure item counts are legal
+			let itemCounts: {[k: string]: number} = {
+				'Oran Berry': 6,
+				'Pecha Berry': 6,
+				'Cheri Berry': 6,
+				'Leppa Berry': 6,
+				'Aspear Berry': 6,
+				'Chesto Berry': 6,
+				'Rawst Berry': 6,
+				'Persim Berry': 6,
+				'Quick Claw': 1,
+				'Miracle Seed': 1,
+				'Pinap Berry': 0,
+				'Silk Scarf': 1,
+				/*'Everstone': 0,
+				'Exp. Share': 0,*/
+				'Soft Sand': 1,
+				/*'Soothe Bell': 0,*/
+				'Nanab Berry': 6,
+				'White Herb': 1,
+				'Wepear Berry': 6,
+				'Black Glasses': 1,
+				'Macho Brace': 1
+			}
+			for (let item in itemCounts) {
+				if (teamHas['item:' + this.dex.toID(item)] > itemCounts[item]) {
+					return [`The maximum available amount of ${item} is ${itemCounts[item]}.`];
+				}
+			}
+		},
+		checkCanLearn(move, species, setSources, set) {
+			let sources: string[] = [];
+
+			let learnset = this.dex.species.getLearnset(species.id);
+			if (learnset && learnset[move.id]) sources = sources.concat(learnset[move.id]);
+
+			let currentSpecies = this.dex.species.get(set.species);
+			while (currentSpecies.prevo !== '') {
+				currentSpecies = this.dex.species.get(currentSpecies.prevo);
+				learnset = this.dex.species.getLearnset(currentSpecies.id);
+				if (learnset && learnset[move.id]) sources = sources.concat(learnset[move.id])
+			}
+
+			if (sources.length === 0) return this.checkCanLearn(move, species, setSources, set);
+
+			let level = -1;
+			let canLearn = false;
+			let onlyTM = true;
+			let onlyTutor = true;
+			let TMwhitelist = [
+				'Bulk Up', 'Bullet Seed', 'Shock Wave', 'Rock Tomb', 'Torment', 'Attract', 'Thief', 'Steel Wing',
+				'Ice Beam', 'Thunderbolt', 'Psychic', /*'Double Team', */'Flamethrower',
+				'Cut', 'Strength', 'Flash', 'Rock Smash'
+			]
+			let tutorWhitelist = [
+				'Fury Cutter', 'Rollout'
+			]
+			for (let source of sources) {
+				if (parseInt(source.charAt(0)) != 3 || ['E', 'S'].includes(source.charAt(1))) continue;
+				canLearn = true;
+				if (source.charAt(1) != 'M') onlyTM = false;
+				if (source.charAt(1) != 'T') onlyTutor = false;
+				if (source.charAt(1) == 'L') level = parseInt(source.substring(2));
+			}
+			if (!canLearn) return `: ${move.name} is not available within the nuzlocke rules.`;
+			if (
+				(onlyTM) || 
+				(sources.includes('3M') && level !== -1 && level > set.level)
+				) {
+				if (!TMwhitelist.includes(move.name)) return `: The ${move.name} TM/HM is not obtainable within the race limits.`;
+			}
+			if (
+				(onlyTutor) || 
+				(sources.includes('3T') && level !== -1 && level > set.level)
+				) {
+				if (!tutorWhitelist.includes(move.name)) return `: The ${move.name} Move Tutor is not available within the race limits.`;
+			}
+			return this.checkCanLearn(move, species, setSources, set);
+		},
+	},
+
 
 	// S/V Singles
 	///////////////////////////////////////////////////////////////////
