@@ -5,7 +5,6 @@ export const Items: {[k: string]: ModdedItemData} = {
 			basePower: 60,
 			type: "Dragon",
 		},
-		isNonstandard: "Nuzlocke",
 	},
 	apicotberry: {
 		inherit: true,
@@ -13,7 +12,6 @@ export const Items: {[k: string]: ModdedItemData} = {
 			basePower: 80,
 			type: "Ground",
 		},
-		isNonstandard: "Nuzlocke",
 	},
 	aspearberry: {
 		inherit: true,
@@ -21,7 +19,6 @@ export const Items: {[k: string]: ModdedItemData} = {
 			basePower: 60,
 			type: "Ice",
 		},
-		isNonstandard: "Nuzlocke",
 	},
 	babiriberry: {
 		inherit: true,
@@ -29,7 +26,6 @@ export const Items: {[k: string]: ModdedItemData} = {
 			basePower: 60,
 			type: "Steel",
 		},
-		isNonstandard: "Nuzlocke",
 	},
 	belueberry: {
 		inherit: true,
@@ -37,7 +33,6 @@ export const Items: {[k: string]: ModdedItemData} = {
 			basePower: 80,
 			type: "Electric",
 		},
-		isNonstandard: "Nuzlocke",
 	},
 	blukberry: {
 		inherit: true,
@@ -45,11 +40,10 @@ export const Items: {[k: string]: ModdedItemData} = {
 			basePower: 70,
 			type: "Fire",
 		},
-		isNonstandard: "Nuzlocke",
 	},
 	buggem: {
 		inherit: true,
-		isNonstandard: "Nuzlocke",
+		isNonstandard: null,
 	},
 	chartiberry: {
 		inherit: true,
@@ -57,7 +51,6 @@ export const Items: {[k: string]: ModdedItemData} = {
 			basePower: 60,
 			type: "Rock",
 		},
-		isNonstandard: "Nuzlocke",
 	},
 	cheriberry: {
 		inherit: true,
@@ -65,7 +58,6 @@ export const Items: {[k: string]: ModdedItemData} = {
 			basePower: 60,
 			type: "Fire",
 		},
-		isNonstandard: "Nuzlocke",
 	},
 	chestoberry: {
 		inherit: true,
@@ -73,7 +65,6 @@ export const Items: {[k: string]: ModdedItemData} = {
 			basePower: 60,
 			type: "Water",
 		},
-		isNonstandard: "Nuzlocke",
 	},
 	chilanberry: {
 		inherit: true,
@@ -81,7 +72,6 @@ export const Items: {[k: string]: ModdedItemData} = {
 			basePower: 60,
 			type: "Normal",
 		},
-		isNonstandard: "Nuzlocke",
 	},
 	chopleberry: {
 		inherit: true,
@@ -89,7 +79,6 @@ export const Items: {[k: string]: ModdedItemData} = {
 			basePower: 60,
 			type: "Fighting",
 		},
-		isNonstandard: "Nuzlocke",
 	},
 	cobaberry: {
 		inherit: true,
@@ -97,7 +86,6 @@ export const Items: {[k: string]: ModdedItemData} = {
 			basePower: 60,
 			type: "Flying",
 		},
-		isNonstandard: "Nuzlocke",
 	},
 	colburberry: {
 		inherit: true,
@@ -105,7 +93,6 @@ export const Items: {[k: string]: ModdedItemData} = {
 			basePower: 60,
 			type: "Dark",
 		},
-		isNonstandard: "Nuzlocke",
 	},
 	cornnberry: {
 		inherit: true,
@@ -113,7 +100,6 @@ export const Items: {[k: string]: ModdedItemData} = {
 			basePower: 70,
 			type: "Bug",
 		},
-		isNonstandard: "Nuzlocke",
 	},
 	custapberry: {
 		inherit: true,
@@ -121,15 +107,14 @@ export const Items: {[k: string]: ModdedItemData} = {
 			basePower: 80,
 			type: "Ghost",
 		},
-		isNonstandard: "Nuzlocke",
 	},
 	darkgem: {
 		inherit: true,
-		isNonstandard: "Nuzlocke",
+		isNonstandard: null,
 	},
 	dragongem: {
 		inherit: true,
-		isNonstandard: "Nuzlocke",
+		isNonstandard: null,
 	},
 	durinberry: {
 		inherit: true,
@@ -137,11 +122,10 @@ export const Items: {[k: string]: ModdedItemData} = {
 			basePower: 80,
 			type: "Water",
 		},
-		isNonstandard: "Nuzlocke",
 	},
 	electricgem: {
 		inherit: true,
-		isNonstandard: "Nuzlocke",
+		isNonstandard: null,
 	},
 	enigmaberry: {
 		inherit: true,
@@ -149,11 +133,10 @@ export const Items: {[k: string]: ModdedItemData} = {
 			basePower: 80,
 			type: "Bug",
 		},
-		isNonstandard: "Nuzlocke",
 	},
 	fightinggem: {
 		inherit: true,
-		isNonstandard: "Nuzlocke",
+		isNonstandard: null,
 	},
 	figyberry: {
 		inherit: true,
@@ -161,15 +144,14 @@ export const Items: {[k: string]: ModdedItemData} = {
 			basePower: 60,
 			type: "Bug",
 		},
-		isNonstandard: "Nuzlocke",
 	},
 	firegem: {
 		inherit: true,
-		isNonstandard: "Nuzlocke",
+		isNonstandard: null,
 	},
 	flyinggem: {
 		inherit: true,
-		isNonstandard: "Nuzlocke",
+		isNonstandard: null,
 	},
 	ganlonberry: {
 		inherit: true,
@@ -177,15 +159,14 @@ export const Items: {[k: string]: ModdedItemData} = {
 			basePower: 80,
 			type: "Ice",
 		},
-		isNonstandard: "Nuzlocke",
 	},
 	ghostgem: {
 		inherit: true,
-		isNonstandard: "Nuzlocke",
+		isNonstandard: null,
 	},
 	grassgem: {
 		inherit: true,
-		isNonstandard: "Nuzlocke",
+		isNonstandard: null,
 	},
 	grepaberry: {
 		inherit: true,
@@ -193,11 +174,10 @@ export const Items: {[k: string]: ModdedItemData} = {
 			basePower: 70,
 			type: "Flying",
 		},
-		isNonstandard: "Nuzlocke",
 	},
 	groundgem: {
 		inherit: true,
-		isNonstandard: "Nuzlocke",
+		isNonstandard: null,
 	},
 	habanberry: {
 		inherit: true,
@@ -205,7 +185,6 @@ export const Items: {[k: string]: ModdedItemData} = {
 			basePower: 60,
 			type: "Dragon",
 		},
-		isNonstandard: "Nuzlocke",
 	},
 	hondewberry: {
 		inherit: true,
@@ -213,7 +192,6 @@ export const Items: {[k: string]: ModdedItemData} = {
 			basePower: 70,
 			type: "Ground",
 		},
-		isNonstandard: "Nuzlocke",
 	},
 	iapapaberry: {
 		inherit: true,
@@ -221,11 +199,10 @@ export const Items: {[k: string]: ModdedItemData} = {
 			basePower: 60,
 			type: "Dark",
 		},
-		isNonstandard: "Nuzlocke",
 	},
 	icegem: {
 		inherit: true,
-		isNonstandard: "Nuzlocke",
+		isNonstandard: null,
 	},
 	jabocaberry: {
 		inherit: true,
@@ -233,7 +210,6 @@ export const Items: {[k: string]: ModdedItemData} = {
 			basePower: 80,
 			type: "Dragon",
 		},
-		isNonstandard: "Nuzlocke",
 	},
 	kasibberry: {
 		inherit: true,
@@ -241,7 +217,6 @@ export const Items: {[k: string]: ModdedItemData} = {
 			basePower: 60,
 			type: "Ghost",
 		},
-		isNonstandard: "Nuzlocke",
 	},
 	kebiaberry: {
 		inherit: true,
@@ -249,7 +224,6 @@ export const Items: {[k: string]: ModdedItemData} = {
 			basePower: 60,
 			type: "Poison",
 		},
-		isNonstandard: "Nuzlocke",
 	},
 	kelpsyberry: {
 		inherit: true,
@@ -257,7 +231,6 @@ export const Items: {[k: string]: ModdedItemData} = {
 			basePower: 70,
 			type: "Fighting",
 		},
-		isNonstandard: "Nuzlocke",
 	},
 	lansatberry: {
 		inherit: true,
@@ -265,7 +238,6 @@ export const Items: {[k: string]: ModdedItemData} = {
 			basePower: 80,
 			type: "Flying",
 		},
-		isNonstandard: "Nuzlocke",
 	},
 	leppaberry: {
 		inherit: true,
@@ -273,7 +245,6 @@ export const Items: {[k: string]: ModdedItemData} = {
 			basePower: 60,
 			type: "Fighting",
 		},
-		isNonstandard: "Nuzlocke",
 	},
 	liechiberry: {
 		inherit: true,
@@ -281,7 +252,6 @@ export const Items: {[k: string]: ModdedItemData} = {
 			basePower: 80,
 			type: "Grass",
 		},
-		isNonstandard: "Nuzlocke",
 	},
 	lumberry: {
 		inherit: true,
@@ -289,11 +259,10 @@ export const Items: {[k: string]: ModdedItemData} = {
 			basePower: 60,
 			type: "Flying",
 		},
-		isNonstandard: "Nuzlocke",
 	},
 	mail: {
 		inherit: true,
-		isNonstandard: "Nuzlocke",
+		isNonstandard: null,
 	},
 	magoberry: {
 		inherit: true,
@@ -301,7 +270,6 @@ export const Items: {[k: string]: ModdedItemData} = {
 			basePower: 60,
 			type: "Ghost",
 		},
-		isNonstandard: "Nuzlocke",
 	},
 	magostberry: {
 		inherit: true,
@@ -309,7 +277,6 @@ export const Items: {[k: string]: ModdedItemData} = {
 			basePower: 70,
 			type: "Rock",
 		},
-		isNonstandard: "Nuzlocke",
 	},
 	micleberry: {
 		inherit: true,
@@ -317,7 +284,6 @@ export const Items: {[k: string]: ModdedItemData} = {
 			basePower: 80,
 			type: "Rock",
 		},
-		isNonstandard: "Nuzlocke",
 	},
 	nanabberry: {
 		inherit: true,
@@ -325,7 +291,6 @@ export const Items: {[k: string]: ModdedItemData} = {
 			basePower: 70,
 			type: "Water",
 		},
-		isNonstandard: "Nuzlocke",
 	},
 	nomelberry: {
 		inherit: true,
@@ -333,7 +298,6 @@ export const Items: {[k: string]: ModdedItemData} = {
 			basePower: 70,
 			type: "Dragon",
 		},
-		isNonstandard: "Nuzlocke",
 	},
 	occaberry: {
 		inherit: true,
@@ -341,7 +305,6 @@ export const Items: {[k: string]: ModdedItemData} = {
 			basePower: 60,
 			type: "Fire",
 		},
-		isNonstandard: "Nuzlocke",
 	},
 	oranberry: {
 		inherit: true,
@@ -349,7 +312,6 @@ export const Items: {[k: string]: ModdedItemData} = {
 			basePower: 60,
 			type: "Poison",
 		},
-		isNonstandard: "Nuzlocke",
 	},
 	pamtreberry: {
 		inherit: true,
@@ -357,7 +319,6 @@ export const Items: {[k: string]: ModdedItemData} = {
 			basePower: 70,
 			type: "Steel",
 		},
-		isNonstandard: "Nuzlocke",
 	},
 	passhoberry: {
 		inherit: true,
@@ -365,7 +326,6 @@ export const Items: {[k: string]: ModdedItemData} = {
 			basePower: 60,
 			type: "Water",
 		},
-		isNonstandard: "Nuzlocke",
 	},
 	payapaberry: {
 		inherit: true,
@@ -373,7 +333,6 @@ export const Items: {[k: string]: ModdedItemData} = {
 			basePower: 60,
 			type: "Psychic",
 		},
-		isNonstandard: "Nuzlocke",
 	},
 	pechaberry: {
 		inherit: true,
@@ -381,7 +340,6 @@ export const Items: {[k: string]: ModdedItemData} = {
 			basePower: 60,
 			type: "Electric",
 		},
-		isNonstandard: "Nuzlocke",
 	},
 	persimberry: {
 		inherit: true,
@@ -389,7 +347,6 @@ export const Items: {[k: string]: ModdedItemData} = {
 			basePower: 60,
 			type: "Ground",
 		},
-		isNonstandard: "Nuzlocke",
 	},
 	petayaberry: {
 		inherit: true,
@@ -397,7 +354,6 @@ export const Items: {[k: string]: ModdedItemData} = {
 			basePower: 80,
 			type: "Poison",
 		},
-		isNonstandard: "Nuzlocke",
 	},
 	pinapberry: {
 		inherit: true,
@@ -405,11 +361,10 @@ export const Items: {[k: string]: ModdedItemData} = {
 			basePower: 70,
 			type: "Grass",
 		},
-		isNonstandard: "Nuzlocke",
 	},
 	poisongem: {
 		inherit: true,
-		isNonstandard: "Nuzlocke",
+		isNonstandard: null,
 	},
 	pomegberry: {
 		inherit: true,
@@ -417,11 +372,10 @@ export const Items: {[k: string]: ModdedItemData} = {
 			basePower: 70,
 			type: "Ice",
 		},
-		isNonstandard: "Nuzlocke",
 	},
 	psychicgem: {
 		inherit: true,
-		isNonstandard: "Nuzlocke",
+		isNonstandard: null,
 	},
 	qualotberry: {
 		inherit: true,
@@ -429,7 +383,6 @@ export const Items: {[k: string]: ModdedItemData} = {
 			basePower: 70,
 			type: "Poison",
 		},
-		isNonstandard: "Nuzlocke",
 	},
 	rabutaberry: {
 		inherit: true,
@@ -437,7 +390,6 @@ export const Items: {[k: string]: ModdedItemData} = {
 			basePower: 70,
 			type: "Ghost",
 		},
-		isNonstandard: "Nuzlocke",
 	},
 	rawstberry: {
 		inherit: true,
@@ -445,7 +397,6 @@ export const Items: {[k: string]: ModdedItemData} = {
 			basePower: 60,
 			type: "Grass",
 		},
-		isNonstandard: "Nuzlocke",
 	},
 	razzberry: {
 		inherit: true,
@@ -453,7 +404,6 @@ export const Items: {[k: string]: ModdedItemData} = {
 			basePower: 60,
 			type: "Steel",
 		},
-		isNonstandard: "Nuzlocke",
 	},
 	rindoberry: {
 		inherit: true,
@@ -461,11 +411,10 @@ export const Items: {[k: string]: ModdedItemData} = {
 			basePower: 60,
 			type: "Grass",
 		},
-		isNonstandard: "Nuzlocke",
 	},
 	rockgem: {
 		inherit: true,
-		isNonstandard: "Nuzlocke",
+		isNonstandard: null,
 	},
 	rowapberry: {
 		inherit: true,
@@ -473,7 +422,6 @@ export const Items: {[k: string]: ModdedItemData} = {
 			basePower: 80,
 			type: "Dark",
 		},
-		isNonstandard: "Nuzlocke",
 	},
 	salacberry: {
 		inherit: true,
@@ -481,7 +429,6 @@ export const Items: {[k: string]: ModdedItemData} = {
 			basePower: 80,
 			type: "Fighting",
 		},
-		isNonstandard: "Nuzlocke",
 	},
 	shucaberry: {
 		inherit: true,
@@ -489,7 +436,6 @@ export const Items: {[k: string]: ModdedItemData} = {
 			basePower: 60,
 			type: "Ground",
 		},
-		isNonstandard: "Nuzlocke",
 	},
 	sitrusberry: {
 		inherit: true,
@@ -497,7 +443,6 @@ export const Items: {[k: string]: ModdedItemData} = {
 			basePower: 60,
 			type: "Psychic",
 		},
-		isNonstandard: "Nuzlocke",
 	},
 	spelonberry: {
 		inherit: true,
@@ -505,7 +450,6 @@ export const Items: {[k: string]: ModdedItemData} = {
 			basePower: 70,
 			type: "Dark",
 		},
-		isNonstandard: "Nuzlocke",
 	},
 	starfberry: {
 		inherit: true,
@@ -513,11 +457,10 @@ export const Items: {[k: string]: ModdedItemData} = {
 			basePower: 80,
 			type: "Psychic",
 		},
-		isNonstandard: "Nuzlocke",
 	},
 	steelgem: {
 		inherit: true,
-		isNonstandard: "Nuzlocke",
+		isNonstandard: null,
 	},
 	tamatoberry: {
 		inherit: true,
@@ -525,7 +468,6 @@ export const Items: {[k: string]: ModdedItemData} = {
 			basePower: 70,
 			type: "Psychic",
 		},
-		isNonstandard: "Nuzlocke",
 	},
 	tangaberry: {
 		inherit: true,
@@ -533,7 +475,6 @@ export const Items: {[k: string]: ModdedItemData} = {
 			basePower: 60,
 			type: "Bug",
 		},
-		isNonstandard: "Nuzlocke",
 	},
 	wacanberry: {
 		inherit: true,
@@ -541,11 +482,10 @@ export const Items: {[k: string]: ModdedItemData} = {
 			basePower: 60,
 			type: "Electric",
 		},
-		isNonstandard: "Nuzlocke",
 	},
 	watergem: {
 		inherit: true,
-		isNonstandard: "Nuzlocke",
+		isNonstandard: null,
 	},
 	watmelberry: {
 		inherit: true,
@@ -553,7 +493,6 @@ export const Items: {[k: string]: ModdedItemData} = {
 			basePower: 80,
 			type: "Fire",
 		},
-		isNonstandard: "Nuzlocke",
 	},
 	wepearberry: {
 		inherit: true,
@@ -561,7 +500,6 @@ export const Items: {[k: string]: ModdedItemData} = {
 			basePower: 70,
 			type: "Electric",
 		},
-		isNonstandard: "Nuzlocke",
 	},
 	wikiberry: {
 		inherit: true,
@@ -569,7 +507,6 @@ export const Items: {[k: string]: ModdedItemData} = {
 			basePower: 60,
 			type: "Rock",
 		},
-		isNonstandard: "Nuzlocke",
 	},
 	yacheberry: {
 		inherit: true,
@@ -577,6 +514,5 @@ export const Items: {[k: string]: ModdedItemData} = {
 			basePower: 60,
 			type: "Ice",
 		},
-		isNonstandard: "Nuzlocke",
 	},
 };
