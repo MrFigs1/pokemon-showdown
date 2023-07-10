@@ -19,7 +19,8 @@ The column value will be ignored for repeat sections.
 
 export const Formats: FormatList = [
 	{
-		section: "Custom"
+		section: "Current Race",
+		column: 1
 	},
 	{
 		name: "[Gen 5] ElesaLocke",
@@ -102,6 +103,10 @@ export const Formats: FormatList = [
 			}
 			return this.checkCanLearn(move, species, setSources, set);
 		},
+	},
+	{
+		section: "Past Races",
+		column: 1
 	},
 	{
 		name: "[Gen 3] WattsonLocke",
@@ -400,6 +405,7 @@ export const Formats: FormatList = [
 
 	{
 		section: "S/V Singles",
+		column: 2
 	},
 	{
 		name: "[Gen 9] Random Battle",
@@ -669,6 +675,7 @@ export const Formats: FormatList = [
 
 	{
 		section: "S/V Doubles",
+		column: 2
 	},
 	{
 		name: "[Gen 9] Random Doubles Battle",
@@ -774,6 +781,7 @@ export const Formats: FormatList = [
 
 	{
 		section: "National Dex",
+		column: 2
 	},
 	{
 		name: "[Gen 9] National Dex",
@@ -907,6 +915,7 @@ export const Formats: FormatList = [
 
 	{
 		section: "Pet Mods",
+		column: 2
 	},
 	{
 		name: "[Gen 8] JolteMons Random Battle",
@@ -937,7 +946,7 @@ export const Formats: FormatList = [
 
 	{
 		section: "Draft",
-		column: 1,
+		column: 2
 	},
 	{
 		name: "[Gen 9] Paldea Dex Draft",
@@ -1050,7 +1059,7 @@ export const Formats: FormatList = [
 
 	{
 		section: "OM of the Month",
-		column: 2,
+		column: 3,
 	},
 	{
 		name: "[Gen 9] Force of the Fallen",
@@ -1277,7 +1286,7 @@ export const Formats: FormatList = [
 
 	{
 		section: "Other Metagames",
-		column: 2,
+		column: 3,
 	},
 	{
 		name: "[Gen 9] Almost Any Ability",
@@ -1447,7 +1456,7 @@ export const Formats: FormatList = [
 
 	{
 		section: "Challengeable OMs",
-		column: 2,
+		column: 3,
 	},
 	{
 		name: "[Gen 9] Camomons",
@@ -2317,7 +2326,7 @@ export const Formats: FormatList = [
 
 	{
 		section: "Retro Other Metagames",
-		column: 2,
+		column: 3,
 	},
 	{
 		name: "[Gen 6] Pure Hackmons",
@@ -2980,7 +2989,7 @@ export const Formats: FormatList = [
 
 	{
 		section: "RoA Spotlight",
-		column: 4,
+		column: 5,
 	},
 	{
 		name: "[Gen 1] Stadium OU",
@@ -3025,7 +3034,7 @@ export const Formats: FormatList = [
 
 	{
 		section: "Past Gens OU",
-		column: 4,
+		column: 5,
 	},
 	{
 		name: "[Gen 8] OU",
@@ -3125,7 +3134,7 @@ export const Formats: FormatList = [
 
 	{
 		section: "Past Gens Doubles OU",
-		column: 4,
+		column: 5,
 	},
 	{
 		name: "[Gen 8] Doubles OU",
@@ -3209,7 +3218,7 @@ export const Formats: FormatList = [
 
 	{
 		section: "Sw/Sh Singles",
-		column: 4,
+		column: 5,
 	},
 	{
 		name: "[Gen 8] Ubers",
@@ -3427,7 +3436,7 @@ export const Formats: FormatList = [
 
 	{
 		section: "Sw/Sh Doubles",
-		column: 5,
+		column: 6,
 	},
 	{
 		name: "[Gen 8] Doubles Ubers",
@@ -3522,7 +3531,7 @@ export const Formats: FormatList = [
 	///////////////////////////////////////////////////////////////////
 	{
 		section: "US/UM Singles",
-		column: 5,
+		column: 6,
 	},
 	{
 		name: "[Gen 7] Ubers",
@@ -3723,7 +3732,7 @@ export const Formats: FormatList = [
 
 	{
 		section: "US/UM Doubles",
-		column: 5,
+		column: 6,
 	},
 	{
 		name: "[Gen 7] Doubles UU",
@@ -3838,7 +3847,7 @@ export const Formats: FormatList = [
 
 	{
 		section: "OR/AS Singles",
-		column: 6,
+		column: 7,
 	},
 	{
 		name: "[Gen 6] Ubers",
@@ -4016,7 +4025,7 @@ export const Formats: FormatList = [
 
 	{
 		section: "OR/AS Doubles/Triples",
-		column: 6,
+		column: 7,
 	},
 	{
 		name: "[Gen 6] VGC 2016",
@@ -4111,7 +4120,7 @@ export const Formats: FormatList = [
 
 	{
 		section: "B2/W2 Singles",
-		column: 6,
+		column: 7,
 	},
 	{
 		name: "[Gen 5] Ubers",
@@ -4262,7 +4271,7 @@ export const Formats: FormatList = [
 
 	{
 		section: "B2/W2 Doubles",
-		column: 6,
+		column: 7,
 	},
 	{
 		name: "[Gen 5] VGC 2013",
@@ -4319,7 +4328,7 @@ export const Formats: FormatList = [
 
 	{
 		section: "DPP Singles",
-		column: 7,
+		column: 8,
 	},
 	{
 		name: "[Gen 4] Ubers",
@@ -4457,7 +4466,7 @@ export const Formats: FormatList = [
 
 	{
 		section: "DPP Doubles",
-		column: 7,
+		column: 8,
 	},
 	{
 		name: "[Gen 4] VGC 2010",
@@ -4495,7 +4504,7 @@ export const Formats: FormatList = [
 
 	{
 		section: "Past Generations",
-		column: 7,
+		column: 8,
 	},
 	{
 		name: "[Gen 3] Ubers",
