@@ -26,7 +26,10 @@ export const Formats: FormatList = [
 		mod: "gen5elesalocke",
 		searchShow: false,
 		ruleset: ['Standard', 'Deoxys Camouflage Clause', 'One Baton Pass Clause'],
-		banlist: [],
+		banlist: [
+			'Fire Gem', 'Water Gem', 'Electric Gem', 'Grass Gem', 'Ice Gem', 'Fighting Gem', 'Poison Gem', 'Ground Gem', 'Flying Gem', 'Psychic Gem', 'Bug Gem', 'Rock Gem', 'Ghost Gem', 'Dragon Gem', 'Dark Gem', 'Steel Gem', 'Normal Gem',
+			'Return', 'Frustration'
+		],
 		onValidateSet(set, format, setHas, teamHas) {
 			let whitelist = [
 				'Oran Berry', 'Chesto Berry', 'Cheri Berry', 'Pecha Berry', 'Yache Berry', 'Rawst Berry',
