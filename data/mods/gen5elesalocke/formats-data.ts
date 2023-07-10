@@ -1,1138 +1,1139 @@
 export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	bulbasaur: {
-		tier: "OU",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	ivysaur: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	venusaur: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	charmander: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	charmeleon: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	charizard: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	squirtle: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	wartortle: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	blastoise: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	caterpie: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	metapod: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	butterfree: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	weedle: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	kakuna: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	beedrill: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	pidgey: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	pidgeotto: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	pidgeot: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	rattata: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	raticate: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	spearow: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	fearow: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	ekans: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	arbok: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	pichu: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	pikachu: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	raichu: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	sandshrew: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	sandslash: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	nidoranf: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	nidorina: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	nidoqueen: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	nidoranm: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	nidorino: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	nidoking: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	cleffa: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	clefairy: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	clefable: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	vulpix: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	ninetales: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	igglybuff: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	jigglypuff: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	wigglytuff: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	zubat: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	golbat: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	crobat: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	oddish: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	gloom: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	vileplume: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	bellossom: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	paras: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	parasect: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	venonat: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	venomoth: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	diglett: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	dugtrio: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	meowth: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	persian: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	psyduck: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	golduck: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	mankey: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	primeape: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	growlithe: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	arcanine: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	poliwag: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	poliwhirl: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	poliwrath: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	politoed: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	abra: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	kadabra: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	alakazam: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	machop: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	machoke: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	machamp: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	bellsprout: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	weepinbell: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	victreebel: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	tentacool: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	tentacruel: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	geodude: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	graveler: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	golem: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	ponyta: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	rapidash: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	slowpoke: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	slowbro: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	slowking: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	magnemite: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	magneton: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	magnezone: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	farfetchd: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	doduo: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	dodrio: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	seel: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	dewgong: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	grimer: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	muk: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	shellder: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	cloyster: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	gastly: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	haunter: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	gengar: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	onix: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	steelix: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	drowzee: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	hypno: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	krabby: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	kingler: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	voltorb: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	electrode: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	exeggcute: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	exeggutor: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	cubone: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	marowak: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	tyrogue: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	hitmonlee: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	hitmonchan: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	hitmontop: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	lickitung: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	lickilicky: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	koffing: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	weezing: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	rhyhorn: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	rhydon: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	rhyperior: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	happiny: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	chansey: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	blissey: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	tangela: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	tangrowth: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	kangaskhan: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	horsea: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	seadra: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	kingdra: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	goldeen: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	seaking: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	staryu: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	starmie: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	mimejr: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	mrmime: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	scyther: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	scizor: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	smoochum: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	jynx: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	elekid: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	electabuzz: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	electivire: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	magby: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	magmar: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	magmortar: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	pinsir: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	tauros: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	magikarp: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	gyarados: {
 		tier: "Illegal",
 		isNonstandard: "Unobtainable"
 	},
 	lapras: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	ditto: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	eevee: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	vaporeon: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	jolteon: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	flareon: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	espeon: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	umbreon: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	leafeon: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	glaceon: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	porygon: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	porygon2: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	porygonz: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	omanyte: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	omastar: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	kabuto: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	kabutops: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	aerodactyl: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	munchlax: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	snorlax: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	articuno: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	zapdos: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	moltres: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	dratini: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	dragonair: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	dragonite: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	mewtwo: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	mew: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	chikorita: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	bayleef: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	meganium: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	cyndaquil: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	quilava: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	typhlosion: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	totodile: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	croconaw: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	feraligatr: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	sentret: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	furret: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	hoothoot: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	noctowl: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	ledyba: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	ledian: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	spinarak: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	ariados: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	chinchou: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	lanturn: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	togepi: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	togetic: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	togekiss: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	natu: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	xatu: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	mareep: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	flaaffy: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	ampharos: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	azurill: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	marill: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	azumarill: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	bonsly: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	sudowoodo: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	hoppip: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	skiploom: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	jumpluff: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	aipom: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	ambipom: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	sunkern: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	sunflora: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	yanma: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	yanmega: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	wooper: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	quagsire: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	murkrow: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	honchkrow: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	misdreavus: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	mismagius: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	unown: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	wynaut: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	wobbuffet: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	girafarig: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	pineco: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	forretress: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	dunsparce: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	gligar: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	gliscor: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	snubbull: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	granbull: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	qwilfish: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	shuckle: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	heracross: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	sneasel: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	weavile: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	teddiursa: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	ursaring: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	slugma: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	magcargo: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	swinub: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	piloswine: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	mamoswine: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	corsola: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	remoraid: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	octillery: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	delibird: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	mantyke: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	mantine: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	skarmory: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	houndour: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	houndoom: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	phanpy: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	donphan: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	stantler: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	smeargle: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	miltank: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	raikou: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	entei: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	suicune: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	larvitar: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	pupitar: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	tyranitar: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	lugia: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	hooh: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	celebi: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	treecko: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	grovyle: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	sceptile: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	torchic: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	combusken: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	blaziken: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	mudkip: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	marshtomp: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	swampert: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	poochyena: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	mightyena: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	zigzagoon: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	linoone: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	wurmple: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	silcoon: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	beautifly: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	cascoon: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	dustox: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	lotad: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	lombre: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	ludicolo: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	seedot: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	nuzleaf: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	shiftry: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	taillow: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	swellow: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	wingull: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	pelipper: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	ralts: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	kirlia: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	gardevoir: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	gallade: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	surskit: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	masquerain: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	shroomish: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	breloom: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	slakoth: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	vigoroth: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	slaking: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	nincada: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	ninjask: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	shedinja: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	whismur: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	loudred: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	exploud: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	makuhita: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	hariyama: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	nosepass: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	probopass: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	skitty: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	delcatty: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	sableye: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	mawile: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	aron: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	lairon: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	aggron: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	meditite: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	medicham: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	electrike: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	manectric: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	plusle: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	minun: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	volbeat: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	illumise: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	budew: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	roselia: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	roserade: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	gulpin: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	swalot: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	carvanha: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	sharpedo: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	wailmer: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	wailord: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	numel: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	camerupt: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	torkoal: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	spoink: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	grumpig: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	spinda: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	trapinch: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	vibrava: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	flygon: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	cacnea: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	cacturne: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	swablu: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	altaria: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	zangoose: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	seviper: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	lunatone: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	solrock: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	barboach: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	whiscash: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	corphish: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	crawdaunt: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	baltoy: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	claydol: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	lileep: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	cradily: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	anorith: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	armaldo: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	feebas: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	milotic: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	castform: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	castformsunny: {
 	},
@@ -1140,386 +1141,386 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	},
 	castformsnowy: {},
 	kecleon: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	shuppet: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	banette: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	duskull: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	dusclops: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	dusknoir: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	tropius: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	chingling: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	chimecho: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	absol: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	snorunt: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	glalie: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	froslass: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	spheal: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	sealeo: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	walrein: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	clamperl: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	huntail: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	gorebyss: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	relicanth: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	luvdisc: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	bagon: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	shelgon: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	salamence: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	beldum: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	metang: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	metagross: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	regirock: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	regice: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	registeel: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	latias: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	latios: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	kyogre: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	groudon: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	rayquaza: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	jirachi: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	deoxys: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	deoxysattack: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	deoxysdefense: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	deoxysspeed: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	turtwig: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	grotle: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	torterra: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	chimchar: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	monferno: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	infernape: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	piplup: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	prinplup: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	empoleon: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	starly: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	staravia: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	staraptor: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	bidoof: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	bibarel: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	kricketot: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	kricketune: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	shinx: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	luxio: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	luxray: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	cranidos: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	rampardos: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	shieldon: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	bastiodon: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	burmy: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	wormadam: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	wormadamsandy: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	wormadamtrash: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	mothim: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	combee: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	vespiquen: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	pachirisu: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	buizel: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	floatzel: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	cherubi: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	cherrim: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	cherrimsunshine: {},
 	shellos: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	gastrodon: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	drifloon: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	drifblim: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	buneary: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	lopunny: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	glameow: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	purugly: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	stunky: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	skuntank: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	bronzor: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	bronzong: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	chatot: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	spiritomb: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	gible: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	gabite: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	garchomp: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	riolu: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	lucario: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	hippopotas: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	hippowdon: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	skorupi: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	drapion: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	croagunk: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	toxicroak: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	carnivine: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	finneon: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	lumineon: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	snover: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	abomasnow: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	rotom: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	rotomheat: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	rotomwash: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	rotomfrost: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	rotomfan: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	rotommow: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	uxie: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	mesprit: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	azelf: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	dialga: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	palkia: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	heatran: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	regigigas: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	giratina: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	giratinaorigin: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	cresselia: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	phione: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	manaphy: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	darkrai: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	shaymin: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	shayminsky: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	arceus: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	arceusbug: {
 	},
@@ -1554,507 +1555,507 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	arceuswater: {
 	},
 	victini: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	snivy: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	servine: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	serperior: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	tepig: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	pignite: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	emboar: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	oshawott: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	dewott: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	samurott: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	patrat: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	watchog: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	lillipup: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	herdier: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	stoutland: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	purrloin: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	liepard: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	pansage: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	simisage: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	pansear: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	simisear: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	panpour: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	simipour: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	munna: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	musharna: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	pidove: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	tranquill: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	unfezant: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	blitzle: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	zebstrika: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	roggenrola: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	boldore: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	gigalith: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	woobat: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	swoobat: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	drilbur: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	excadrill: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	audino: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	timburr: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	gurdurr: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	conkeldurr: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	tympole: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	palpitoad: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	seismitoad: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	throh: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	sawk: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	sewaddle: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	swadloon: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	leavanny: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	venipede: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	whirlipede: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	scolipede: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	cottonee: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	whimsicott: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	petilil: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	lilligant: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	basculin: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	basculinbluestriped: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	sandile: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	krokorok: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	krookodile: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	darumaka: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	darmanitan: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	maractus: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	dwebble: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	crustle: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	scraggy: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	scrafty: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	sigilyph: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	yamask: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	cofagrigus: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	tirtouga: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	carracosta: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	archen: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	archeops: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	trubbish: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	garbodor: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	zorua: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	zoroark: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	minccino: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	cinccino: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	gothita: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	gothorita: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	gothitelle: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	solosis: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	duosion: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	reuniclus: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	ducklett: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	swanna: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	vanillite: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	vanillish: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	vanilluxe: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	deerling: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	sawsbuck: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	emolga: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	karrablast: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	escavalier: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	foongus: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	amoonguss: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	frillish: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	jellicent: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	alomomola: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	joltik: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	galvantula: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	ferroseed: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	ferrothorn: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	klink: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	klang: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	klinklang: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	tynamo: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	eelektrik: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	eelektross: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	elgyem: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	beheeyem: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	litwick: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	lampent: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	chandelure: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	axew: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	fraxure: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	haxorus: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	cubchoo: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	beartic: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	cryogonal: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	shelmet: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	accelgor: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	stunfisk: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	mienfoo: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	mienshao: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	druddigon: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	golett: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	golurk: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	pawniard: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	bisharp: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	bouffalant: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	rufflet: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	braviary: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	vullaby: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	mandibuzz: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	heatmor: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	durant: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	deino: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	zweilous: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	hydreigon: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	larvesta: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	volcarona: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	cobalion: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	terrakion: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	virizion: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	tornadus: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	tornadustherian: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	thundurus: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	thundurustherian: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	reshiram: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	zekrom: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	landorus: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	landorustherian: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	kyurem: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	kyuremblack: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	kyuremwhite: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	keldeo: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	keldeoresolute: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	meloetta: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	meloettapirouette: {
 	},
 	genesect: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	genesectburn: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	genesectchill: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	genesectdouse: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	genesectshock: {
-		tier: "Good",
+		tier: "Legal",
 	},
 	pokestarsmeargle: {
 		isNonstandard: "Unobtainable",
