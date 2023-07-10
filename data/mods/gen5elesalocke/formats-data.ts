@@ -2237,10 +2237,12 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "Legal",
 	},
 	basculin: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	basculinbluestriped: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	sandile: {
 		tier: "(Legal)",
@@ -2317,12 +2319,10 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "Illegal",
 	},
 	minccino: {
-		isNonstandard: "Nuzlocke",
-		tier: "Illegal",
+		tier: "(Legal)",
 	},
 	cinccino: {
-		isNonstandard: "Nuzlocke",
-		tier: "Illegal",
+		tier: "Legal",
 	},
 	gothita: {
 		tier: "Legal",
