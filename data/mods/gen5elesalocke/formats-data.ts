@@ -2265,10 +2265,11 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "Legal",
 	},
 	dwebble: {
-		tier: "(Legal)",
+		tier: "Legal",
 	},
 	crustle: {
-		tier: "Legal",
+		isNonstandard: "Nuzlocke",
+		tier: "Illegal",
 	},
 	scraggy: {
 		tier: "Legal",
@@ -2288,16 +2289,14 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "Illegal",
 	},
 	tirtouga: {
-		isNonstandard: "Nuzlocke",
-		tier: "Illegal",
+		tier: "Legal",
 	},
 	carracosta: {
 		isNonstandard: "Nuzlocke",
 		tier: "Illegal",
 	},
 	archen: {
-		isNonstandard: "Nuzlocke",
-		tier: "Illegal",
+		tier: "Legal",
 	},
 	archeops: {
 		isNonstandard: "Nuzlocke",
