@@ -33,7 +33,7 @@ export const Formats: FormatList = [
 		],
 		onValidateSet(set, format, setHas, teamHas) {
 			let whitelist = [
-				'Oran Berry', 'Chesto Berry', 'Cheri Berry', 'Pecha Berry', 'Yache Berry', 'Rawst Berry',
+				'Oran Berry', 'Chesto Berry', 'Cheri Berry', 'Pecha Berry', 'Yache Berry', 'Rawst Berry', 'Persim Berry',
 				'Miracle Seed', 'Charcoal', 'Mystic Water', 'Big Root', 'Quick Claw', 'Scope Lens', 'Eviolite', 'Black Glasses', 'Soft Sand', 'Hard Stone'
 			]
 			if (set.item && !whitelist.includes(set.item) && !format.banlist.includes(set.item)) {
@@ -85,7 +85,7 @@ export const Formats: FormatList = [
 			let canLearn = false;
 			let onlyTM = true;
 			let TMwhitelist = [
-				'Dig', 'Rock Tomb', 'Torment', 'Rest', 'Attract', 'Thief', 'Echoed Voice', 'Retaliate', 'Flash', 'Volt Switch', 'Struggle Bug', 'Work Up', 'Grass Knot', 'Rock Smash',
+				'Light Screen', 'Protect', 'Safeguard', 'Dig', 'Reflect', 'Rock Tomb', 'Torment', 'Rest', 'Attract', 'Thief', 'Echoed Voice', 'False Swipe', 'Retaliate', 'Flash', 'Volt Switch', 'Thunder Wave', 'Gyro Ball', 'Struggle Bug', 'Work Up', 'Grass Knot', 'Rock Smash',
 				'Cut', 'Strength'
 			]
 			for (let source of sources) {
