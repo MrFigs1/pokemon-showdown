@@ -73,6 +73,10 @@ export const Items: {[k: string]: ModdedItemData} = {
 			type: "Normal",
 		},
 	},
+	choiceband: {
+		inherit: true,
+		isNonstandard: "Unobtainable"
+	},
 	chopleberry: {
 		inherit: true,
 		naturalGift: {
