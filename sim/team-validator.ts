@@ -1563,6 +1563,9 @@ export class TeamValidator {
 		// obtainability
 		if (item.isNonstandard) {
 			banReason = ruleTable.check('pokemontag:' + toID(item.isNonstandard));
+			if (item.name === 'Choice Band') {
+				console.log(banReason);
+			}
 			if (banReason) {
 				if (item.isNonstandard === 'Unobtainable') {
 					return `${item.name} is not obtainable without hacking or glitches.`;
