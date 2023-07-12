@@ -36,7 +36,7 @@ export const Formats: FormatList = [
 				'Oran Berry', 'Chesto Berry', 'Cheri Berry', 'Pecha Berry', 'Yache Berry', 'Rawst Berry', 'Persim Berry',
 				'Miracle Seed', 'Charcoal', 'Mystic Water', 'Big Root', 'Quick Claw', 'Scope Lens', 'Eviolite', 'Black Glasses', 'Soft Sand', 'Hard Stone'
 			]
-			if (set.item && !whitelist.includes(set.item) && !format.banlist.includes(set.item)) {
+			if (set.item && !whitelist.includes(set.item) && !format.banlist.includes(set.item) && !this.dex.items.get(set.item).isNonstandard) {
 				return [`${set.item} is not obtainable within the race limits.`]
 			}
 		},
