@@ -1,56 +1,87 @@
 export const Items: {[k: string]: ModdedItemData} = {
+	absorbbulb: {
+		inherit: true,
+		isNonstandard: "Nuzlocke",
+	},
+	adamantorb: {
+		inherit: true,
+		isNonstandard: "Nuzlocke",
+	},
 	aguavberry: {
 		inherit: true,
-		naturalGift: {
-			basePower: 60,
-			type: "Dragon",
-		},
+		isNonstandard: "Nuzlocke",
+	},
+	airballoon: {
+		inherit: true,
+		isNonstandard: "Nuzlocke",
 	},
 	apicotberry: {
 		inherit: true,
-		naturalGift: {
-			basePower: 80,
-			type: "Ground",
-		},
+		isNonstandard: "Nuzlocke",
+	},
+	armorfossil: {
+		inherit: true,
+		isNonstandard: "Nuzlocke",
 	},
 	aspearberry: {
 		inherit: true,
-		naturalGift: {
-			basePower: 60,
-			type: "Ice",
-		},
+		isNonstandard: "Nuzlocke",
 	},
 	babiriberry: {
 		inherit: true,
-		naturalGift: {
-			basePower: 60,
-			type: "Steel",
-		},
+		isNonstandard: "Nuzlocke",
 	},
 	belueberry: {
 		inherit: true,
-		naturalGift: {
-			basePower: 80,
-			type: "Electric",
-		},
+		isNonstandard: "Nuzlocke",
 	},
-	blukberry: {
+	berryjuice: {
 		inherit: true,
-		naturalGift: {
-			basePower: 70,
-			type: "Fire",
-		},
+		isNonstandard: "Nuzlocke",
+	},
+	bigroot: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	bindingband: {
+		inherit: true,
+		isNonstandard: "Nuzlocke",
+	},
+	blackbelt: {
+		inherit: true,
+		isNonstandard: "Nuzlocke",
+	},
+	blackglasses: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	blacksludge: {
+		inherit: true,
+		isNonstandard: "Nuzlocke",
+	},
+	brightpowder: {
+		inherit: true,
+		isNonstandard: "Nuzlocke",
 	},
 	buggem: {
+		inherit: true,
+		isNonstandard: "Nuzlocke",
+	},
+	burndrive: {
+		inherit: true,
+		isNonstandard: "Nuzlocke",
+	},
+	cellbattery: {
+		inherit: true,
+		isNonstandard: "Nuzlocke",
+	},
+	charcoal: {
 		inherit: true,
 		isNonstandard: null,
 	},
 	chartiberry: {
 		inherit: true,
-		naturalGift: {
-			basePower: 60,
-			type: "Rock",
-		},
+		isNonstandard: "Nuzlocke",
 	},
 	cheriberry: {
 		inherit: true,
@@ -68,247 +99,471 @@ export const Items: {[k: string]: ModdedItemData} = {
 	},
 	chilanberry: {
 		inherit: true,
-		naturalGift: {
-			basePower: 60,
-			type: "Normal",
-		},
+		isNonstandard: "Nuzlocke",
+	},
+	chilldrive: {
+		inherit: true,
+		isNonstandard: "Nuzlocke",
 	},
 	choiceband: {
 		inherit: true,
-		isNonstandard: "Nuzlocke"
+		isNonstandard: "Nuzlocke",
+	},
+	choicescarf: {
+		inherit: true,
+		isNonstandard: "Nuzlocke",
+	},
+	choicespecs: {
+		inherit: true,
+		isNonstandard: "Nuzlocke",
 	},
 	chopleberry: {
 		inherit: true,
-		naturalGift: {
-			basePower: 60,
-			type: "Fighting",
-		},
+		isNonstandard: "Nuzlocke",
+	},
+	clawfossil: {
+		inherit: true,
+		isNonstandard: "Nuzlocke",
 	},
 	cobaberry: {
 		inherit: true,
-		naturalGift: {
-			basePower: 60,
-			type: "Flying",
-		},
+		isNonstandard: "Nuzlocke",
 	},
 	colburberry: {
 		inherit: true,
-		naturalGift: {
-			basePower: 60,
-			type: "Dark",
-		},
+		isNonstandard: "Nuzlocke",
 	},
 	cornnberry: {
 		inherit: true,
-		naturalGift: {
-			basePower: 70,
-			type: "Bug",
-		},
+		isNonstandard: "Nuzlocke",
+	},
+	coverfossil: {
+		inherit: true,
+		isNonstandard: "Nuzlocke",
 	},
 	custapberry: {
 		inherit: true,
-		naturalGift: {
-			basePower: 80,
-			type: "Ghost",
-		},
+		isNonstandard: "Nuzlocke",
+	},
+	damprock: {
+		inherit: true,
+		isNonstandard: "Nuzlocke",
 	},
 	darkgem: {
 		inherit: true,
-		isNonstandard: null,
+		isNonstandard: "Nuzlocke",
+	},
+	dawnstone: {
+		inherit: true,
+		isNonstandard: "Nuzlocke",
+	},
+	deepseascale: {
+		inherit: true,
+		isNonstandard: "Nuzlocke",
+	},
+	deepseatooth: {
+		inherit: true,
+		isNonstandard: "Nuzlocke",
+	},
+	destinyknot: {
+		inherit: true,
+		isNonstandard: "Nuzlocke",
+	},
+	diveball: {
+		inherit: true,
+		isNonstandard: "Nuzlocke",
+	},
+	domefossil: {
+		inherit: true,
+		isNonstandard: "Nuzlocke",
+	},
+	dousedrive: {
+		inherit: true,
+		isNonstandard: "Nuzlocke",
+	},
+	dracoplate: {
+		inherit: true,
+		isNonstandard: "Nuzlocke",
+	},
+	dragonfang: {
+		inherit: true,
+		isNonstandard: "Nuzlocke",
 	},
 	dragongem: {
 		inherit: true,
-		isNonstandard: null,
+		isNonstandard: "Nuzlocke",
+	},
+	dragonscale: {
+		inherit: true,
+		isNonstandard: "Nuzlocke",
+	},
+	dreadplate: {
+		inherit: true,
+		isNonstandard: "Nuzlocke",
+	},
+	dubiousdisc: {
+		inherit: true,
+		isNonstandard: "Nuzlocke",
 	},
 	durinberry: {
 		inherit: true,
-		naturalGift: {
-			basePower: 80,
-			type: "Water",
-		},
+		isNonstandard: "Nuzlocke",
+	},
+	duskball: {
+		inherit: true,
+		isNonstandard: "Nuzlocke",
+	},
+	duskstone: {
+		inherit: true,
+		isNonstandard: "Nuzlocke",
+	},
+	earthplate: {
+		inherit: true,
+		isNonstandard: "Nuzlocke",
+	},
+	ejectbutton: {
+		inherit: true,
+		isNonstandard: "Nuzlocke",
+	},
+	electirizer: {
+		inherit: true,
+		isNonstandard: "Nuzlocke",
 	},
 	electricgem: {
 		inherit: true,
-		isNonstandard: null,
+		isNonstandard: "Nuzlocke",
 	},
 	enigmaberry: {
 		inherit: true,
-		naturalGift: {
-			basePower: 80,
-			type: "Bug",
-		},
+		isNonstandard: "Nuzlocke",
+	},
+	eviolite: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	expertbelt: {
+		inherit: true,
+		isNonstandard: "Nuzlocke",
 	},
 	fightinggem: {
 		inherit: true,
-		isNonstandard: null,
+		isNonstandard: "Nuzlocke",
 	},
 	figyberry: {
 		inherit: true,
-		naturalGift: {
-			basePower: 60,
-			type: "Bug",
-		},
+		isNonstandard: "Nuzlocke",
 	},
 	firegem: {
 		inherit: true,
-		isNonstandard: null,
+		isNonstandard: "Nuzlocke",
+	},
+	firestone: {
+		inherit: true,
+		isNonstandard: "Nuzlocke",
+	},
+	fistplate: {
+		inherit: true,
+		isNonstandard: "Nuzlocke",
+	},
+	flameorb: {
+		inherit: true,
+		isNonstandard: "Nuzlocke",
+	},
+	flameplate: {
+		inherit: true,
+		isNonstandard: "Nuzlocke",
+	},
+	floatstone: {
+		inherit: true,
+		isNonstandard: "Nuzlocke",
 	},
 	flyinggem: {
 		inherit: true,
-		isNonstandard: null,
+		isNonstandard: "Nuzlocke",
+	},
+	focusband: {
+		inherit: true,
+		isNonstandard: "Nuzlocke",
+	},
+	focussash: {
+		inherit: true,
+		isNonstandard: "Nuzlocke",
+	},
+	friendball: {
+		inherit: true,
+		isNonstandard: "Nuzlocke",
+	},
+	fullincense: {
+		inherit: true,
+		isNonstandard: "Nuzlocke",
 	},
 	ganlonberry: {
 		inherit: true,
-		naturalGift: {
-			basePower: 80,
-			type: "Ice",
-		},
+		isNonstandard: "Nuzlocke",
 	},
 	ghostgem: {
 		inherit: true,
-		isNonstandard: null,
+		isNonstandard: "Nuzlocke",
 	},
 	grassgem: {
 		inherit: true,
-		isNonstandard: null,
+		isNonstandard: "Nuzlocke",
+	},
+	greatball: {
+		inherit: true,
+		isNonstandard: "Nuzlocke",
 	},
 	grepaberry: {
 		inherit: true,
-		naturalGift: {
-			basePower: 70,
-			type: "Flying",
-		},
+		isNonstandard: "Nuzlocke",
+	},
+	gripclaw: {
+		inherit: true,
+		isNonstandard: "Nuzlocke",
+	},
+	griseousorb: {
+		inherit: true,
+		isNonstandard: "Nuzlocke",
 	},
 	groundgem: {
 		inherit: true,
-		isNonstandard: null,
+		isNonstandard: "Nuzlocke",
 	},
 	habanberry: {
 		inherit: true,
-		naturalGift: {
-			basePower: 60,
-			type: "Dragon",
-		},
+		isNonstandard: "Nuzlocke",
+	},
+	hardstone: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	healball: {
+		inherit: true,
+		isNonstandard: "Nuzlocke",
+	},
+	heatrock: {
+		inherit: true,
+		isNonstandard: "Nuzlocke",
+	},
+	helixfossil: {
+		inherit: true,
+		isNonstandard: "Nuzlocke",
 	},
 	hondewberry: {
 		inherit: true,
-		naturalGift: {
-			basePower: 70,
-			type: "Ground",
-		},
+		isNonstandard: "Nuzlocke",
 	},
 	iapapaberry: {
 		inherit: true,
-		naturalGift: {
-			basePower: 60,
-			type: "Dark",
-		},
+		isNonstandard: "Nuzlocke",
 	},
 	icegem: {
 		inherit: true,
-		isNonstandard: null,
+		isNonstandard: "Nuzlocke",
+	},
+	icicleplate: {
+		inherit: true,
+		isNonstandard: "Nuzlocke",
+	},
+	icyrock: {
+		inherit: true,
+		isNonstandard: "Nuzlocke",
+	},
+	insectplate: {
+		inherit: true,
+		isNonstandard: "Nuzlocke",
+	},
+	ironball: {
+		inherit: true,
+		isNonstandard: "Nuzlocke",
+	},
+	ironplate: {
+		inherit: true,
+		isNonstandard: "Nuzlocke",
 	},
 	jabocaberry: {
 		inherit: true,
-		naturalGift: {
-			basePower: 80,
-			type: "Dragon",
-		},
+		isNonstandard: "Nuzlocke",
 	},
 	kasibberry: {
 		inherit: true,
-		naturalGift: {
-			basePower: 60,
-			type: "Ghost",
-		},
+		isNonstandard: "Nuzlocke",
 	},
 	kebiaberry: {
 		inherit: true,
-		naturalGift: {
-			basePower: 60,
-			type: "Poison",
-		},
+		isNonstandard: "Nuzlocke",
 	},
 	kelpsyberry: {
 		inherit: true,
-		naturalGift: {
-			basePower: 70,
-			type: "Fighting",
-		},
+		isNonstandard: "Nuzlocke",
+	},
+	kingsrock: {
+		inherit: true,
+		isNonstandard: "Nuzlocke",
+	},
+	laggingtail: {
+		inherit: true,
+		isNonstandard: "Nuzlocke",
 	},
 	lansatberry: {
 		inherit: true,
-		naturalGift: {
-			basePower: 80,
-			type: "Flying",
-		},
+		isNonstandard: "Nuzlocke",
+	},
+	laxincense: {
+		inherit: true,
+		isNonstandard: "Nuzlocke",
+	},
+	leafstone: {
+		inherit: true,
+		isNonstandard: "Nuzlocke",
+	},
+	leftovers: {
+		inherit: true,
+		isNonstandard: "Nuzlocke",
 	},
 	leppaberry: {
 		inherit: true,
-		naturalGift: {
-			basePower: 60,
-			type: "Fighting",
-		},
+		isNonstandard: "Nuzlocke",
 	},
 	liechiberry: {
 		inherit: true,
-		naturalGift: {
-			basePower: 80,
-			type: "Grass",
-		},
+		isNonstandard: "Nuzlocke",
+	},
+	lifeorb: {
+		inherit: true,
+		isNonstandard: "Nuzlocke",
+	},
+	lightball: {
+		inherit: true,
+		isNonstandard: "Nuzlocke",
+	},
+	lightclay: {
+		inherit: true,
+		isNonstandard: "Nuzlocke",
+	},
+	luckypunch: {
+		inherit: true,
+		isNonstandard: "Nuzlocke",
 	},
 	lumberry: {
 		inherit: true,
-		naturalGift: {
-			basePower: 60,
-			type: "Flying",
-		},
+		isNonstandard: "Nuzlocke",
 	},
-	mail: {
+	lustrousorb: {
 		inherit: true,
-		isNonstandard: null,
+		isNonstandard: "Nuzlocke",
+	},
+	luxuryball: {
+		inherit: true,
+		isNonstandard: "Nuzlocke",
+	},
+	machobrace: {
+		inherit: true,
+		isNonstandard: "Nuzlocke",
+	},
+	magmarizer: {
+		inherit: true,
+		isNonstandard: "Nuzlocke",
+	},
+	magnet: {
+		inherit: true,
+		isNonstandard: "Nuzlocke",
 	},
 	magoberry: {
 		inherit: true,
-		naturalGift: {
-			basePower: 60,
-			type: "Ghost",
-		},
+		isNonstandard: "Nuzlocke",
 	},
 	magostberry: {
 		inherit: true,
-		naturalGift: {
-			basePower: 70,
-			type: "Rock",
-		},
+		isNonstandard: "Nuzlocke",
+	},
+	mail: {
+		inherit: true,
+		isNonstandard: "Nuzlocke",
+	},
+	masterball: {
+		inherit: true,
+		isNonstandard: "Nuzlocke",
+	},
+	meadowplate: {
+		inherit: true,
+		isNonstandard: "Nuzlocke",
+	},
+	mentalherb: {
+		inherit: true,
+		isNonstandard: "Nuzlocke",
+	},
+	metalcoat: {
+		inherit: true,
+		isNonstandard: "Nuzlocke",
+	},
+	metalpowder: {
+		inherit: true,
+		isNonstandard: "Nuzlocke",
+	},
+	metronome: {
+		inherit: true,
+		isNonstandard: "Nuzlocke",
 	},
 	micleberry: {
 		inherit: true,
-		naturalGift: {
-			basePower: 80,
-			type: "Rock",
-		},
+		isNonstandard: "Nuzlocke",
+	},
+	mindplate: {
+		inherit: true,
+		isNonstandard: "Nuzlocke",
+	},
+	miracleseed: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	moonstone: {
+		inherit: true,
+		isNonstandard: "Nuzlocke",
+	},
+	muscleband: {
+		inherit: true,
+		isNonstandard: "Nuzlocke",
+	},
+	mysticwater: {
+		inherit: true,
+		isNonstandard: null,
 	},
 	nanabberry: {
 		inherit: true,
-		naturalGift: {
-			basePower: 70,
-			type: "Water",
-		},
+		isNonstandard: "Nuzlocke",
+	},
+	nestball: {
+		inherit: true,
+		isNonstandard: "Nuzlocke",
+	},
+	netball: {
+		inherit: true,
+		isNonstandard: "Nuzlocke",
+	},
+	nevermeltice: {
+		inherit: true,
+		isNonstandard: "Nuzlocke",
 	},
 	nomelberry: {
 		inherit: true,
-		naturalGift: {
-			basePower: 70,
-			type: "Dragon",
-		},
+		isNonstandard: "Nuzlocke",
+	},
+	normalgem: {
+		inherit: true,
+		isNonstandard: "Nuzlocke",
 	},
 	occaberry: {
 		inherit: true,
-		naturalGift: {
-			basePower: 60,
-			type: "Fire",
-		},
+		isNonstandard: "Nuzlocke",
+	},
+	oddincense: {
+		inherit: true,
+		isNonstandard: "Nuzlocke",
+	},
+	oldamber: {
+		inherit: true,
+		isNonstandard: "Nuzlocke",
 	},
 	oranberry: {
 		inherit: true,
@@ -317,26 +572,21 @@ export const Items: {[k: string]: ModdedItemData} = {
 			type: "Poison",
 		},
 	},
+	ovalstone: {
+		inherit: true,
+		isNonstandard: "Nuzlocke",
+	},
 	pamtreberry: {
 		inherit: true,
-		naturalGift: {
-			basePower: 70,
-			type: "Steel",
-		},
+		isNonstandard: "Nuzlocke",
 	},
 	passhoberry: {
 		inherit: true,
-		naturalGift: {
-			basePower: 60,
-			type: "Water",
-		},
+		isNonstandard: "Nuzlocke",
 	},
 	payapaberry: {
 		inherit: true,
-		naturalGift: {
-			basePower: 60,
-			type: "Psychic",
-		},
+		isNonstandard: "Nuzlocke",
 	},
 	pechaberry: {
 		inherit: true,
@@ -354,46 +604,95 @@ export const Items: {[k: string]: ModdedItemData} = {
 	},
 	petayaberry: {
 		inherit: true,
-		naturalGift: {
-			basePower: 80,
-			type: "Poison",
-		},
+		isNonstandard: "Nuzlocke",
 	},
-	pinapberry: {
+	plumefossil: {
 		inherit: true,
-		naturalGift: {
-			basePower: 70,
-			type: "Grass",
-		},
+		isNonstandard: "Nuzlocke",
+	},
+	poisonbarb: {
+		inherit: true,
+		isNonstandard: "Nuzlocke",
 	},
 	poisongem: {
 		inherit: true,
-		isNonstandard: null,
+		isNonstandard: "Nuzlocke",
+	},
+	pokeball: {
+		inherit: true,
+		isNonstandard: "Nuzlocke",
 	},
 	pomegberry: {
 		inherit: true,
-		naturalGift: {
-			basePower: 70,
-			type: "Ice",
-		},
+		isNonstandard: "Nuzlocke",
+	},
+	poweranklet: {
+		inherit: true,
+		isNonstandard: "Nuzlocke",
+	},
+	powerband: {
+		inherit: true,
+		isNonstandard: "Nuzlocke",
+	},
+	powerbelt: {
+		inherit: true,
+		isNonstandard: "Nuzlocke",
+	},
+	powerbracer: {
+		inherit: true,
+		isNonstandard: "Nuzlocke",
+	},
+	powerherb: {
+		inherit: true,
+		isNonstandard: "Nuzlocke",
+	},
+	powerlens: {
+		inherit: true,
+		isNonstandard: "Nuzlocke",
+	},
+	powerweight: {
+		inherit: true,
+		isNonstandard: "Nuzlocke",
+	},
+	premierball: {
+		inherit: true,
+		isNonstandard: "Nuzlocke",
+	},
+	prismscale: {
+		inherit: true,
+		isNonstandard: "Nuzlocke",
+	},
+	protector: {
+		inherit: true,
+		isNonstandard: "Nuzlocke",
 	},
 	psychicgem: {
 		inherit: true,
-		isNonstandard: null,
+		isNonstandard: "Nuzlocke",
 	},
 	qualotberry: {
 		inherit: true,
-		naturalGift: {
-			basePower: 70,
-			type: "Poison",
-		},
+		isNonstandard: "Nuzlocke",
+	},
+	quickball: {
+		inherit: true,
+		isNonstandard: "Nuzlocke",
+	},
+	quickclaw: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	quickpowder: {
+		inherit: true,
+		isNonstandard: "Nuzlocke",
 	},
 	rabutaberry: {
 		inherit: true,
-		naturalGift: {
-			basePower: 70,
-			type: "Ghost",
-		},
+		isNonstandard: "Nuzlocke",
+	},
+	rarebone: {
+		inherit: true,
+		isNonstandard: "Nuzlocke",
 	},
 	rawstberry: {
 		inherit: true,
@@ -402,115 +701,249 @@ export const Items: {[k: string]: ModdedItemData} = {
 			type: "Grass",
 		},
 	},
+	razorclaw: {
+		inherit: true,
+		isNonstandard: "Nuzlocke",
+	},
+	razorfang: {
+		inherit: true,
+		isNonstandard: "Nuzlocke",
+	},
 	razzberry: {
 		inherit: true,
-		naturalGift: {
-			basePower: 60,
-			type: "Steel",
-		},
+		isNonstandard: "Nuzlocke",
+	},
+	reapercloth: {
+		inherit: true,
+		isNonstandard: "Nuzlocke",
+	},
+	redcard: {
+		inherit: true,
+		isNonstandard: "Nuzlocke",
+	},
+	repeatball: {
+		inherit: true,
+		isNonstandard: "Nuzlocke",
 	},
 	rindoberry: {
 		inherit: true,
-		naturalGift: {
-			basePower: 60,
-			type: "Grass",
-		},
+		isNonstandard: "Nuzlocke",
+	},
+	ringtarget: {
+		inherit: true,
+		isNonstandard: "Nuzlocke",
 	},
 	rockgem: {
 		inherit: true,
-		isNonstandard: null,
+		isNonstandard: "Nuzlocke",
+	},
+	rockincense: {
+		inherit: true,
+		isNonstandard: "Nuzlocke",
+	},
+	rockyhelmet: {
+		inherit: true,
+		isNonstandard: "Nuzlocke",
+	},
+	rootfossil: {
+		inherit: true,
+		isNonstandard: "Nuzlocke",
+	},
+	roseincense: {
+		inherit: true,
+		isNonstandard: "Nuzlocke",
 	},
 	rowapberry: {
 		inherit: true,
-		naturalGift: {
-			basePower: 80,
-			type: "Dark",
-		},
+		isNonstandard: "Nuzlocke",
 	},
 	salacberry: {
 		inherit: true,
-		naturalGift: {
-			basePower: 80,
-			type: "Fighting",
-		},
+		isNonstandard: "Nuzlocke",
+	},
+	scopelens: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	seaincense: {
+		inherit: true,
+		isNonstandard: "Nuzlocke",
+	},
+	sharpbeak: {
+		inherit: true,
+		isNonstandard: "Nuzlocke",
+	},
+	shedshell: {
+		inherit: true,
+		isNonstandard: "Nuzlocke",
+	},
+	shellbell: {
+		inherit: true,
+		isNonstandard: "Nuzlocke",
+	},
+	shinystone: {
+		inherit: true,
+		isNonstandard: "Nuzlocke",
+	},
+	shockdrive: {
+		inherit: true,
+		isNonstandard: "Nuzlocke",
 	},
 	shucaberry: {
 		inherit: true,
-		naturalGift: {
-			basePower: 60,
-			type: "Ground",
-		},
+		isNonstandard: "Nuzlocke",
+	},
+	silkscarf: {
+		inherit: true,
+		isNonstandard: "Nuzlocke",
+	},
+	silverpowder: {
+		inherit: true,
+		isNonstandard: "Nuzlocke",
 	},
 	sitrusberry: {
 		inherit: true,
-		naturalGift: {
-			basePower: 60,
-			type: "Psychic",
-		},
+		isNonstandard: "Nuzlocke",
+	},
+	skullfossil: {
+		inherit: true,
+		isNonstandard: "Nuzlocke",
+	},
+	skyplate: {
+		inherit: true,
+		isNonstandard: "Nuzlocke",
+	},
+	smoothrock: {
+		inherit: true,
+		isNonstandard: "Nuzlocke",
+	},
+	softsand: {
+		inherit: true,
+		isNonstandard: null,
+	},
+	souldew: {
+		inherit: true,
+		isNonstandard: "Nuzlocke",
+	},
+	spelltag: {
+		inherit: true,
+		isNonstandard: "Nuzlocke",
 	},
 	spelonberry: {
 		inherit: true,
-		naturalGift: {
-			basePower: 70,
-			type: "Dark",
-		},
+		isNonstandard: "Nuzlocke",
+	},
+	splashplate: {
+		inherit: true,
+		isNonstandard: "Nuzlocke",
+	},
+	spookyplate: {
+		inherit: true,
+		isNonstandard: "Nuzlocke",
 	},
 	starfberry: {
 		inherit: true,
-		naturalGift: {
-			basePower: 80,
-			type: "Psychic",
-		},
+		isNonstandard: "Nuzlocke",
 	},
 	steelgem: {
 		inherit: true,
-		isNonstandard: null,
+		isNonstandard: "Nuzlocke",
+	},
+	stick: {
+		inherit: true,
+		isNonstandard: "Nuzlocke",
+	},
+	stickybarb: {
+		inherit: true,
+		isNonstandard: "Nuzlocke",
+	},
+	stoneplate: {
+		inherit: true,
+		isNonstandard: "Nuzlocke",
+	},
+	sunstone: {
+		inherit: true,
+		isNonstandard: "Nuzlocke",
 	},
 	tamatoberry: {
 		inherit: true,
-		naturalGift: {
-			basePower: 70,
-			type: "Psychic",
-		},
+		isNonstandard: "Nuzlocke",
 	},
 	tangaberry: {
 		inherit: true,
-		naturalGift: {
-			basePower: 60,
-			type: "Bug",
-		},
+		isNonstandard: "Nuzlocke",
+	},
+	thickclub: {
+		inherit: true,
+		isNonstandard: "Nuzlocke",
+	},
+	thunderstone: {
+		inherit: true,
+		isNonstandard: "Nuzlocke",
+	},
+	timerball: {
+		inherit: true,
+		isNonstandard: "Nuzlocke",
+	},
+	toxicorb: {
+		inherit: true,
+		isNonstandard: "Nuzlocke",
+	},
+	toxicplate: {
+		inherit: true,
+		isNonstandard: "Nuzlocke",
+	},
+	twistedspoon: {
+		inherit: true,
+		isNonstandard: "Nuzlocke",
+	},
+	ultraball: {
+		inherit: true,
+		isNonstandard: "Nuzlocke",
+	},
+	upgrade: {
+		inherit: true,
+		isNonstandard: "Nuzlocke",
 	},
 	wacanberry: {
 		inherit: true,
-		naturalGift: {
-			basePower: 60,
-			type: "Electric",
-		},
+		isNonstandard: "Nuzlocke",
 	},
 	watergem: {
 		inherit: true,
-		isNonstandard: null,
+		isNonstandard: "Nuzlocke",
+	},
+	waterstone: {
+		inherit: true,
+		isNonstandard: "Nuzlocke",
 	},
 	watmelberry: {
 		inherit: true,
-		naturalGift: {
-			basePower: 80,
-			type: "Fire",
-		},
+		isNonstandard: "Nuzlocke",
+	},
+	waveincense: {
+		inherit: true,
+		isNonstandard: "Nuzlocke",
 	},
 	wepearberry: {
 		inherit: true,
-		naturalGift: {
-			basePower: 70,
-			type: "Electric",
-		},
+		isNonstandard: "Nuzlocke",
+	},
+	whiteherb: {
+		inherit: true,
+		isNonstandard: "Nuzlocke",
+	},
+	widelens: {
+		inherit: true,
+		isNonstandard: "Nuzlocke",
 	},
 	wikiberry: {
 		inherit: true,
-		naturalGift: {
-			basePower: 60,
-			type: "Rock",
-		},
+		isNonstandard: "Nuzlocke",
+	},
+	wiseglasses: {
+		inherit: true,
+		isNonstandard: "Nuzlocke",
 	},
 	yacheberry: {
 		inherit: true,
@@ -518,5 +951,13 @@ export const Items: {[k: string]: ModdedItemData} = {
 			basePower: 60,
 			type: "Ice",
 		},
+	},
+	zapplate: {
+		inherit: true,
+		isNonstandard: "Nuzlocke",
+	},
+	zoomlens: {
+		inherit: true,
+		isNonstandard: "Nuzlocke",
 	},
 };
