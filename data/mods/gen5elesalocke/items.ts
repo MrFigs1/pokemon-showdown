@@ -75,7 +75,7 @@ export const Items: {[k: string]: ModdedItemData} = {
 	},
 	choiceband: {
 		inherit: true,
-		isNonstandard: "Unobtainable"
+		isNonstandard: "Past"
 	},
 	chopleberry: {
 		inherit: true,
