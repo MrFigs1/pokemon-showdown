@@ -1563,23 +1563,19 @@ export class TeamValidator {
 		// obtainability
 		if (item.isNonstandard) {
 			banReason = ruleTable.check('pokemontag:' + toID(item.isNonstandard));
-			if (item.name === 'Choice Band') {
-				console.log(banReason);
-				console.log(ruleTable);
+			if (item.isNonstandard === 'Nuzlocke') {
+				return `${item.name} is not obtainable within the race limits.`;
 			}
 			if (banReason) {
 				if (item.isNonstandard === 'Unobtainable') {
 					return `${item.name} is not obtainable without hacking or glitches.`;
-				}
-				if (item.isNonstandard === 'Nuzlocke') {
-					return `${item.name} is not obtainable within the race limits.`;
 				}
 				return `${set.name}'s item ${item.name} is tagged ${item.isNonstandard}, which is ${banReason}.`;
 			}
 			if (banReason === '') return null;
 		}
 
-		if (item.isNonstandard && item.isNonstandard !== 'Unobtainable' && item.isNonstandard !== 'Nuzlocke') {
+		if (item.isNonstandard && item.isNonstandard !== 'Unobtainable') {
 			banReason = ruleTable.check('nonexistent', setHas);
 			if (banReason) {
 				if (['Past', 'Future'].includes(item.isNonstandard)) {
