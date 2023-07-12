@@ -2120,7 +2120,6 @@ export class TeamValidator {
 
 					if (learned === "N") {
 						cantLearnReason = `can't be learned within the nuzlocke rules.`;
-						console.log("Reached this point");
 						continue;
 					}
 					
@@ -2296,6 +2295,8 @@ export class TeamValidator {
 		setSources.restrictiveMoves.push(move.name);
 
 		// Now that we have our list of possible sources, intersect it with the current list
+		console.log("Reached this point");
+		console.log(moveSources);
 		if (!moveSources.size()) {
 			if (cantLearnReason) return `'s move ${move.name} ${cantLearnReason}`;
 			return ` can't learn ${move.name}.`;
