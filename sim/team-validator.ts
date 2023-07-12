@@ -2120,6 +2120,7 @@ export class TeamValidator {
 
 					if (learned === "N") {
 						cantLearnReason = `can't be learned within the nuzlocke rules.`;
+						console.log("Reached this point");
 						continue;
 					}
 					
