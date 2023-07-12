@@ -2178,7 +2178,7 @@ export class TeamValidator {
 							// falls through to LMT check below
 						} else if (level >= 5 && learnedGen === 3 && species.canHatch) {
 							// Pomeg Glitch
-						} else if ((!species.gender || species.gender === 'F') && learnedGen >= 2 && species.canHatch) {
+						} else if ((!species.gender || species.gender === 'F') && learnedGen >= 2 && species.canHatch && format.mod !== 'gen5elesalocke') {
 							// available as egg move
 							learned = learnedGen + 'Eany';
 							// falls through to E check below
