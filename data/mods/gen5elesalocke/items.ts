@@ -25,7 +25,7 @@ export const Items: {[k: string]: ModdedItemData} = {
 	},
 	aspearberry: {
 		inherit: true,
-		isNonstandard: "Nuzlocke",
+		isNonstandard: null,
 	},
 	babiriberry: {
 		inherit: true,
