@@ -2118,6 +2118,11 @@ export class TeamValidator {
 					//   (i.e. get the pokemon however you want, transfer to that gen,
 					//   teach it, and transfer it to the current gen.)
 
+					if (learned === "N") {
+						cantLearnReason = `can't be learned within the nuzlocke rules.`;
+						continue;
+					}
+					
 					const learnedGen = parseInt(learned.charAt(0));
 					if (learnedGen < this.minSourceGen) {
 						if (!cantLearnReason) {
