@@ -26,20 +26,11 @@ export const Formats: FormatList = [
 		name: "[Gen 5] ElesaLocke",
 		mod: "gen5elesalocke",
 		searchShow: false,
-		ruleset: ['Standard', 'Deoxys Camouflage Clause', 'One Baton Pass Clause'],
+		ruleset: ['Standard', 'Deoxys Camouflage Clause', 'One Baton Pass Clause', 'Team Preview', 'Min Level = 1', 'Max Level = 29', 'EV Limits = HP 0-1 / Atk 0-1 / Def 0-1 / SpA 0-1 / SpD 0-1 / Spe 0-1'],
 		banlist: [
 			'Fire Gem', 'Water Gem', 'Electric Gem', 'Grass Gem', 'Ice Gem', 'Fighting Gem', 'Poison Gem', 'Ground Gem', 'Flying Gem', 'Psychic Gem', 'Bug Gem', 'Rock Gem', 'Ghost Gem', 'Dragon Gem', 'Dark Gem', 'Steel Gem', 'Normal Gem',
 			'Return', 'Frustration'
 		],
-		onValidateSet(set, format, setHas, teamHas) {
-			let whitelist = [
-				'Oran Berry', 'Chesto Berry', 'Cheri Berry', 'Pecha Berry', 'Yache Berry', 'Rawst Berry', 'Persim Berry',
-				'Miracle Seed', 'Charcoal', 'Mystic Water', 'Big Root', 'Quick Claw', 'Scope Lens', 'Eviolite', 'Black Glasses', 'Soft Sand', 'Hard Stone'
-			]
-			if (set.item && !whitelist.includes(set.item) && !format.banlist.includes(set.item) && !this.dex.items.get(set.item).isNonstandard) {
-				return [`${set.item} is not obtainable within the race limits. (legacy)`]
-			}
-		},
 		onValidateTeam(team, format, teamHas) {
 			// Make sure item counts are legal
 			let itemCounts: {[k: string]: number} = {
@@ -94,6 +85,7 @@ export const Formats: FormatList = [
 				if (source.charAt(1) != 'M') onlyTM = false;
 				if (source.charAt(1) == 'L') level = parseInt(source.substring(2));
 			}
+			if (this.format.banlist.includes(move.name)) this.checkCanLearn(move, species, setSources, set);
 			if (!canLearn) return `: ${move.name} is not available within the nuzlocke rules.`;
 			if (
 				(onlyTM) || 
