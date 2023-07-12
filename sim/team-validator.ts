@@ -1565,6 +1565,7 @@ export class TeamValidator {
 			banReason = ruleTable.check('pokemontag:' + toID(item.isNonstandard));
 			if (item.name === 'Choice Band') {
 				console.log(banReason);
+				console.log(ruleTable);
 			}
 			if (banReason) {
 				if (item.isNonstandard === 'Unobtainable') {
