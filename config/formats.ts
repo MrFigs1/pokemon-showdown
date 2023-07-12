@@ -32,6 +32,7 @@ export const Formats: FormatList = [
 			'Return', 'Frustration'
 		],
 		onValidateTeam(team, format, teamHas) {
+			console.log(this.format.banlist)
 			// Make sure item counts are legal
 			let itemCounts: {[k: string]: number} = {
 				'Oran Berry': 6,
