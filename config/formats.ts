@@ -57,7 +57,7 @@ export const Formats: FormatList = [
 				}
 			}
 		},
-		checkCanLearn(move, species, setSources, set) {
+		/*checkCanLearn(move, species, setSources, set) {
 			let sources: string[] = [];
 
 			let learnset = this.dex.species.getLearnset(species.id);
@@ -94,7 +94,7 @@ export const Formats: FormatList = [
 				if (!TMwhitelist.includes(move.name)) return `: The ${move.name} TM/HM is not obtainable within the race limits.`;
 			}
 			return this.checkCanLearn(move, species, setSources, set);
-		},
+		},*/
 	},
 	{
 		section: "Past Races",
