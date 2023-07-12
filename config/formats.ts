@@ -32,7 +32,6 @@ export const Formats: FormatList = [
 			'Return', 'Frustration'
 		],
 		onValidateTeam(team, format, teamHas) {
-			console.log(this.format.banlist)
 			// Make sure item counts are legal
 			let itemCounts: {[k: string]: number} = {
 				'Oran Berry': 6,
@@ -86,7 +85,7 @@ export const Formats: FormatList = [
 				if (source.charAt(1) != 'M') onlyTM = false;
 				if (source.charAt(1) == 'L') level = parseInt(source.substring(2));
 			}
-			if (this.format.banlist.includes(move.name)) this.checkCanLearn(move, species, setSources, set);
+			if (this.format.banlist.includes(move.name)) return this.checkCanLearn(move, species, setSources, set);
 			if (!canLearn) return `: ${move.name} is not available within the nuzlocke rules.`;
 			if (
 				(onlyTM) || 
