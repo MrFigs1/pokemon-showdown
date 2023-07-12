@@ -26,7 +26,7 @@ export const Formats: FormatList = [
 		name: "[Gen 5] ElesaLocke",
 		mod: "gen5elesalocke",
 		searchShow: false,
-		ruleset: ['Standard', 'Deoxys Camouflage Clause', 'One Baton Pass Clause', 'Team Preview', 'Min Level = 1', 'Max Level = 29', 'EV Limits = HP 0-1 / Atk 0-1 / Def 0-1 / SpA 0-1 / SpD 0-1 / Spe 0-1'],
+		ruleset: ['Standard', 'Deoxys Camouflage Clause', 'One Baton Pass Clause', 'Min Level = 1', 'Max Level = 29', 'EV Limits = HP 0-1 / Atk 0-1 / Def 0-1 / SpA 0-1 / SpD 0-1 / Spe 0-1'],
 		banlist: [
 			'Fire Gem', 'Water Gem', 'Electric Gem', 'Grass Gem', 'Ice Gem', 'Fighting Gem', 'Poison Gem', 'Ground Gem', 'Flying Gem', 'Psychic Gem', 'Bug Gem', 'Rock Gem', 'Ghost Gem', 'Dragon Gem', 'Dark Gem', 'Steel Gem', 'Normal Gem',
 			'Return', 'Frustration'
