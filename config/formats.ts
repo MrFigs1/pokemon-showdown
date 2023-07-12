@@ -37,7 +37,7 @@ export const Formats: FormatList = [
 				'Miracle Seed', 'Charcoal', 'Mystic Water', 'Big Root', 'Quick Claw', 'Scope Lens', 'Eviolite', 'Black Glasses', 'Soft Sand', 'Hard Stone'
 			]
 			if (set.item && !whitelist.includes(set.item) && !format.banlist.includes(set.item) && !this.dex.items.get(set.item).isNonstandard) {
-				return [`${set.item} is not obtainable within the race limits.`]
+				return [`${set.item} is not obtainable within the race limits. (legacy)`]
 			}
 		},
 		onValidateTeam(team, format, teamHas) {
