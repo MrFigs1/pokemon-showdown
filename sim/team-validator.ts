@@ -2119,7 +2119,7 @@ export class TeamValidator {
 					//   teach it, and transfer it to the current gen.)
 
 					if (learned === "N") {
-						return `can't be learned within the race limits.`;
+						return `: ${move.name} can't be learned within the race limits.`;
 					}
 					
 					const learnedGen = parseInt(learned.charAt(0));
