@@ -2141,11 +2141,10 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "(Legal)",
 	},
 	tranquill: {
-		tier: "Legal",
+		tier: "(Legal)",
 	},
 	unfezant: {
-		isNonstandard: "Nuzlocke",
-		tier: "Illegal",
+		tier: "Legal",
 	},
 	blitzle: {
 		tier: "(Legal)",
