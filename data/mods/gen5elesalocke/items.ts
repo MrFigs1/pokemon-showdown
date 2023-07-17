@@ -803,7 +803,10 @@ export const Items: {[k: string]: ModdedItemData} = {
 	},
 	sitrusberry: {
 		inherit: true,
-		isNonstandard: "Nuzlocke",
+		naturalGift: {
+			basePower: 60,
+			type: "Psychic",
+		},
 	},
 	skullfossil: {
 		inherit: true,
