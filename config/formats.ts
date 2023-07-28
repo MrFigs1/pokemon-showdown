@@ -408,6 +408,17 @@ export const Formats: FormatList = [
 			'Obtainable', 'Species Clause', 'HP Percentage Mod', 'Cancel Mod', 'Sleep Clause Mod',
 		],
 	},
+	{
+		name: "[Gen 6] Free-For-All Random Battle",
+
+		mod: 'gen6',
+		team: 'random',
+		gameType: 'freeforall',
+		searchShow: false,
+		tournamentShow: false,
+		rated: false,
+		ruleset: ['Obtainable', 'Species Clause', 'HP Percentage Mod', 'Cancel Mod', 'Sleep Clause Mod'],
+	},
 
 
 	// S/V Singles
