@@ -390,6 +390,24 @@ export const Formats: FormatList = [
 			return this.checkCanLearn(move, species, setSources, set);
 		},
 	},
+	{
+		section: "Custom Formats",
+		column: 1
+	},
+	{
+		name: "[Gen 6] Multi Random Battle",
+
+		mod: 'gen6',
+		team: 'random',
+		gameType: 'multi',
+		searchShow: false,
+		tournamentShow: false,
+		rated: false,
+		ruleset: [
+			'Max Team Size = 3',
+			'Obtainable', 'Species Clause', 'HP Percentage Mod', 'Cancel Mod', 'Sleep Clause Mod',
+		],
+	},
 
 
 	// S/V Singles
