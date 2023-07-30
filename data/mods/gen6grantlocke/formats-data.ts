@@ -439,7 +439,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "Illegal",
 	},
 	onix: {
-		tier: "Legal",
+		tier: "(Legal)",
 	},
 	steelix: {
 		tier: "Legal",
