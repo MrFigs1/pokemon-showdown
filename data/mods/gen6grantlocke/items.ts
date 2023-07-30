@@ -55,7 +55,7 @@ export const Items: {[k: string]: ModdedItemData} = {
 	},
 	apicotberry: {
 		inherit: true,
-		isNonstandard: "Nuzlocke",
+		isNonstandard: null,
 	},
 	armorfossil: {
 		inherit: true,
@@ -75,7 +75,7 @@ export const Items: {[k: string]: ModdedItemData} = {
 	},
 	babiriberry: {
 		inherit: true,
-		isNonstandard: "Nuzlocke",
+		isNonstandard: null,
 	},
 	banettite: {
 		inherit: true,
@@ -155,7 +155,7 @@ export const Items: {[k: string]: ModdedItemData} = {
 	},
 	chartiberry: {
 		inherit: true,
-		isNonstandard: "Nuzlocke",
+		isNonstandard: null,
 	},
 	cheriberry: {
 		inherit: true,
@@ -167,7 +167,7 @@ export const Items: {[k: string]: ModdedItemData} = {
 	},
 	chilanberry: {
 		inherit: true,
-		isNonstandard: "Nuzlocke",
+		isNonstandard: null,
 	},
 	chilldrive: {
 		inherit: true,
@@ -187,7 +187,7 @@ export const Items: {[k: string]: ModdedItemData} = {
 	},
 	chopleberry: {
 		inherit: true,
-		isNonstandard: "Nuzlocke",
+		isNonstandard: null,
 	},
 	clawfossil: {
 		inherit: true,
@@ -199,7 +199,7 @@ export const Items: {[k: string]: ModdedItemData} = {
 	},
 	colburberry: {
 		inherit: true,
-		isNonstandard: "Nuzlocke",
+		isNonstandard: null,
 	},
 	cornnberry: {
 		inherit: true,
@@ -307,7 +307,17 @@ export const Items: {[k: string]: ModdedItemData} = {
 	},
 	figyberry: {
 		inherit: true,
-		isNonstandard: "Nuzlocke",
+		onUpdate(pokemon) {
+			if (pokemon.hp <= pokemon.maxhp / 2) {
+				pokemon.eatItem();
+			}
+		},
+		onEat(pokemon) {
+			this.heal(pokemon.baseMaxhp / 8);
+			if (pokemon.getNature().minus === 'atk') {
+				pokemon.addVolatile('confusion');
+			}
+		},
 	},
 	firestone: {
 		inherit: true,
@@ -351,7 +361,7 @@ export const Items: {[k: string]: ModdedItemData} = {
 	},
 	ganlonberry: {
 		inherit: true,
-		isNonstandard: "Nuzlocke",
+		isNonstandard: null,
 	},
 	garchompite: {
 		inherit: true,
@@ -375,7 +385,7 @@ export const Items: {[k: string]: ModdedItemData} = {
 	},
 	grepaberry: {
 		inherit: true,
-		isNonstandard: "Nuzlocke",
+		isNonstandard: null,
 	},
 	gripclaw: {
 		inherit: true,
@@ -391,7 +401,7 @@ export const Items: {[k: string]: ModdedItemData} = {
 	},
 	habanberry: {
 		inherit: true,
-		isNonstandard: "Nuzlocke",
+		isNonstandard: null,
 	},
 	hardstone: {
 		inherit: true,
@@ -415,7 +425,7 @@ export const Items: {[k: string]: ModdedItemData} = {
 	},
 	hondewberry: {
 		inherit: true,
-		isNonstandard: "Nuzlocke",
+		isNonstandard: null,
 	},
 	houndoominite: {
 		inherit: true,
@@ -469,11 +479,11 @@ export const Items: {[k: string]: ModdedItemData} = {
 	},
 	kasibberry: {
 		inherit: true,
-		isNonstandard: "Nuzlocke",
+		isNonstandard: null,
 	},
 	kebiaberry: {
 		inherit: true,
-		isNonstandard: "Nuzlocke",
+		isNonstandard: null,
 	},
 	keeberry: {
 		inherit: true,
@@ -517,7 +527,7 @@ export const Items: {[k: string]: ModdedItemData} = {
 	},
 	leppaberry: {
 		inherit: true,
-		isNonstandard: "Nuzlocke",
+		isNonstandard: null,
 	},
 	liechiberry: {
 		inherit: true,
@@ -549,11 +559,11 @@ export const Items: {[k: string]: ModdedItemData} = {
 	},
 	lumberry: {
 		inherit: true,
-		isNonstandard: "Nuzlocke",
+		isNonstandard: null,
 	},
 	luminousmoss: {
 		inherit: true,
-		isNonstandard: "Nuzlocke",
+		isNonstandard: null,
 	},
 	lustrousorb: {
 		inherit: true,
@@ -619,7 +629,7 @@ export const Items: {[k: string]: ModdedItemData} = {
 	},
 	mentalherb: {
 		inherit: true,
-		isNonstandard: "Nuzlocke",
+		isNonstandard: null,
 	},
 	metagrossite: {
 		inherit: true,
@@ -695,7 +705,7 @@ export const Items: {[k: string]: ModdedItemData} = {
 	},
 	occaberry: {
 		inherit: true,
-		isNonstandard: "Nuzlocke",
+		isNonstandard: null,
 	},
 	oddincense: {
 		inherit: true,
@@ -723,7 +733,7 @@ export const Items: {[k: string]: ModdedItemData} = {
 	},
 	payapaberry: {
 		inherit: true,
-		isNonstandard: "Nuzlocke",
+		isNonstandard: null,
 	},
 	pechaberry: {
 		inherit: true,
@@ -735,7 +745,7 @@ export const Items: {[k: string]: ModdedItemData} = {
 	},
 	petayaberry: {
 		inherit: true,
-		isNonstandard: "Nuzlocke",
+		isNonstandard: null,
 	},
 	pidgeotite: {
 		inherit: true,
@@ -783,7 +793,7 @@ export const Items: {[k: string]: ModdedItemData} = {
 	},
 	powerherb: {
 		inherit: true,
-		isNonstandard: "Nuzlocke",
+		isNonstandard: null,
 	},
 	powerlens: {
 		inherit: true,
@@ -863,7 +873,7 @@ export const Items: {[k: string]: ModdedItemData} = {
 	},
 	rindoberry: {
 		inherit: true,
-		isNonstandard: "Nuzlocke",
+		isNonstandard: null,
 	},
 	ringtarget: {
 		inherit: true,
@@ -963,7 +973,7 @@ export const Items: {[k: string]: ModdedItemData} = {
 	},
 	shucaberry: {
 		inherit: true,
-		isNonstandard: "Nuzlocke",
+		isNonstandard: null,
 	},
 	silkscarf: {
 		inherit: true,
@@ -1051,11 +1061,11 @@ export const Items: {[k: string]: ModdedItemData} = {
 	},
 	tamatoberry: {
 		inherit: true,
-		isNonstandard: "Nuzlocke",
+		isNonstandard: null,
 	},
 	tangaberry: {
 		inherit: true,
-		isNonstandard: "Nuzlocke",
+		isNonstandard: null,
 	},
 	thickclub: {
 		inherit: true,
@@ -1099,7 +1109,7 @@ export const Items: {[k: string]: ModdedItemData} = {
 	},
 	wacanberry: {
 		inherit: true,
-		isNonstandard: "Nuzlocke",
+		isNonstandard: null,
 	},
 	waterstone: {
 		inherit: true,
@@ -1127,7 +1137,7 @@ export const Items: {[k: string]: ModdedItemData} = {
 	},
 	whiteherb: {
 		inherit: true,
-		isNonstandard: "Nuzlocke",
+		isNonstandard: null,
 	},
 	widelens: {
 		inherit: true,
@@ -1135,7 +1145,17 @@ export const Items: {[k: string]: ModdedItemData} = {
 	},
 	wikiberry: {
 		inherit: true,
-		isNonstandard: "Nuzlocke",
+		onUpdate(pokemon) {
+			if (pokemon.hp <= pokemon.maxhp / 2) {
+				pokemon.eatItem();
+			}
+		},
+		onEat(pokemon) {
+			this.heal(pokemon.baseMaxhp / 8);
+			if (pokemon.getNature().minus === 'spa') {
+				pokemon.addVolatile('confusion');
+			}
+		},
 	},
 	wiseglasses: {
 		inherit: true,
