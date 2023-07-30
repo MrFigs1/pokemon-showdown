@@ -23,33 +23,49 @@ export const Formats: FormatList = [
 		column: 1
 	},
 	{
-		name: "[Gen 5] ElesaLocke",
-		mod: "gen5elesalocke",
+		name: "[Gen 6] GrantLocke",
+		mod: "gen6grantlocke",
 		searchShow: false,
-		ruleset: ['Standard', 'Deoxys Camouflage Clause', 'One Baton Pass Clause', 'Min Level = 1', 'Max Level = 29',],
+		ruleset: ['[Gen 6] OU', 'Max Level = 26'],
 		banlist: [
-			'Fire Gem', 'Water Gem', 'Electric Gem', 'Grass Gem', 'Ice Gem', 'Fighting Gem', 'Poison Gem', 'Ground Gem', 'Flying Gem', 'Psychic Gem', 'Bug Gem', 'Rock Gem', 'Ghost Gem', 'Dragon Gem', 'Dark Gem', 'Steel Gem', 'Normal Gem',
-			'Return', 'Frustration'
+			
 		],
 		onValidateTeam(team, format, teamHas) {
 			// Make sure item counts are legal
 			let itemCounts: {[k: string]: number} = {
-				'Oran Berry': 6,
-				'Chesto Berry': 6,
+				'Aerodactylite': 1,
+				'Aguav Berry': 6,
+				'Aspear Berry': 6,
+				'Berry Juice': 1,
+				'Blastoisinite': 1,
+				'Charizardite X': 1,
+				'Charizardite Y': 1,
 				'Cheri Berry': 6,
+				'Chesto Berry': 6,
+				'Destiny Knot': 1,
+				'Hard Stone': 6,
+				'Iapapa Berry': 6,
+				'Kelpsy Berry': 6,
+				'Mago Berry': 6,
+				'Miracle Seed': 1,
+				'Oran Berry': 6,
 				'Pecha Berry': 6,
-				'Yache Berry': 6,
-				'Rawst Berry': 6,
-				'Miracle Seed': 2,
-				'Charcoal': 1,
-				'Mystic Water': 1,
-				'Big Root': 1,
+				'Persim Berry': 6,
+				'Poison Barb': 1,
+				'Pomeg Berry': 6,
+				'Qualot Berry': 6,
 				'Quick Claw': 1,
+				'Rawst Berry': 6,
+				'Rocky Helmet': 1,
+				'Sachet': 1,
 				'Scope Lens': 1,
-				'Eviolite': 1,
-				'Black Glasses': 1,
-				'Soft Sand': 1,
-				'Hard Stone': 6
+				'Sharp Beak': 1,
+				'Sitrus Berry': 6,
+				'Soft Sand': 6,
+				'Venusaurite': 1,
+				'Whipped Dream': 1,
+				'Wide Lens': 1,
+				'Zoom Lens': 1,
 			}
 			for (let item in itemCounts) {
 				if (teamHas['item:' + this.dex.toID(item)] > itemCounts[item]) {
@@ -76,11 +92,11 @@ export const Formats: FormatList = [
 			let canLearn = false;
 			let onlyTM = true;
 			let TMwhitelist = [
-				'Light Screen', 'Protect', 'Safeguard', 'Dig', 'Reflect', 'Rock Tomb', 'Torment', 'Rest', 'Attract', 'Thief', 'Echoed Voice', 'False Swipe', 'Retaliate', 'Flash', 'Volt Switch', 'Thunder Wave', 'Gyro Ball', 'Struggle Bug', 'Work Up', 'Grass Knot', 'Rock Smash',
+				'Hone Claws', 'Venoshock', 'Sunny Day', 'Protect', 'Rain Dance', 'Frustration', 'Return', 'Rock Tomb', 'Aerial Ace', 'Rest', 'Thief', 'False Swipe', 'Shadow Claw', 'Payback', 'Swords Dance', 'Struggle Bug', 'Bulldoze', 'Infestation', 'Sleep Talk', 'Rock Smash', 'Nature Power', 
 				'Cut', 'Strength'
 			]
 			for (let source of sources) {
-				if (parseInt(source.charAt(0)) != 5 || ['E', 'S', 'T'].includes(source.charAt(1))) continue;
+				if (parseInt(source.charAt(0)) != 6 || ['E', 'S', 'T'].includes(source.charAt(1))) continue;
 				canLearn = true;
 				if (source.charAt(1) != 'M') onlyTM = false;
 				if (source.charAt(1) == 'L') level = parseInt(source.substring(2));
@@ -89,7 +105,7 @@ export const Formats: FormatList = [
 			if (!canLearn) return `: ${move.name} is not available within the nuzlocke rules.`;
 			if (
 				(onlyTM) || 
-				(sources.includes('5M') && level !== -1 && level > set.level)
+				(sources.includes('6M') && level !== -1 && level > set.level)
 				) {
 				if (!TMwhitelist.includes(move.name)) return `: The ${move.name} TM/HM is not obtainable within the race limits.`;
 			}
@@ -386,6 +402,80 @@ export const Formats: FormatList = [
 				(sources.includes('3T') && level !== -1 && level > set.level)
 				) {
 				if (!tutorWhitelist.includes(move.name)) return `: The ${move.name} Move Tutor is not available within the race limits.`;
+			}
+			return this.checkCanLearn(move, species, setSources, set);
+		},
+	},
+	{
+		name: "[Gen 5] ElesaLocke",
+		mod: "gen5elesalocke",
+		searchShow: false,
+		ruleset: ['Standard', 'Deoxys Camouflage Clause', 'One Baton Pass Clause', 'Min Level = 1', 'Max Level = 29',],
+		banlist: [
+			'Fire Gem', 'Water Gem', 'Electric Gem', 'Grass Gem', 'Ice Gem', 'Fighting Gem', 'Poison Gem', 'Ground Gem', 'Flying Gem', 'Psychic Gem', 'Bug Gem', 'Rock Gem', 'Ghost Gem', 'Dragon Gem', 'Dark Gem', 'Steel Gem', 'Normal Gem',
+			'Return', 'Frustration'
+		],
+		onValidateTeam(team, format, teamHas) {
+			// Make sure item counts are legal
+			let itemCounts: {[k: string]: number} = {
+				'Oran Berry': 6,
+				'Chesto Berry': 6,
+				'Cheri Berry': 6,
+				'Pecha Berry': 6,
+				'Yache Berry': 6,
+				'Rawst Berry': 6,
+				'Miracle Seed': 2,
+				'Charcoal': 1,
+				'Mystic Water': 1,
+				'Big Root': 1,
+				'Quick Claw': 1,
+				'Scope Lens': 1,
+				'Eviolite': 1,
+				'Black Glasses': 1,
+				'Soft Sand': 1,
+				'Hard Stone': 6
+			}
+			for (let item in itemCounts) {
+				if (teamHas['item:' + this.dex.toID(item)] > itemCounts[item]) {
+					return [`The maximum available amount of ${item} is ${itemCounts[item]}.`];
+				}
+			}
+		},
+		checkCanLearn(move, species, setSources, set) {
+			let sources: string[] = [];
+
+			let learnset = this.dex.species.getLearnset(species.id);
+			if (learnset && learnset[move.id]) sources = sources.concat(learnset[move.id]);
+
+			let currentSpecies = this.dex.species.get(set.species);
+			while (currentSpecies.prevo !== '') {
+				currentSpecies = this.dex.species.get(currentSpecies.prevo);
+				learnset = this.dex.species.getLearnset(currentSpecies.id);
+				if (learnset && learnset[move.id]) sources = sources.concat(learnset[move.id])
+			}
+
+			if (sources.length === 0) return this.checkCanLearn(move, species, setSources, set);
+			
+			let level = -1;
+			let canLearn = false;
+			let onlyTM = true;
+			let TMwhitelist = [
+				'Light Screen', 'Protect', 'Safeguard', 'Dig', 'Reflect', 'Rock Tomb', 'Torment', 'Rest', 'Attract', 'Thief', 'Echoed Voice', 'False Swipe', 'Retaliate', 'Flash', 'Volt Switch', 'Thunder Wave', 'Gyro Ball', 'Struggle Bug', 'Work Up', 'Grass Knot', 'Rock Smash',
+				'Cut', 'Strength'
+			]
+			for (let source of sources) {
+				if (parseInt(source.charAt(0)) != 5 || ['E', 'S', 'T'].includes(source.charAt(1))) continue;
+				canLearn = true;
+				if (source.charAt(1) != 'M') onlyTM = false;
+				if (source.charAt(1) == 'L') level = parseInt(source.substring(2));
+			}
+			if (this.format.banlist.includes(move.name)) return this.checkCanLearn(move, species, setSources, set);
+			if (!canLearn) return `: ${move.name} is not available within the nuzlocke rules.`;
+			if (
+				(onlyTM) || 
+				(sources.includes('5M') && level !== -1 && level > set.level)
+				) {
+				if (!TMwhitelist.includes(move.name)) return `: The ${move.name} TM/HM is not obtainable within the race limits.`;
 			}
 			return this.checkCanLearn(move, species, setSources, set);
 		},
