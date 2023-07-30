@@ -1991,12 +1991,10 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "Illegal",
 	},
 	riolu: {
-		isNonstandard: "Nuzlocke",
-		tier: "Illegal",
+		tier: "(Legal)",
 	},
 	lucario: {
-		isNonstandard: "Nuzlocke",
-		tier: "Illegal",
+		tier: "Legal",
 	},
 	lucariomega: {
 		isNonstandard: "Nuzlocke",
@@ -2877,8 +2875,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "Legal",
 	},
 	litleo: {
-		isNonstandard: "Nuzlocke",
-		tier: "Illegal",
+		tier: "Legal",
 	},
 	pyroar: {
 		isNonstandard: "Nuzlocke",
