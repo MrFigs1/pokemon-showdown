@@ -1751,9 +1751,6 @@ export class TeamValidator {
 			if (tierSpecies.isNonstandard === 'Gigantamax') {
 				return `${tierSpecies.name} is a placeholder for a Gigantamax sprite, not a real Pokémon. (This message is likely to be a validator bug.)`;
 			}
-			if (tierSpecies.isNonstandard === 'Nuzlocke') {
-				return `${tierSpecies.name} is not obtainable within the race limits.`;
-			}
 			return `${tierSpecies.name} does not exist in this game.`;
 		}
 		if (nonexistentCheck === '') return null;
@@ -1800,9 +1797,6 @@ export class TeamValidator {
 		// obtainability
 		if (item.isNonstandard) {
 			banReason = ruleTable.check('pokemontag:' + toID(item.isNonstandard));
-			if (item.isNonstandard === 'Nuzlocke') {
-				return `${item.name} is not obtainable within the race limits.`;
-			}
 			if (banReason) {
 				if (item.isNonstandard === 'Unobtainable') {
 					return `${item.name} is not obtainable without hacking or glitches.`;
@@ -2457,10 +2451,6 @@ export class TeamValidator {
 					//   (i.e. get the pokemon however you want, transfer to that gen,
 					//   teach it, and transfer it to the current gen.)
 
-					if (learned === "N") {
-						return `: ${move.name} can't be learned within the race limits.`;
-					}
-					
 					const learnedGen = parseInt(learned.charAt(0));
 					if (learnedGen < this.minSourceGen) {
 						if (!cantLearnReason) {
@@ -2530,7 +2520,7 @@ export class TeamValidator {
 							// Pomeg Glitch
 							learned = learnedGen + 'Epomeg';
 						} else if ((!species.gender || species.gender === 'F') &&
-							learnedGen >= 2 && species.canHatch && !setSources.isFromPokemonGo && format.mod !== 'gen5elesalocke' && format.mod !== 'gen6grantlocke') {
+							learnedGen >= 2 && species.canHatch && !setSources.isFromPokemonGo) {
 							// available as egg move
 							learned = learnedGen + 'Eany';
 							// falls through to E check below
