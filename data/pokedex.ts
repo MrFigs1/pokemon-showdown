@@ -19734,4 +19734,16 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Undiscovered"],
 		gen: 5,
 	},
+
+	shocreed: {
+		num: 1026,
+		name: "Shocreed",
+		types: ["Grass", "Electric"],
+		baseStats: {hp: 113, atk: 41, def: 66, spa: 110, spd: 86, spe: 114},
+		abilities: {0: "Overgrow", H: "Regenerator"},
+		heightm: 0.8,
+		weightkg: 30,
+		color: "Green",
+		eggGroups: ["Grass"],
+	},
 };

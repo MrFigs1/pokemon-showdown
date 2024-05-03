@@ -22058,4 +22058,23 @@ export const Moves: {[moveid: string]: MoveData} = {
 		type: "Electric",
 		contestType: "Cool",
 	},
+
+	thunderflash: {
+		num: 730,
+		accuracy: 100,
+		basePower: 85,
+		category: "Special",
+		name: "Thunder Flash",
+		pp: 10,
+		priority: 0,
+		flags: {protect: 1, mirror: 1, metronome: 1},
+		boosts: {
+			spa: -1,
+		},
+		secondary: null,
+		target: "normal",
+		type: "Electric",
+		zMove: {boost: {spa: 1}},
+		contestType: "Clever",
+	},
 };
