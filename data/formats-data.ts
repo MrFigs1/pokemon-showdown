@@ -6036,4 +6036,8 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Custom",
 		tier: "Illegal",
 	},
+	
+	shocreed: {
+		tier: "Uber"
+	}
 };
