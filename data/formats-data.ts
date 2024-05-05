@@ -6039,5 +6039,32 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	
 	shocreed: {
 		tier: "Uber"
-	}
+	},
+	aquanisal: {
+		tier: "Uber"
+	},
+	cerbeurius: {
+		tier: "Uber"
+	},
+	brulecake: {
+		tier: "Uber"
+	},
+	wreamoth: {
+		tier: "Uber"
+	},
+	axoloctic: {
+		tier: "Uber"
+	},
+	knightrider: {
+		tier: "Uber"
+	},
+	cometoss: {
+		tier: "Uber"
+	},
+	termight: {
+		tier: "Uber"
+	},
+	mastermime: {
+		tier: "Uber"
+	},
 };
