@@ -99906,7 +99906,7 @@ export const Learnsets: {[k: string]: LearnsetData} = {
 			snowscape: ["9M"],
 			explosion: ["9M"],
 			rockpolish: ["9L25"],
-			telekenesis: ["9M"],
+			telekinesis: ["9M"],
 			flashcannon: ["9M"],
 			painsplit: ["9L55"],
 			rockslide: ["9M"],
