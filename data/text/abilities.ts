@@ -2263,4 +2263,10 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 
 		activate: "  [POKEMON] extends [MOVE] by 2 turns!",
 	},
+	
+	mastermind: {
+		name: "Mastermind",
+		desc: "If this Pokemon is a Master. Mime and sleeps a target, the target also becomes trapped.",
+		shortDesc: "Master. Mime: If this Pokemon sleeps a target, the target also becomes trapped.",
+	},
 };

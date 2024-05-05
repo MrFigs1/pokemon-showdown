@@ -3767,4 +3767,35 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	pokestarufopropu2: {
 		name: "Pokestar UFO-PropU2",
 	},
+	
+	shocreed: {
+		name: "Shocreed",
+	},
+	aquanisal: {
+		name: "Aquanisal",	
+	},
+	cerbeurius: {
+		name: "Cerbeurius",
+	},
+	brulecake: {
+		name: "Brulecake",
+	},
+	wreamoth: {
+		name: "Wreamoth",
+	},
+	axoloctic: {
+		name: "Axoloctic",
+	},
+	knightrider: {
+		name: "Knightrider",
+	},
+	cometoss: {
+		name: "Cometoss",
+	},
+	termight: {
+		name: "Termight",
+	},
+	mastermime: {
+		name: "Master. Mime",
+	},
 };

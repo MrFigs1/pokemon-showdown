@@ -7543,4 +7543,30 @@ export const MovesText: {[k: string]: MoveText} = {
 			shortDesc: "Nearly always goes first. Always crits.",
 		},
 	},
+	
+	thunderflash: {
+		name: "Thunder Flash",
+		desc: "Has a 100% chance to lower the opponent's Special Attack by 1 stage.",
+		shortDesc: "100% chance to lower opponent's Sp. Atk by 1.",
+	},
+	aquarush: {
+		name: "Aqua Rush",
+		desc: "No additional effect.",
+		shortDesc: "Usually goes first.",
+	},
+	burningslash: {
+		name: "Burning Slash",
+		desc: "Has a 30% chance to burn the target.",
+		shortDesc: "30% chance to burn the target.",
+	},
+	murkchuck: {
+		name: "Murk Chuck",
+		desc: "Power doubles if the target is poisoned.",
+		shortDesc: "Power doubles if the target is poisoned.",
+	},
+	burnrubber: {
+		name: "Burn Rubber",
+		desc: "This move combines Fire in its type effectiveness against the target. Damage doubles and no accuracy check is done if the target has used Minimize while active. 30% chance to burn target.",
+		shortDesc: "Combines Fire in its type effectiveness. 30% chance to burn target",
+	},
 };
