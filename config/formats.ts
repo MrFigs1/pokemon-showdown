@@ -23,9 +23,20 @@ export const Formats: FormatList = [
 		section: "Fakemon Singles",
 	},
 	{
-		name: "[Gen 9] Fakemons Only",
+		name: "[Gen 9] Fakemons",
 		mod: 'gen9',
-		ruleset: ['Standard'],
+		ruleset: ['Standard', '+Fakemons']
+	},
+	{
+		name: "[Gen 9] Only Fakemons",
+		mod: 'gen9',
+		ruleset: ['Standard', '+Fakemons'],
+		onValidateSet(set) {
+			const tier = this.dex.species.get(set.species).tier;
+			if (tier !== 'Fakemons') {
+				return ['Only Fakemons are allowed.', `(${set.name} is not.)`];
+			}
+		},
 	},
 
 	// S/V Singles
