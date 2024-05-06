@@ -25,7 +25,7 @@ export const Formats: FormatList = [
 	{
 		name: "[Gen 9] Fakemons Only",
 		mod: 'gen9',
-		ruleset: ['Fakemons'],
+		ruleset: ['Standard'],
 	},
 
 	// S/V Singles
