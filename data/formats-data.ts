@@ -6038,33 +6038,33 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	},
 	
 	shocreed: {
-		tier: "Uber"
+		tier: "Fakemons",
 	},
 	aquanisal: {
-		tier: "Uber"
+		tier: "Fakemons",
 	},
 	cerbeurius: {
-		tier: "Uber"
+		tier: "Fakemons",
 	},
 	brulecake: {
-		tier: "Uber"
+		tier: "Fakemons",
 	},
 	wreamoth: {
-		tier: "Uber"
+		tier: "Fakemons",
 	},
 	axoloctic: {
-		tier: "Uber"
+		tier: "Fakemons",
 	},
 	knightrider: {
-		tier: "Uber"
+		tier: "Fakemons",
 	},
 	cometoss: {
-		tier: "Uber"
+		tier: "Fakemons",
 	},
 	termight: {
-		tier: "Uber"
+		tier: "Fakemons",
 	},
 	mastermime: {
-		tier: "Uber"
+		tier: "Fakemons",
 	},
 };

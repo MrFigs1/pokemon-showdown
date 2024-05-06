@@ -19,6 +19,15 @@ The column value will be ignored for repeat sections.
 
 export const Formats: FormatList = [
 
+	{
+		section: "Fakemon Singles",
+	},
+	{
+		name: "[Gen 9] Fakemons Only",
+		mod: 'gen9',
+		ruleset: ['Fakemons'],
+	},
+
 	// S/V Singles
 	///////////////////////////////////////////////////////////////////
 
