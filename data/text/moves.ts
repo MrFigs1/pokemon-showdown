@@ -7567,7 +7567,7 @@ export const MovesText: {[k: string]: MoveText} = {
 	burnrubber: {
 		name: "Burn Rubber",
 		desc: "This move combines Fire in its type effectiveness against the target. Damage doubles and no accuracy check is done if the target has used Minimize while active. 30% chance to burn target.",
-		shortDesc: "Normal+Fire type. 30% chance to burn target",
+		shortDesc: "Normal+Fire type. 30% chance to burn target.",
 	},
 	jetstrike: {
 		name: "Jet Strike",
