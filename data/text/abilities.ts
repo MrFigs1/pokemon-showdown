@@ -2269,4 +2269,12 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		desc: "If this Pokemon is a Master. Mime and sleeps a target, the target also becomes trapped.",
 		shortDesc: "Master. Mime: If this Pokemon sleeps a target, the target also becomes trapped.",
 	},
+	terracotta: {
+		name: "Terracotta",
+		shortDesc: "If this Pokemon is hit by a physical attack, Stealth Rocks are set on the opposing side.",
+	},
+	regenerative: {
+		name: "regenerative",
+		shortDesc: "If this pokemon is hit by an attack, heals 20% of health.",
+	},
 };

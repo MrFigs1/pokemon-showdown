@@ -7567,6 +7567,21 @@ export const MovesText: {[k: string]: MoveText} = {
 	burnrubber: {
 		name: "Burn Rubber",
 		desc: "This move combines Fire in its type effectiveness against the target. Damage doubles and no accuracy check is done if the target has used Minimize while active. 30% chance to burn target.",
-		shortDesc: "Combines Fire in its type effectiveness. 30% chance to burn target",
+		shortDesc: "Normal+Fire type. 30% chance to burn target",
+	},
+	jetstrike: {
+		name: "Jet Strike",
+		desc: "No additional effect.",
+		shortDesc: "No additional effect. Hits adjacent foes.",
+	},
+	entomb: {
+		name: "Entomb",
+		desc: "Traps and slows target.",
+		shortDesc: "Traps and slows target.",
+	},
+	pistonpunch: {
+		name: "Piston Punch",
+		desc: "If this move is successful, the user must recharge on the following turn and cannot select a move.",
+		shortDesc: "Usually goes first, user cannot move next turn.",
 	},
 };

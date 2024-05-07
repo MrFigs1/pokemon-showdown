@@ -3798,4 +3798,34 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	mastermime: {
 		name: "Master. Mime",
 	},
+	terracabre: {
+		name: "Terracabre",
+	},
+	turbanics: {
+		name: "Turbanics",
+	},
+	mugglin: {
+		name: "Mugglin",
+	},
+	harsqoon: {
+		name: "Harsqoon",
+	},
+	abductaray: {
+		name: "Abductaray",
+	},
+	abdomecrypt: {
+		name: "Abdomecrypt",
+	},
+	mortarath: {
+		name: "Mortarath",
+	},
+	viceramoth: {
+		name: "Viceramoth",
+	},
+	ensandared: {
+		name: "Ensandared",
+	},
+	dumpstrous: {
+		name: "Dumpstrous",
+	},
 };

@@ -5644,12 +5644,37 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 			if (source.baseSpecies.name !== "Master. Mime") return;
 			if (source !== this.effectState.target || target === source || effect.effectType !== 'Move') return;
 			if (status.id === 'slp') {
-				target.addVolatile('trapped');
+				target.addVolatile('partiallytrapped');
 			}
 		},
 		flags: {failroleplay: 1, noreceiver: 1, noentrain: 1, notrace: 1, failskillswap: 1},
 		name: "Mastermind",
 		rating: 3,
 		num: 311,
+	},
+	terracotta: {
+		onDamagingHit(damage, target, source, move) {
+			const side = source.isAlly(target) ? source.side.foe : source.side;
+			const stealthrock = side.sideConditions['stealthrock'];
+			if (move.category === 'Physical' && (!stealthrock)) {
+				this.add('-activate', target, 'ability: Terracotta');
+				side.addSideCondition('stealthrock', target);
+			}
+		},
+		flags: {},
+		name: "Terracotta",
+		rating: 3.5,
+		num: 312,
+	},
+	regenerative: {
+		onTryHit(target, source, move) {
+			if (target !== source && move.type === 'Physical', 'Special') {
+				this.heal(target.baseMaxhp / 2);
+			}
+		},
+		flags: {},
+		name: "Regenerative",
+		rating: 3.5,
+		num: 313,
 	},
 };

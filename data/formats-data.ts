@@ -6067,4 +6067,34 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	mastermime: {
 		tier: "Fakemons",
 	},
+	terracabre: {
+		tier: "Fakemons",
+	},
+	turbanics: {
+		tier: "Fakemons",
+	},
+	mugglin: {
+		tier: "Fakemons",
+	},
+	harsqoon: {
+		tier: "Fakemons",
+	},
+	abductaray: {
+		tier: "Fakemons",
+	},
+	abdomecrypt: {
+		tier: "Fakemons",
+	},
+	mortarath: {
+		tier: "Fakemons",
+	},
+	viceramoth: {
+		tier: "Fakemons",
+	},
+	ensandared: {
+		tier: "Fakemons",
+	},
+	dumpstrous: {
+		tier: "Fakemons",
+	},
 };
