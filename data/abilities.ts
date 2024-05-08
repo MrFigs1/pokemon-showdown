@@ -5667,9 +5667,9 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		num: 312,
 	},
 	regenerative: {
-		onTryHit(target, source, move) {
-			if (target !== source && move.type === 'Physical', 'Special') {
-				this.heal(target.baseMaxhp / 2);
+		onHit(target, source, move) {
+			if (target !== source && move.category !== 'Status') {
+				this.heal(target.baseMaxhp / 5, target, target);
 			}
 		},
 		flags: {},
