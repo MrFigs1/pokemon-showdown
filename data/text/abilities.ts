@@ -2277,4 +2277,8 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		name: "regenerative",
 		shortDesc: "If this pokemon is hit by an attack, heals 20% of health.",
 	},
+	rocketeer: {
+		name: "Rocketeer",
+		shortDesc: "This Pokemon's Grass-type moves have their priority increased by 1",
+	},
 };

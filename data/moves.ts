@@ -22196,4 +22196,55 @@ export const Moves: {[moveid: string]: MoveData} = {
 		type: "Fighting",
 		contestType: "Tough",
 	},
+	purifyingflame: {
+		num: 738,
+		accuracy: true,
+		basePower: 90,
+		category: "Special",
+		name: "Purifying Flame",
+		pp: 15,
+		priority: 0,
+		flags: {protect: 1, mirror: 1, metronome: 1},
+		onHit(target) {
+			target.clearBoosts();
+			this.add('-clearboost', target);
+		},
+		secondary: null,
+		target: "normal",
+		type: "Fire",
+		contestType: "Beautiful",
+	},
+	barrelswig: {
+		num: 367,
+		accuracy: true,
+		basePower: 0,
+		category: "Status",
+		name: "Barrel Swig",
+		pp: 5,
+		priority: 0,
+		flags: {metronome: 1},
+		onHit(target) {
+			const stats: BoostID[] = [];
+			let stat: BoostID;
+			for (stat in target.boosts) {
+				if (target.boosts[stat] < 6) {
+					stats.push(stat);
+				}
+			}
+			if (stats.length) {
+				const randomStat = this.sample(stats);
+				const boost: SparseBoostsTable = {};
+				boost[randomStat] = 2;
+				this.boost(boost);
+			} else {
+				return false;
+			}
+		},
+		heal: [1, 2],
+		secondary: null,
+		target: "adjacentAllyOrSelf",
+		type: "Normal",
+		zMove: {effect: 'crit2'},
+		contestType: "Tough",
+	},
 };

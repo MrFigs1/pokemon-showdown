@@ -6097,4 +6097,16 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	dumpstrous: {
 		tier: "Fakemons",
 	},
+	zheonix: {
+		tier: "Fakemons",
+	},
+	botehound: {
+		tier: "Fakemons",
+	},
+	virantula: {
+		tier: "Fakemons",
+	},
+	asparabolt: {
+		tier: "Fakemons",
+	},
 };

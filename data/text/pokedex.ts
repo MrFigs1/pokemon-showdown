@@ -3828,4 +3828,16 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	dumpstrous: {
 		name: "Dumpstrous",
 	},
+	zheonix: {
+		name: "Zheonix",
+	},
+	botehound: {
+		name: "Botehound",
+	},
+	virantula: {
+		name: "Virantula",
+	},
+	asparabolt: {
+		name: "Asparabolt",
+	},
 };

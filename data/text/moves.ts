@@ -7584,4 +7584,13 @@ export const MovesText: {[k: string]: MoveText} = {
 		desc: "If this move is successful, the user must recharge on the following turn and cannot select a move.",
 		shortDesc: "Usually goes first, user cannot move next turn.",
 	},
+	purifyingflame: {
+		name: "Purifying Flame",
+		shortDesc: "Resets all of the target's stat stages to 0.",
+	},
+	barrelswig: {
+		name: "Barrel Swig",
+		desc: "Raises a random stat by 1 stage, The user restores 1/2 of its maximum HP.",
+		shortDesc: "Heals user by 50%, raises random stat.",
+	},
 };

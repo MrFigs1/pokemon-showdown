@@ -5677,4 +5677,13 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 3.5,
 		num: 313,
 	},
+	rocketeer: {
+		onModifyPriority(priority, pokemon, target, move) {
+			if (move?.type === 'Grass') return priority + 1;
+		},
+		flags: {},
+		name: "Rocketeer",
+		rating: 1.5,
+		num: 177,
+	},
 };
