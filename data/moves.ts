@@ -22215,7 +22215,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		contestType: "Beautiful",
 	},
 	barrelswig: {
-		num: 367,
+		num: 739,
 		accuracy: true,
 		basePower: 0,
 		category: "Status",
