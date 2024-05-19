@@ -5686,4 +5686,51 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 1.5,
 		num: 177,
 	},
+	blasting: {
+		onBasePowerPriority: 19,
+		onBasePower(basePower, attacker, defender, move) {
+			if (move.flags['blasting']) {
+				this.debug('blasting boost');
+				return this.chainModify(1.5);
+			}
+		},
+		flags: {},
+		name: "Blasting",
+		rating: 3.5,
+		num: 292,
+	},
+	gilded: {
+		onTryHit(target, source, move) {
+			if (target !== source && move.type === 'Steel') {
+				if (!this.boost({atk: 1, def: 1, spa: 1, spd: 1, spe: 1})) {
+					this.add('-immune', target, '[from] ability: Gilded');
+				}
+				return null;
+			}
+		},
+		flags: {breakable: 1},
+		name: "Gilded",
+		rating: 3,
+		num: 78,
+	},
+	stoneglare: {
+		onStart(pokemon) {
+			let activated = false;
+			for (const target of pokemon.adjacentFoes()) {
+				if (!activated) {
+					this.add('-ability', pokemon, 'Stone Glare', 'boost');
+					activated = true;
+				}
+				if (target.volatiles['substitute']) {
+					this.add('-immune', target);
+				} else {
+					this.boost({spe: -1}, target, pokemon, null, true);
+				}
+			}
+		},
+		flags: {},
+		name: "Stone Glare",
+		rating: 3.5,
+		num: 22,
+	},
 };
