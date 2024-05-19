@@ -2281,4 +2281,17 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		name: "Rocketeer",
 		shortDesc: "This Pokemon's Grass-type moves have their priority increased by 1",
 	},
+	blasting: {
+		name: "Blasting",
+		shortDesc: "Moves that can burn do 50% more damage"
+	},
+	gilded: {
+		name: "Gilded",
+		shortDesc: "If this pokemon is hit by a steel type move, gains an omni-boost."
+	},
+	stoneglare: {
+		name: "Stone Glare",
+		desc: "On switch-in, this Pokemon lowers the Speed of opposing Pokemon by 1 stage. Pokemon with the Inner Focus, Oblivious, Own Tempo, or Scrappy Abilities and Pokemon behind a substitute are immune.",
+		shortDesc: "On switch-in, this Pokemon lowers the Speed of opponents by 1 stage.",
+	},
 };

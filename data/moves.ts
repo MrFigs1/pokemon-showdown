@@ -5514,7 +5514,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		name: "Fire Blast",
 		pp: 5,
 		priority: 0,
-		flags: {protect: 1, mirror: 1, metronome: 1},
+		flags: {protect: 1, mirror: 1, blasting: 1, metronome: 1},
 		secondary: {
 			chance: 10,
 			status: 'brn',
@@ -16338,7 +16338,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		name: "Scald",
 		pp: 15,
 		priority: 0,
-		flags: {protect: 1, mirror: 1, defrost: 1, metronome: 1},
+		flags: {protect: 1, mirror: 1, defrost: 1, blasting: 1, metronome: 1},
 		thawsTarget: true,
 		secondary: {
 			chance: 30,
@@ -18531,7 +18531,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		name: "Steam Eruption",
 		pp: 5,
 		priority: 0,
-		flags: {protect: 1, mirror: 1, defrost: 1},
+		flags: {protect: 1, mirror: 1, blasting: 1, defrost: 1},
 		thawsTarget: true,
 		secondary: {
 			chance: 30,
@@ -22234,7 +22234,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 			if (stats.length) {
 				const randomStat = this.sample(stats);
 				const boost: SparseBoostsTable = {};
-				boost[randomStat] = 2;
+				boost[randomStat] = 1;
 				this.boost(boost);
 			} else {
 				return false;
@@ -22245,6 +22245,131 @@ export const Moves: {[moveid: string]: MoveData} = {
 		target: "adjacentAllyOrSelf",
 		type: "Normal",
 		zMove: {effect: 'crit2'},
+		contestType: "Tough",
+	},
+	surprisepop: {
+		num: 740,
+		accuracy: 100,
+		basePower: 120,
+		category: "Special",
+		name: "Surprise Pop!",
+		pp: 10,
+		priority: 1,
+		flags: {contact: 1, protect: 1, mirror: 1, metronome: 1},
+		onTry(source, target) {
+			const action = this.queue.willMove(target);
+			const move = action?.choice === 'move' ? action.move : null;
+			if (!move || (move.category === 'Status' && move.id !== 'mefirst') || target.volatiles['mustrecharge']) {
+				return false;
+			}
+		},
+		selfdestruct: "always",
+		secondary: null,
+		target: "normal",
+		type: "Fairy",
+		contestType: "Clever",
+	},
+	shellexplosion: {
+		num: 800,
+		accuracy: 100,
+		basePower: 200,
+		category: "Special",
+		name: "Shell Explosion",
+		pp: 10,
+		priority: 0,
+		flags: {charge: 1, protect: 1, mirror: 1, blasting: 1, metronome: 1},
+		onTryMove(attacker, defender, move) {
+			if (attacker.removeVolatile(move.id)) {
+				return;
+			}
+			this.add('-prepare', attacker, move.name);
+			this.boost({spa: 1}, attacker, attacker, move);
+			if (!this.runEvent('ChargeMove', attacker, defender, move)) {
+				return;
+			}
+			attacker.addVolatile('twoturnmove', defender);
+			return null;
+		}, 
+		selfdestruct: "always",
+		secondary:  {
+			chance: 100,
+			status: 'brn',
+		},
+		target: "normal",
+		type: "Water",
+	},
+	elementalarrow: {
+		num: 865,
+		accuracy: 90,
+		basePower: 30,
+		category: "Special",
+		name: "Elemental Arrow",
+		pp: 10,
+		priority: 0,
+		flags: {contact: 1, protect: 1, mirror: 1, metronome: 1},
+		onEffectiveness(typeMod, target, type, move) {
+			return typeMod + this.dex.getEffectiveness('Fire, Ice, Electric', type);
+		},
+		multihit: 3,
+		secondary: {
+			chance: 10,
+			onHit(target, source) {
+				const result = this.random(3);
+				if (result === 0) {
+					target.trySetStatus('brn', source);
+				} else if (result === 1) {
+					target.trySetStatus('par', source);
+				} else {
+					target.trySetStatus('frz', source);
+				}
+			},
+		},
+		target: "normal",
+		type: "fighting",
+	},
+	spectralarrow: {
+		num: 662,
+		accuracy: 100,
+		basePower: 80,
+		category: "Special",
+		name: "Spectral Arrow",
+		pp: 10,
+		priority: 0,
+		flags: {protect: 1, mirror: 1, metronome: 1},
+		secondary: {
+			chance: 100,
+			onHit(target, source, move) {
+				if (source.isActive) target.addVolatile('trapped', source, move, 'trapper');
+			},
+		},
+		target: "normal",
+		type: "Ghost",
+		contestType: "Tough",
+	},
+	petrifyingglare: {
+		num: 137,
+		accuracy: 100,
+		basePower: 0,
+		category: "Status",
+		name: "Petrifying Glare",
+		pp: 20,
+		priority: 0,
+		flags: {protect: 1, reflectable: 1, mirror: 1, allyanim: 1, metronome: 1},
+		onHit(target) {
+			if (target.getTypes().join() === 'Rock' || !target.setType('Rock')) {
+				// Soak should animate even when it fails.
+				// Returning false would suppress the animation.
+				this.add('-fail', target);
+				return null;
+			}
+			this.add('-start', target, 'typechange', 'Rock');
+		},
+		boosts: {
+			spe: -2,
+		},
+		secondary: null,
+		target: "normal",
+		type: "Fighting",
 		contestType: "Tough",
 	},
 };
