@@ -5514,7 +5514,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		name: "Fire Blast",
 		pp: 5,
 		priority: 0,
-		flags: {protect: 1, mirror: 1, metronome: 1},
+		flags: {protect: 1, mirror: 1, blasting: 1, metronome: 1},
 		secondary: {
 			chance: 10,
 			status: 'brn',
@@ -16338,7 +16338,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		name: "Scald",
 		pp: 15,
 		priority: 0,
-		flags: {protect: 1, mirror: 1, defrost: 1, metronome: 1},
+		flags: {protect: 1, mirror: 1, defrost: 1, blasting: 1, metronome: 1},
 		thawsTarget: true,
 		secondary: {
 			chance: 30,
@@ -18531,7 +18531,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		name: "Steam Eruption",
 		pp: 5,
 		priority: 0,
-		flags: {protect: 1, mirror: 1, defrost: 1},
+		flags: {protect: 1, mirror: 1, blasting: 1, defrost: 1},
 		thawsTarget: true,
 		secondary: {
 			chance: 30,
@@ -22234,7 +22234,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 			if (stats.length) {
 				const randomStat = this.sample(stats);
 				const boost: SparseBoostsTable = {};
-				boost[randomStat] = 2;
+				boost[randomStat] = 1;
 				this.boost(boost);
 			} else {
 				return false;
