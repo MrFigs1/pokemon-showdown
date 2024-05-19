@@ -3840,4 +3840,40 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	asparabolt: {
 		name: "Asparabolt",
 	},
+	balloonite: {
+		name: "Balloonite",
+	},
+	subsidon: {
+		name: "Subsidon",
+	},
+	barnablast: {
+		name: "Barnablast",
+	},
+	vadossum: {
+		name: "Vadossum",
+	},
+	majesdeer: {
+		name: "Majesdeer",
+	},
+	holloshot: {
+		name: "Holloshot",
+	},
+	spirecron: {
+		name: "Spirecron",
+	},
+	manowrath: {
+		name: "Man-o-wrath",
+	},
+	dreagalitor: {
+		name: "Dreagalitor",
+	},
+	tropitusk: {
+		name: "Tropitusk",
+	},
+	cluckatricem: {
+		name: "Cluckatrice M",
+	},
+	cluckatricef: {
+		name: "Cluckatrice F",
+	},
 };
