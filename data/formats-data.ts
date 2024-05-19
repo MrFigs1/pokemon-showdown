@@ -6109,4 +6109,40 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	asparabolt: {
 		tier: "Fakemons",
 	},
+	balloonite: {
+		tier: "Fakemons",
+	},
+	subsidon: {
+		tier: "Fakemons",
+	},
+	barnablast: {
+		tier: "Fakemons",
+	},
+	vadossum: {
+		tier: "Fakemons",
+	},
+	majesdeer: {
+		tier: "Fakemons",
+	},
+	holloshot: {
+		tier: "Fakemons",
+	},
+	spirecron: {
+		tier: "Fakemons",
+	},
+	manowrath: {
+		tier: "Fakemons",
+	},
+	dreagalitor: {
+		tier: "Fakemons",
+	},
+	tropitusk: {
+		tier: "Fakemons",
+	},
+	cluckatricem: {
+		tier: "Fakemons",
+	},
+	cluckatricef: {
+		tier: "Fakemons",
+	},
 };
