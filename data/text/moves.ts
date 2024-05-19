@@ -7593,4 +7593,29 @@ export const MovesText: {[k: string]: MoveText} = {
 		desc: "Raises a random stat by 1 stage, The user restores 1/2 of its maximum HP.",
 		shortDesc: "Heals user by 50%, raises random stat.",
 	},
+	surprisepop: {
+		name: "Surprise Pop!",
+		desc: "Fails if the target did not select a physical attack, special attack, or Me First for use this turn, or if the target moves before the user. User Faints",
+		shortDesc: "Usually goes first. Fails if target is not attacking. User Faints",
+	},
+	shellexplosion: {
+		name: "Shell Explosion",
+		desc: "This attack charges on the first turn and executes on the second. Raises the user's Special Attack by 1 stage on the first turn. If the user is holding a Power Herb, the move completes in one turn. Burns target",
+		shortDesc: "Raises user's Sp. Atk by 1 on turn 1. Hits turn 2. Burns",
+	},
+	elementalarrow: {
+		name: "Elemental Arrow",
+		desc: "Has a 10% chance to either burn, freeze, or paralyze the target. Deals fire, electric and ice damage",
+		shortDesc: "10% chance to paralyze or burn or freeze target. Deals Fire, Electric, Ice damage.",
+	},
+	spectralarrow: {
+		name: "Spectral Arrow",
+		desc: "Prevents the target from switching out. The target can still switch out if it is holding Shed Shell or uses Baton Pass, Flip Turn, Parting Shot, Teleport, U-turn, or Volt Switch. If the target leaves the field using Baton Pass, the replacement will remain trapped. The effect ends if the user leaves the field.",
+		shortDesc: "Prevents the target from switching out.",
+	},
+	petrifyingglare: {
+		name: "Petrifying Glare",
+		desc: "Causes the target to become a Rock type. Fails if the target is an Arceus or a Silvally, if the target is already purely Rock type, or if the target is Terastallized. Lowers the target's Speed by 2.",
+		shortDesc: "Changes the target's type to Rock. Lowers the target's Speed by 2.",
+	},
 };
