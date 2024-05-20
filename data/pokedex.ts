@@ -20026,7 +20026,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		name: "Barnablast",
 		types: ["Water"],
 		baseStats: {hp: 35, atk: 47, def: 110, spa: 152, spd: 31, spe: 25},
-		abilities: {0: "Rocketeer"},
+		abilities: {0: "Blasting"},
 		heightm: .2,
 		weightkg: 40,
 		color: "Red",
