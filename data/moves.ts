@@ -22325,7 +22325,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 			},
 		},
 		target: "normal",
-		type: "fighting",
+		type: "Fighting",
 	},
 	spectralarrow: {
 		num: 662,
