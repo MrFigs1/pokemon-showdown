@@ -22308,7 +22308,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		priority: 0,
 		flags: {contact: 1, protect: 1, mirror: 1, metronome: 1},
 		onEffectiveness(typeMod, target, type, move) {
-			return typeMod + this.dex.getEffectiveness('Fire, Ice, Electric', type);
+			return typeMod + this.dex.getEffectiveness('Fire', type) + this.dex.getEffectiveness('Ice', type) + this.dex.getEffectiveness('Electric', type);
 		},
 		multihit: 3,
 		secondary: {
