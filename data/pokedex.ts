@@ -20046,7 +20046,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	},
 	majesdeer: {
 		num: 1054,
-		name: "majesdeer",
+		name: "Majesdeer",
 		types: ["Steel"],
 		baseStats: {hp: 85, atk: 124, def: 149, spa: 33, spd: 55, spe: 90},
 		abilities: {0: "Gilded", 1: "Clear Body", H: "Filter"},
