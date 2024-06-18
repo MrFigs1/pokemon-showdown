@@ -100978,7 +100978,6 @@ export const Learnsets: {[k: string]: LearnsetData} = {
 			irondefense: ["9M"],
 			spectralarrow: ["9M"],
 			elementalarrow: ["9M"],
-			nastyplot: ["9M","9L40"],
 			focusblast: ["9E"],
 			focusenergy: ["9M"],
 			focuspunch: ["9M"],
