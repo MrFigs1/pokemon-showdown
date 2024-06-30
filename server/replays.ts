@@ -3,9 +3,9 @@
  *
  * Ported to TypeScript by Annika and Mia.
  */
-import {SQL, PGDatabase} from '../lib/database';
+import {SQL, PGDatabase, MySQLDatabase} from '../lib/database';
 
-export const replaysDB = Config.replaysdb ? new PGDatabase(Config.replaysdb) : null!;
+export const replaysDB = Config.replaysdb ? new MySQLDatabase(Config.replaysdb) : null!;
 
 export const replays = replaysDB?.getTable<
 ReplayRow
