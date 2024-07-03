@@ -2294,4 +2294,8 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		desc: "On switch-in, this Pokemon lowers the Speed of opposing Pokemon by 1 stage. Pokemon with the Inner Focus, Oblivious, Own Tempo, or Scrappy Abilities and Pokemon behind a substitute are immune.",
 		shortDesc: "On switch-in, this Pokemon lowers the Speed of opponents by 1 stage.",
 	},
+	peakaboom: {
+		name: "Peakaboom",
+		shortDesc: "User has a 20% chance to explode at the end of each turn",
+	},
 };

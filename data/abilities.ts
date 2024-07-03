@@ -5733,4 +5733,18 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 3.5,
 		num: 22,
 	},
+	peakaboom: {
+		onResidualOrder: 5,
+		onResidualSubOrder: 3,
+		onResidual(pokemon) {
+			if (pokemon.hp && this.randomChance(20, 100)) {
+				this.debug('peakaboom');
+				this.actions.useMove('explosion', pokemon);
+			}
+		},
+		flags: {},
+		name: "peakaboom",
+		rating: 3,
+		num: 61,
+	},
 };

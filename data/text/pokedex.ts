@@ -3876,4 +3876,16 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	cluckatricef: {
 		name: "Cluckatrice F",
 	},
+	kalkara: {
+		name: "Kalkara",
+	},
+	jackaboom: {
+		name: "Jackaboom",
+	},
+	hoppobopamus: {
+		name: "Hoppobopamus",
+	},
+	indribex: {
+		name: "Indribex",
+	},
 };
