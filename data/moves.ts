@@ -22372,4 +22372,43 @@ export const Moves: {[moveid: string]: MoveData} = {
 		type: "Fighting",
 		contestType: "Tough",
 	},
+	hulahoopblast: {
+		num: 866,
+		accuracy: 100,
+		basePower: 80,
+		category: "Special",
+		name: "Hula Hoop Blast",
+		pp: 10,
+		flags: {protect: 1, mirror: 1, dance: 1, metronome: 1},
+		onEffectiveness(typeMod, target, type, move) {
+			return typeMod + this.dex.getEffectiveness('Fire', type);
+		},
+		onModifyMove(move, pokemon) {
+			if (pokemon.getStat('atk', false, true) > pokemon.getStat('spa', false, true)) move.category = 'Physical';
+		},
+		priority: 0,
+		secondary: null,
+		target: "normal",
+		type: "Electric",
+		contestType: "Tough",
+	},
+	spiralhorncharge: {
+		num: 867,
+		accuracy: 90,
+		basePower: 100,
+		category: "Physical",
+		name: "Spiral Horn Charge",
+		pp: 10,
+		priority: 0,
+		flags: {contact: 1, protect: 1, mirror: 1, gravity: 1, metronome: 1},
+		hasCrashDamage: true,
+		onMoveFail(target, source, move) {
+			this.damage(source.baseMaxhp / 2, source, source, this.dex.conditions.get('Spiral Horn Charge'));
+		},
+		drain: [1, 2],
+		secondary: null,
+		target: "normal",
+		type: "Grass",
+		contestType: "Cool",
+	},
 };

@@ -7618,4 +7618,14 @@ export const MovesText: {[k: string]: MoveText} = {
 		desc: "Causes the target to become a Rock type. Fails if the target is an Arceus or a Silvally, if the target is already purely Rock type, or if the target is Terastallized. Lowers the target's Speed by 2.",
 		shortDesc: "Changes the target's type to Rock. Lowers the target's Speed by 2.",
 	},
+	hulahoopblast: {
+		name: "Hula Hoop Blast",
+		desc: "Deals Electric and Fire Damage. Special or Physical Depending on highest offensive stat.",
+		shortDesc: "Electric + Fire. If Atk higher = Physical.",
+	},
+	spiralhorncharge: {
+		name: "Spiral Horn Charge",
+		desc: "The user recovers 1/2 the HP lost by the target, rounded half up. If Big Root is held by the user, the HP recovered is 1.3x normal, rounded half down. Has crash damage",
+		shortDesc: "Horn Leech + crash damage",
+	},
 };

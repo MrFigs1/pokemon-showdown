@@ -6145,4 +6145,16 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	cluckatricef: {
 		tier: "Fakemons",
 	},
+	hoppobopamus: {
+		tier: "Fakemons"
+	},
+	indribex: {
+		tier: "Fakemons",
+	},
+	kalkara: {
+		tier: "Fakemons",
+	},
+	jackaboom: {
+		tier: "Fakemons"
+	}
 };
