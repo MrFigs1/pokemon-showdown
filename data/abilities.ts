@@ -5733,7 +5733,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 3.5,
 		num: 22,
 	},
-	peakaboom: {
+	Peakaboom: {
 		onResidualOrder: 5,
 		onResidualSubOrder: 3,
 		onResidual(pokemon) {
