@@ -5743,7 +5743,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 			}
 		},
 		flags: {},
-		name: "peakaboom",
+		name: "Peakaboom",
 		rating: 3,
 		num: 61,
 	},
