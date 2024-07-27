@@ -25,7 +25,8 @@ export const Formats: FormatList = [
 	{
 		name: "[Gen 9] Fakemons",
 		mod: 'gen9',
-		ruleset: ['Standard', '+Fakemons']
+		ruleset: ['Standard', '+Fakemons'],
+		banlist: ['Moody'],
 	},
 	{
 		name: "[Gen 9] Only Fakemons",
