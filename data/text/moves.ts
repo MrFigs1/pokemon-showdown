@@ -7596,12 +7596,12 @@ export const MovesText: {[k: string]: MoveText} = {
 	surprisepop: {
 		name: "Surprise Pop!",
 		desc: "Fails if the target did not select a physical attack, special attack, or Me First for use this turn, or if the target moves before the user. User Faints",
-		shortDesc: "Usually goes first. Fails if target is not attacking. User Faints",
+		shortDesc: "Explosion + Sucker Punch",
 	},
 	shellexplosion: {
 		name: "Shell Explosion",
 		desc: "This attack charges on the first turn and executes on the second. Raises the user's Special Attack by 1 stage on the first turn. If the user is holding a Power Herb, the move completes in one turn. Burns target",
-		shortDesc: "Raises user's Sp. Atk by 1 on turn 1. Hits turn 2. Burns",
+		shortDesc: "Meteor Beam, burns, user feints",
 	},
 	elementalarrow: {
 		name: "Elemental Arrow",
