@@ -3888,4 +3888,7 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	indribex: {
 		name: "Indribex",
 	},
+	flamigami: {
+		name: "Flamigami",
+	},
 };

@@ -20176,4 +20176,15 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "White",
 		eggGroups: ["Field"],
 	},
+	flamigami: {
+		num: 1073,
+		name: "Flamigami",
+		types: ["Flying", "Grass"],
+		baseStats: {hp: 80, atk: 110, def: 70, spa: 50, spd: 90, spe: 105},
+		abilities: {0: "Sharpness", 1: "Early Bird", H: "Wind Rider"},
+		heightm: 1.7,
+		weightkg: 46,
+		color: "Green",
+		eggGroups: ["Flying"],
+	},
 };

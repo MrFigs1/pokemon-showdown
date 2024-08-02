@@ -22411,4 +22411,33 @@ export const Moves: {[moveid: string]: MoveData} = {
 		type: "Grass",
 		contestType: "Cool",
 	},
+	foldingstrike: {
+		num: 868,
+		accuracy: 100,
+		basePower: 85,
+		category: "Physical",
+		name: "Folding Strike",
+		pp: 15,
+		priority: -3,
+		flags: {protect: 1, failmefirst: 1, nosleeptalk: 1, noassist: 1, failcopycat: 1, failinstruct: 1, slicing: 1},
+		critRatio: 2,
+		priorityChargeCallback(pokemon) {
+            pokemon.addVolatile('foldingstrike');
+            this.boost({evasion: 2}, pokemon);
+        },
+        condition: {
+            duration: 1,
+            onStart(pokemon) {
+                this.add('-singleturn', pokemon, 'move: Folding Strike');
+            },
+        },
+        onAfterMove(pokemon) {
+            this.boost({evasion: -2}, pokemon);
+            pokemon.removeVolatile('foldingstrike');
+        },
+		secondary: null,
+		target: "normal",
+		type: "Flying",
+		contestType: "Tough",
+	},
 };

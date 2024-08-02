@@ -7628,4 +7628,11 @@ export const MovesText: {[k: string]: MoveText} = {
 		desc: "The user recovers 1/2 the HP lost by the target, rounded half up. If Big Root is held by the user, the HP recovered is 1.3x normal, rounded half down. Has crash damage",
 		shortDesc: "Horn Leech + crash damage",
 	},
+	foldingstrike: {
+		name: "Folding Strike",
+		desc: "User begins to fold themselves raising evasion, then attacks after the opponent. High crit rate.",
+		shortDesc: "Beakblast but evasion. High crit rate",
+
+		start: "  [POKEMON] started folding itself",
+	},
 };
