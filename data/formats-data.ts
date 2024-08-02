@@ -6155,6 +6155,9 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "Fakemons",
 	},
 	jackaboom: {
-		tier: "Fakemons"
-	}
+		tier: "Fakemons",
+	},
+	flamigami: {
+		tier: "Fakemons",
+	},
 };
