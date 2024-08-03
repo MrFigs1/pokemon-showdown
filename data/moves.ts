@@ -22080,7 +22080,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 	aquarush: {
 		num: 731,
 		accuracy: 100,
-		basePower: 80,
+		basePower: 70,
 		category: "Physical",
 		name: "Aqua Rush",
 		pp: 10,
@@ -22199,7 +22199,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 	purifyingflame: {
 		num: 738,
 		accuracy: true,
-		basePower: 90,
+		basePower: 80,
 		category: "Special",
 		name: "Purifying Flame",
 		pp: 15,

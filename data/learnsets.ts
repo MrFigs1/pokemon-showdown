@@ -99932,6 +99932,7 @@ export const Learnsets: {[k: string]: LearnsetData} = {
 			gastroacid: ["9M"],
 			acrobatics: ["9M"],
 			poweruppunch: ["9M", "9L60"],
+			rockthrow: ["9M"],
 		},
 	},
 	mastermime: {
@@ -100468,7 +100469,6 @@ export const Learnsets: {[k: string]: LearnsetData} = {
 			dazzlinggleam: ["9M"],
 			ancientpower: ["9M"],
 			calmmind: ["9L50"],
-			esperwing: ["9M"],
 			psychic: ["9M"],
 			futuresight: ["9M"],
 			gravity: ["9M"],
@@ -100653,6 +100653,7 @@ export const Learnsets: {[k: string]: LearnsetData} = {
 			thunderpunch: ["9M"],
 			dragonclaw: ["9M"],
 			outrage: ["9M"],
+			woodhammer: ["9M"],
 		},
 	},
 	balloonite: {

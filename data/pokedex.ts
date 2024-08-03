@@ -20038,7 +20038,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		types: ["Poison", "Dark"],
 
 		baseStats: {hp: 92, atk: 108, def: 88, spa: 44, spd: 88, spe: 80},
-		abilities: {0: "Moody", 1: "Run Away", H: "Defiant"},
+		abilities: {0: "Infiltrator", 1: "Run Away", H: "Defiant"},
 		heightm: 1,
 		weightkg: 140,
 		color: "Black",
