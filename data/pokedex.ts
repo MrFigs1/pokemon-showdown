@@ -19861,7 +19861,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		name: "Turbanics",
 		types: ["Steel", "Flying"],
 		baseStats: {hp: 100, atk: 60, def: 125, spa: 130, spd: 125, spe: 60},
-		abilities: {0: "Download", H: "Heat Proof"},
+		abilities: {0: "Download", H: "Heatproof"},
 		heightm: 2,
 		weightkg: 2340,
 		color: "Gray",

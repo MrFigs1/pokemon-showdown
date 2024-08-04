@@ -7567,7 +7567,7 @@ export const MovesText: {[k: string]: MoveText} = {
 	burnrubber: {
 		name: "Burn Rubber",
 		desc: "This move combines Fire in its type effectiveness against the target. Damage doubles and no accuracy check is done if the target has used Minimize while active. 30% chance to burn target.",
-		shortDesc: "Normal+Fire type. 30% chance to burn target.",
+		shortDesc: "Normal+Fire type. 30% Burn.",
 	},
 	jetstrike: {
 		name: "Jet Strike",
@@ -7577,7 +7577,7 @@ export const MovesText: {[k: string]: MoveText} = {
 	entomb: {
 		name: "Entomb",
 		desc: "Traps and slows target.",
-		shortDesc: "Traps and slows target.",
+		shortDesc: "Traps, damages and slows target.",
 	},
 	pistonpunch: {
 		name: "Piston Punch",
@@ -7606,7 +7606,7 @@ export const MovesText: {[k: string]: MoveText} = {
 	elementalarrow: {
 		name: "Elemental Arrow",
 		desc: "Has a 10% chance to either burn, freeze, or paralyze the target. Deals fire, electric and ice damage",
-		shortDesc: "10% chance to paralyze or burn or freeze target. Deals Fire, Electric, Ice damage.",
+		shortDesc: "Fight+Fire+Ele+Ice, hits 3 times",
 	},
 	spectralarrow: {
 		name: "Spectral Arrow",
