@@ -22062,7 +22062,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 	thunderflash: {
 		num: 730,
 		accuracy: 100,
-		basePower: 85,
+		basePower: 80,
 		category: "Special",
 		name: "Thunder Flash",
 		pp: 10,
@@ -22094,7 +22094,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 	burningslash: {
 		num: 732,
 		accuracy: 100,
-		basePower: 70,
+		basePower: 80,
 		category: "Physical",
 		name: "Burning Slash",
 		pp: 10,
@@ -22414,7 +22414,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 	foldingstrike: {
 		num: 868,
 		accuracy: 100,
-		basePower: 85,
+		basePower: 80,
 		category: "Physical",
 		name: "Folding Strike",
 		pp: 15,
@@ -22423,7 +22423,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		critRatio: 2,
 		priorityChargeCallback(pokemon) {
             pokemon.addVolatile('foldingstrike');
-            this.boost({evasion: 2}, pokemon);
+            this.boost({evasion: 1}, pokemon);
         },
         condition: {
             duration: 1,
@@ -22432,12 +22432,166 @@ export const Moves: {[moveid: string]: MoveData} = {
             },
         },
         onAfterMove(pokemon) {
-            this.boost({evasion: -2}, pokemon);
+            this.boost({evasion: -1}, pokemon);
             pokemon.removeVolatile('foldingstrike');
         },
 		secondary: null,
 		target: "normal",
 		type: "Flying",
 		contestType: "Tough",
+	},
+	muddycharge: {
+		num: 869,
+		accuracy: 100,
+		basePower: 90,
+		category: "Physical",
+		name: "Muddy Charge",
+		pp: 10,
+		priority: 0,
+		flags: {contact: 1, protect: 1, mirror: 1, gravity: 1, metronome: 1},
+		recoil: [33, 100],
+		pseudoWeather: 'mudsport',
+		condition: {
+			duration: 5,
+			onFieldStart(field, source) {
+				this.add('-fieldstart', 'move: Mud Sport', '[of] ' + source);
+			},
+			onBasePowerPriority: 1,
+			onBasePower(basePower, attacker, defender, move) {
+				if (move.type === 'Electric') {
+					this.debug('mud sport weaken');
+					return this.chainModify([1352, 4096]);
+				}
+			},
+			onFieldResidualOrder: 27,
+			onFieldResidualSubOrder: 4,
+			onFieldEnd() {
+				this.add('-fieldend', 'move: Mud Sport');
+			},
+		},
+		secondary: null,
+		target: "normal",
+		type: "Ground",
+		zMove: {boost: {spd: 1}},
+		contestType: "tough",
+	},
+	waterywithdrawal: {
+		num: 870,
+		accuracy: 100,
+		basePower: 60,
+		category: "Physical",
+		name: "Watery Withdrawal",
+		pp: 10,
+		priority: -1,
+		flags: {contact: 1, protect: 1, mirror: 1, gravity: 1, metronome: 1},
+		selfSwitch: true,
+		pseudoWeather: 'watersport',
+		condition: {
+			duration: 5,
+			onFieldStart(field, source) {
+				this.add('-fieldstart', 'move: Water Sport', '[of] ' + source);
+			},
+			onBasePowerPriority: 1,
+			onBasePower(basePower, attacker, defender, move) {
+				if (move.type === 'Fire') {
+					this.debug('water sport weaken');
+					return this.chainModify([1352, 4096]);
+				}
+			},
+			onFieldResidualOrder: 27,
+			onFieldResidualSubOrder: 3,
+			onFieldEnd() {
+				this.add('-fieldend', 'move: Water Sport');
+			},
+		},
+		secondary: null,
+		target: "normal",
+		type: "Water",
+		zMove: {boost: {spd: 1}},
+		contestType: "tough",
+	},
+	balefulhowl: {
+		num: 871,
+		accuracy: 100,
+		basePower: 80,
+		category: "Special",
+		name: "Baleful Howl",
+		pp: 15,
+		priority: 0,
+		flags: {protect: 1, mirror: 1, metronome: 1, sound: 1},
+		secondary: {
+			chance: 20,
+			volatileStatus: 'flinch',
+		},
+		target: "normal",
+		type: "Ghost",
+		contestType: "Cool",
+	},
+	sleepbubble: {
+		num: 872,
+		accuracy: 90,
+		basePower: 65,
+		category: "Physical",
+		name: "Sleep Bubble",
+		pp: 15,
+		priority: 0,
+		flags: {protect: 1, reflectable: 1, mirror: 1, metronome: 1},
+		volatileStatus: 'yawn',
+		onTryHit(target) {
+			if (target.status || !target.runStatusImmunity('slp')) {
+				return false;
+			}
+		},
+		condition: {
+			noCopy: true, // doesn't get copied by Baton Pass
+			duration: 2,
+			onStart(target, source) {
+				this.add('-start', target, 'move: Sleep Bubble', '[of] ' + source);
+			},
+			onResidualOrder: 23,
+			onEnd(target) {
+				this.add('-end', target, 'move: Sleep Bubble', '[silent]');
+				target.trySetStatus('slp', this.effectState.source);
+			},
+		},
+		secondary: null,
+		target: "normal",
+		type: "Poison",
+		zMove: {boost: {spe: 1}},
+		contestType: "Cute",
+	},
+	barbedsmash: {
+		num: 873,
+		accuracy: 100,
+		basePower: 100,
+		category: "Physical",
+		name: "Barbed Smash",
+		pp: 15,
+		priority: 0,
+		flags: {contact: 1, protect: 1, mirror: 1, gravity: 1, metronome: 1},
+		secondary: {
+			chance: 20,
+			volatileStatus: 'flinch',
+		},
+		target: "normal",
+		type: "Fairy",
+		contestType: "Cool",
+	},
+	druidshorn: {
+		num: 874,
+		accuracy: 100,
+		basePower: 90,
+		category: "Physical",
+		name: "Druids Horn",
+		pp: 10,
+		priority: 0,
+		flags: {contact: 1, protect: 1, mirror: 1, metronome: 1},
+		onAfterMoveSecondarySelf(pokemon, target, move) {
+			if (!target || target.fainted || target.hp <= 0) this.boost({atk: 1}, pokemon, pokemon, move);
+		},
+		secondary: null,
+		target: "normal",
+		type: "Psychic",
+		contestType: "Cool",
 	},
 };

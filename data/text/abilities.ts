@@ -2298,4 +2298,21 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		name: "Peakaboom",
 		shortDesc: "User has a 20% chance to explode at the end of each turn",
 	},
+	wintershowl: {
+		name: "Winter's Howl",
+		shortDesc: "Sound based moves summon snow",
+	},
+	pawpads: {
+		name: "Pawpads",
+		shortDesc: "User ignore hazards",
+	},
+	druidsform: {
+		name: "Druids Form",
+		shortDesc: "User transforms at 50% health into its wild form",
+	},
+	telepath: {
+		name: "Telepath",
+		desc: "When this Pokemon has 1/3 or less of its maximum HP, rounded down, its offensive stat is multiplied by 1.5 while using a Psychic-type attack.",
+		shortDesc: "At 1/3 or less of its max HP, this Pokemon's offensive stat is 1.5x with Psychic attacks.",
+	},
 };

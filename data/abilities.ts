@@ -5747,4 +5747,81 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 3,
 		num: 61,
 	},
+	wintershowl: {
+		onAfterMoveSecondarySelf(target, source, move) {
+            if (move.flags['sound']) {
+                this.field.setWeather('snow');
+            }
+        },
+		flags: {},
+		name: "Winter's Howl",
+		rating: 3,
+		num: 61,
+	},
+	frostbite: {
+		onDamagingHitOrder: 1,
+		onDamagingHit(damage, target, source, move) {
+			if (this.checkMoveMakesContact(move, source, target, true)) {
+				this.damage(source.baseMaxhp / 8, source, target);
+				if (this.randomChance(2, 10)) {
+					source.trySetStatus('frz', target);
+				}
+			}
+		},
+		flags: {},
+		name: "Frostbite",
+		rating: 2,
+		num: 49,
+	},
+	pawpads: {
+		onDamage(damage, target, source, effect) {
+			if (effect && effect.id === 'stealthrock', 'spikes', 'toxicspikes', 'stickyweb') {
+				return false;
+			}
+		},
+		flags: {},
+		name: "Pawpads",
+		rating: 2,
+		num: 49,
+	},
+	druidsform: {
+		onResidualOrder: 29,
+		onResidual(pokemon) {
+			if (pokemon.baseSpecies.baseSpecies !== 'druicigeos' || pokemon.transformed || !pokemon.hp) return;
+			if (pokemon.species.id === 'druicigeoswild' || pokemon.hp > pokemon.maxhp / 2) return;
+			this.add('-activate', pokemon, 'ability: Druids Form');
+			pokemon.formeChange('Druicigeos Wild', this.effect, true);
+			pokemon.baseMaxhp = Math.floor(Math.floor(
+				2 * pokemon.species.baseStats['hp'] + pokemon.set.ivs['hp'] + Math.floor(pokemon.set.evs['hp'] / 4) + 100
+			) * pokemon.level / 100 + 10);
+			const newMaxHP = pokemon.volatiles['dynamax'] ? (2 * pokemon.baseMaxhp) : pokemon.baseMaxhp;
+			pokemon.hp = newMaxHP - (pokemon.maxhp - pokemon.hp);
+			pokemon.maxhp = newMaxHP;
+			this.add('-heal', pokemon, pokemon.getHealth, '[silent]');
+		},
+		flags: {failroleplay: 1, noreceiver: 1, noentrain: 1, notrace: 1, failskillswap: 1, cantsuppress: 1},
+		name: "Druids Form",
+		rating: 5,
+		num: 211,
+	},
+	telepath: {
+		onModifyAtkPriority: 5,
+		onModifyAtk(atk, attacker, defender, move) {
+			if (move.type === 'Psychic' && attacker.hp <= attacker.maxhp / 3) {
+				this.debug('Telepath boost');
+				return this.chainModify(1.5);
+			}
+		},
+		onModifySpAPriority: 5,
+		onModifySpA(atk, attacker, defender, move) {
+			if (move.type === 'Psychic' && attacker.hp <= attacker.maxhp / 3) {
+				this.debug('Telepath boost');
+				return this.chainModify(1.5);
+			}
+		},
+		flags: {},
+		name: "Telepath",
+		rating: 2,
+		num: 67,
+	},
 };
