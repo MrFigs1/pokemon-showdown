@@ -7635,4 +7635,34 @@ export const MovesText: {[k: string]: MoveText} = {
 
 		start: "  [POKEMON] started folding itself",
 	},
+	muddycharge: {
+		name: "Muddy Charge",
+		desc: "User charges the opponents, this attack sets up mudsport. Does 1/3 recoil",
+		shortDesc: "Recoil + Activates Mudsport",
+	},
+	waterywithdrawal: {
+		name: "Watery Withdrawal",
+		desc: "Usually goes last, switches user out, sets up Watersport",
+		shortDesc: "-Priority, Flipturn+Watersport",
+	},
+	balefulhowl: {
+		name: "Baleful Howl",
+		desc: "Has a 20% chance to make the target flinch.",
+		shortDesc: "20% chance to make the target flinch.",
+	},
+	sleepbubble: {
+		name: "Sleep Bubble",
+		desc: "Puts the target to sleep after 1 turn",
+		shortDesc: "Puts the target to sleep after 1 turn",
+	},
+	barbedsmash: {
+		name: "Barbed Smash",
+		desc: "20% chance to make the target flinch.",
+		shortDesc: "20% chance to make the target flinch.",
+	},
+	druidshorn: {
+		name: "Druids Horn",
+		desc: "Raises users attack if this moves feints the opponnent.",
+		shortDesc: "Fellstinger but only +1 Atk",
+	},
 };

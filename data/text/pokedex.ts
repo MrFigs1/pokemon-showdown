@@ -3891,4 +3891,40 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	flamigami: {
 		name: "Flamigami",
 	},
+	wyrmrage: {
+		name: "Wrymrage",
+	},
+	rhimud: {
+		name: "Rhimud",
+	},
+	tropithunder: {
+		name: "Tropithunder",
+	},
+	emberara: {
+		name: "Embera-ra",
+	},
+	maliscream: {
+		name: "Maliscream",
+	},
+	tombstomp: {
+		name: "Tombstomp",
+	},
+	yawmbat: {
+		name: "Yawmbat",
+	},
+	yarnerella: {
+		name: "Yarnerella",
+	},
+	mongolith: {
+		name: "Mongolith",
+	},
+	dumapaw: {
+		name: "Dumapaw",
+	},
+	druicigeos: {
+		name: "Druicigeos",
+	},
+	druicigeoswild: {
+		name: "Druicigeos Wild",
+	},
 };
