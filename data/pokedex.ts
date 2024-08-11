@@ -20323,6 +20323,6 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Green",
 		eggGroups: ["Amorphous"],
 		requiredAbility: "Druids Form",
-		battleOnly: ["Druicigeos"],
+		battleOnly: "Druicigeos",
 	},
 };
