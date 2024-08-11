@@ -20189,7 +20189,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	},
 	wyrmrage: {
 		num: 1064,
-		name: "Wrymrage",
+		name: "Wyrmrage",
 		types: ["Bug", "Dragon"],
 		baseStats: {hp: 200, atk: 68, def: 65, spa: 100, spd: 62, spe: 40},
 		abilities: {0: "Huge Power", H: "Marvel Scale"},
