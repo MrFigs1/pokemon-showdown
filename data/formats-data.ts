@@ -6160,4 +6160,40 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	flamigami: {
 		tier: "Fakemons",
 	},
+	wyrmrage: {
+		tier: "Fakemons",
+	},
+	rhimud: {
+		tier: "Fakemons",
+	},
+	tropithunder: {
+		tier: "Fakemons",
+	},
+	emberara: {
+		tier: "Fakemons",
+	},
+	maliscream: {
+		tier: "Fakemons",
+	},
+	tombstomp: {
+		tier: "Fakemons",
+	},
+	yawmbat: {
+		tier: "Fakemons",
+	},
+	yarnerella: {
+		tier: "Fakemons",
+	},
+	mongolith: {
+		tier: "Fakemons",
+	},
+	dumapaw: {
+		tier: "Fakemons",
+	},
+	druicigeos: {
+		tier: "Fakemons",
+	},
+	druicigeoswild: {
+		
+	},
 };
