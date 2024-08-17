@@ -100917,7 +100917,6 @@ export const Learnsets: {[k: string]: LearnsetData} = {
 			rest: ["9M"],
 			sleeptalk: ["9M"],
 			substitute: ["9M"],
-			sketch: ["9S0"],
 			nightslash: ["9M"],
 			retaliate: ["9M"],
 			brickbreak: ["9L55"],

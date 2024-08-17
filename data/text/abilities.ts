@@ -2308,7 +2308,7 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	},
 	druidsform: {
 		name: "Druids Form",
-		shortDesc: "User transforms at 50% health into its wild form",
+		shortDesc: "Magicguard but manly?",
 	},
 	telepath: {
 		name: "Telepath",

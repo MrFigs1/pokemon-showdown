@@ -5775,22 +5775,23 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 	},
 	pawpads: {
 		onDamage(damage, target, source, effect) {
-			if (effect && effect.id === 'stealthrock', 'spikes', 'toxicspikes', 'stickyweb') {
+			if (effect.effectType !== 'Move') {
+				if (effect.effectType === 'Ability') this.add('-activate', source, 'ability: ' + effect.name);
 				return false;
 			}
 		},
 		flags: {},
 		name: "Pawpads",
-		rating: 2,
-		num: 49,
+		rating: 4,
+		num: 98,
 	},
 	druidsform: {
 		onResidualOrder: 29,
 		onResidual(pokemon) {
-			if (pokemon.baseSpecies.baseSpecies !== 'druicigeos' || pokemon.transformed || !pokemon.hp) return;
+			if (pokemon.baseSpecies.baseSpecies !== 'Druicigeos' || pokemon.transformed || !pokemon.hp) return;
 			if (pokemon.species.id === 'druicigeoswild' || pokemon.hp > pokemon.maxhp / 2) return;
 			this.add('-activate', pokemon, 'ability: Druids Form');
-			pokemon.formeChange('Druicigeos Wild', this.effect, true);
+			pokemon.formeChange('Druicigeos-Wild', this.effect, true);
 			pokemon.baseMaxhp = Math.floor(Math.floor(
 				2 * pokemon.species.baseStats['hp'] + pokemon.set.ivs['hp'] + Math.floor(pokemon.set.evs['hp'] / 4) + 100
 			) * pokemon.level / 100 + 10);
