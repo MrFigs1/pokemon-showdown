@@ -2304,15 +2304,19 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	},
 	pawpads: {
 		name: "Pawpads",
-		shortDesc: "User ignore hazards",
+		shortDesc: "Magicguard but manly?",
 	},
 	druidsform: {
 		name: "Druids Form",
-		shortDesc: "Magicguard but manly?",
+		shortDesc: "User switches forms at half health.",
 	},
 	telepath: {
 		name: "Telepath",
 		desc: "When this Pokemon has 1/3 or less of its maximum HP, rounded down, its offensive stat is multiplied by 1.5 while using a Psychic-type attack.",
 		shortDesc: "At 1/3 or less of its max HP, this Pokemon's offensive stat is 1.5x with Psychic attacks.",
+	},
+	frostbite: {
+		name: "Frostbite",
+		shortDesc: "Rough skin + 10% chance to freeze on contact",
 	},
 };
