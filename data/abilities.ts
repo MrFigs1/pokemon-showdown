@@ -5763,7 +5763,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		onDamagingHit(damage, target, source, move) {
 			if (this.checkMoveMakesContact(move, source, target, true)) {
 				this.damage(source.baseMaxhp / 8, source, target);
-				if (this.randomChance(2, 10)) {
+				if (this.randomChance(1, 10)) {
 					source.trySetStatus('frz', target);
 				}
 			}
