@@ -6196,4 +6196,28 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	druicigeoswild: {
 		
 	},
+	tremoilus: {
+		tier: "Fakemons",
+	},
+	rotomv8: {
+		tier: "Fakemons",
+	},
+	rotomblend: {
+		tier: "Fakemons",
+	},
+	rotomdex: {
+		tier: "Fakemons",
+	},
+	rotomcompute: {
+		tier: "Fakemons",
+	},
+	mercuyis: {
+		tier: "Fakemons",
+	},
+	illustricall: {
+		tier: "Fakemons",
+	},
+	dewfoil: {
+		tier: "Fakemons",
+	},
 };
