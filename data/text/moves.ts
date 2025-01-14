@@ -7665,4 +7665,9 @@ export const MovesText: {[k: string]: MoveText} = {
 		desc: "Raises users attack if this moves feints the opponnent.",
 		shortDesc: "Fellstinger but only +1 Atk",
 	},
+	dewblast: {
+		name: "Dew Blast",
+		desc: "Power decreases the less PP this move has left",
+		shortDesc: "Less power the fewer PP this move has left.",
+	},
 };

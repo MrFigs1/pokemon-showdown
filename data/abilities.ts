@@ -5825,4 +5825,35 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 2,
 		num: 67,
 	},
+	tarbody: {
+		onDamagingHitOrder: 1,
+		onDamagingHit(damage, target, source, move) {
+			this.debug('tarbody');
+			source.addVolatile('tarshot');
+		},
+		flags: {},
+		name: "Tar Body",
+		rating: 3,
+		num: 280,
+	},
+	liquidmetal: {
+		onTryHit(target, source, move) {
+			if (target !== source && move.type === 'Fire') {
+				if (!this.heal(target.baseMaxhp / 4)) {
+					this.add('-immune', target, '[from] ability: Liquid Metal');
+				}
+				return null;
+			}
+		},
+		onSourceBasePowerPriority: 17,
+		onSourceBasePower(basePower, attacker, defender, move) {
+			if (move.type === 'Water') {
+				return this.chainModify(1.25);
+			}
+		},
+		flags: {breakable: 1},
+		name: "Liquid Metal",
+		rating: 3,
+		num: 87,
+	},
 };

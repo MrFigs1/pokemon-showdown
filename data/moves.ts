@@ -22594,4 +22594,51 @@ export const Moves: {[moveid: string]: MoveData} = {
 		type: "Psychic",
 		contestType: "Cool",
 	},
+	dewblast: {
+		num: 875,
+		accuracy: 100,
+		basePower: 0,
+		basePowerCallback(source, target, move) {
+			const callerMoveId = move.sourceEffect || move.id;
+			const moveSlot = callerMoveId === 'instruct' ? source.getMoveData(move.id) : source.getMoveData(callerMoveId);
+			let bp;
+			if (!moveSlot) {
+				bp = 160;
+			} else {
+				switch (moveSlot.pp) {
+				case 0:
+					bp = 80;
+					break;
+				case 1:
+					bp = 100;
+					break;
+				case 2:
+					bp = 120;
+					break;
+				case 3:
+					bp = 140;
+					break;
+				default:
+					bp = 160;
+					break;
+				}
+			}
+
+			this.debug('BP: ' + bp);
+			return bp;
+		},
+		category: "Special",
+		isNonstandard: "Past",
+		name: "Dew Blast",
+		pp: 5,
+		noPPBoosts: true,
+		priority: 0,
+		flags: {protect: 1, mirror: 1, metronome: 1},
+		secondary: null,
+		target: "normal",
+		type: "Water",
+		zMove: {basePower: 160},
+		maxMove: {basePower: 130},
+		contestType: "Cool",
+	},
 };

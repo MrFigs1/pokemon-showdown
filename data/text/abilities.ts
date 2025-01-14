@@ -2319,4 +2319,12 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		name: "Frostbite",
 		shortDesc: "Rough skin + 10% chance to freeze on contact",
 	},
+	tarbody: {
+		name: "Tar Body",
+		shortDesc: "Upon taking damage, user applies tar to opponent",
+	},
+	liquidmetal: {
+		name: "Liquid Metal",
+		shortDesc: "User is healed by fire, weak to water",
+	},
 };

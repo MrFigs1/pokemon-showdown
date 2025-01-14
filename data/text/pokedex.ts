@@ -3927,4 +3927,28 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	druicigeoswild: {
 		name: "Druicigeos Wild",
 	},
+	tremoilus: {
+		name: "Tremoilus",
+	},
+	rotomv8: {
+		name: "Rotom-V8",
+	},
+	rotomblend: {
+		name: "Rotom-Blend",
+	},
+	rotomdex: {
+		name: "Rotom-Dex",
+	},
+	rotomcompute: {
+		name: "Rotom-Compute",
+	},
+	mercuyis: {
+		name: "Mercuyis",
+	},
+	illustricall: {
+		name: "Illustricall",
+	},
+	dewfoil: {
+		name: "Dewfoil",
+	},
 };
