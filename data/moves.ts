@@ -22628,7 +22628,6 @@ export const Moves: {[moveid: string]: MoveData} = {
 			return bp;
 		},
 		category: "Special",
-		isNonstandard: "Past",
 		name: "Dew Blast",
 		pp: 5,
 		noPPBoosts: true,
